@@ -1,0 +1,174 @@
+/* CSS Document */
+#caption {
+	clear:both;
+	width:150px;
+	height:15px;
+	overflow:hidden;
+}
+
+#spanLeft {
+	float:left;
+	width:25px;
+	font-size:18px;
+	text-align:center;
+	cursor:pointer;
+	line-height:15px;
+}
+#spanCentro {
+	float:left;
+	width:100px;
+	text-align:center;
+	line-height:15px;
+	padding-top:2px;
+	overflow:hidden;
+}
+#spanRight {
+	float:left;
+	width:25px;
+	font-size:18px;
+	text-align:center;
+	cursor:pointer;
+	line-height:15px;
+}
+
+.div-calendario {
+	background-color: #EDECD7;
+}
+.table-calendario {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/*border:1px solid #ACB702;*/
+	font-size: 10px;
+}
+
+.title-style {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #000000;
+}
+
+.dropdown-style-normal {
+	background-color: #339900;
+	color: #ffffff;
+}
+
+.title-background-style {
+	background-color: #d2d2d2;
+}
+
+.title-control-normal-style {
+	border:0em solid transparent;
+	cursor: pointer;
+	width: 80px;
+	color: #FF0000;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.title-control-select-style {
+	border:0em solid transparent;
+	cursor: pointer;
+}
+
+.dropdown-style {
+font-family: arial;
+font-size: 11px;
+border:1px solid #001F5A;
+background-color: #339900;
+cursor: pointer;
+color: #ffffff;
+}
+
+.dropdown-select-style {
+background-color: #267700;
+color: #cccccc;
+}
+
+.selected-day-style {
+border:0px solid;
+background-color: red;
+color: white;
+font-weight: bold;
+}
+
+.dropdown-normal-style {
+background-color: transparent;
+}
+
+.body-style {
+font-family: verdana;
+font-size: 11px;
+background-color: #FFFFFF;
+}
+
+.title-name-day {
+background-color: #FFFFFF;
+font-family: verdana;
+font-size: 10px;
+color: black;
+font-weight: bold;
+}
+
+.end-of-weekday-style {
+color: black;
+text-decoration: none;
+}
+
+.current-day-style {
+font-weight: bold;
+text-decoration: none;
+}
+
+.normal-day-style {
+color: black;
+text-decoration: none;
+}
+.normal-day-style:hover {
+color: green;
+text-decoration: none;
+}
+
+.not-selected-day-style {
+border:0px solid;
+background-color: #FFFFFF;
+text-decoration: line-through;
+color: #CFCFCF;
+}
+
+.holiday-style {
+background-color: silver;
+color: silver;
+}
+
+.today-style {
+color: #ffffff;
+background-color: #339900;
+text-align: center;
+text-decoration: none;
+}
+
+.weeknumber-div-style {
+background-color: #d0d0d0;
+color: #ffffff;
+}
+#chkday_in {
+	width:1px;
+	visibility:hidden;
+	height:1px;
+	overflow:hidden;
+}
+#chkday_out {
+	width:1px;
+	visibility:hidden;
+	height:1px;
+	overflow:hidden;
+}
+.paSalir {
+	height:17px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	padding-left:5px;
+	padding-right:5px;
+	border-right:1px solid #808080;
+	border-bottom:1px solid #808080;
+	cursor:pointer;
+}

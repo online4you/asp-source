@@ -1,0 +1,44 @@
+@charset "utf-8";
+table#laseleccion {margin-top:20px}
+
+.tituloTabla {
+	height:17px;
+}
+/* estilos ficha */
+/*
+.laFicha {
+	padding:0px;
+}
+*/
+#contenido {
+	/*margin-top:-2px;*/
+}
+select {
+	height:18px;
+}
+input {
+	height:12px;
+}
+#capaListaHabitacion {
+	overflow:auto;
+	width:760px;
+	height:390px;
+}
+.iframeHabitacion {
+	height:200px;
+	border:1px solid #666666;
+	float:left;
+	margin:0px;
+	overflow:hidden;
+}
+#listaHabi {
+	overflow:auto; 
+	width:100%;
+}
+.laficha {
+	display:block;
+	overflow:hidden;
+}
+td {
+	height:17px;
+}

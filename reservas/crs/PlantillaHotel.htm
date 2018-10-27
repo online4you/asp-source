@@ -1,0 +1,81 @@
+<HTML>
+<HEAD>
+<TITLE><%=ap("metatitulo")%></TITLE>
+<meta name="keywords" content="<%=ap("metakeys")%>">
+<meta name="description" content="<%=ap("metadescri")%>">
+<meta name="copyright" content="Planeta-web 2002">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<link href="/global.css" rel="stylesheet" type="text/css">
+<link href="/calendario.css" rel="stylesheet" type="text/css">
+<link href="global.css" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" class="fondo">
+<TABLE WIDTH='751' BORDER='0' align="center" CELLPADDING='0' CELLSPACING='0'>
+<tr>
+	<td align='center' colspan='3' valign="top">
+	<!--#include virtual="/menusup.asp"-->
+	</td>
+</tr>
+<tr class='fondoclaro'><td colspan='3'><img src="/img/transparente.gif" width='750' height="10"></td></tr>
+<tr>
+	<td align='center' colspan='3' valign="top" class='fondoclaro'>
+		<table border='0' cellspacing="0" cellpadding="0" align='center' class='fondocabe'>
+		<tr>
+			<td align='left' valign="top">
+				<form name='f2' method="post">
+				<table border='0' cellspacing="0" cellpadding="0" align='left'>
+				<tr><td align='left'><img src="/img/camita.gif" width='42' height="31" align="middle">
+				<b><%=ap("disponibilidad")%></b></td></tr>
+				<tr><td align='center'>
+				<!--#include virtual="/disponibilidad.asp"-->
+				</td></tr>
+				</table>
+				</form>
+			</td>
+			<td width='5'><img src="/img/transparente.gif" width="5" height="5"></td>
+			<td align='center' valign="top" rowspan='2'><!--#include virtual="/fotocabecera.asp"--></td>
+		</tr>
+		<tr>
+			<td align='left' valign="bottom"><img src="/img/bordeInfIzq.gif" width="19" height="24"></td>
+			<td width='5'><img src="/img/transparente.gif" width="5" height="5"></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr class='fondoclaro'><td colspan='3'><img src='/img/transparente.gif' width='750' height="5"></td></tr>
+<tr class='fondoclaro'>
+	<td align='center' valign="top">
+	<img src="/img/banderas.gif" width="273" height="18"></td>
+	<td width='5'><img src="/img/transparente.gif" width="5" height="5"></td>
+	<td align='left' valign='bottom' class='fondocabe'>
+		<table border='0' cellpadding="0" cellspacing="0">
+		<tr>
+		<td align='left' width='19'><img src="/img/bordenoticiasIzq.gif" width="19" height="18"></td>
+		<td align='left' width='438'><!--#include virtual="/noticias.asp"--></td>
+		<td align='left' width='16'><img src="/img/bordenoticiasDer.gif" width="16" height="18"></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr><td colspan='3' bgcolor="#FFFFFF"><img src="/img/transparente.gif" width='750' height="5"></td></tr>
+<tr>
+	<td align='center' valign="top" width="273" class='fondoizq'>
+		<!--#include virtual="/menuizq.asp"-->
+		<img src="/img/transparente.gif" width='273' height="5"><br>
+		<!--#include virtual="/contacto.asp"-->
+		<img src="/img/transparente.gif" width='273' height="5"><br>
+		<!--#include virtual="/newsletter.asp"-->
+	</td>
+	<td width='5' class='fondocontenido'><img src="/img/transparente.gif" width='5' height="5"></td>
+	<td align='center' valign="top" width='473' class='fondocontenido'>
+	<!-- DATOS DE CONTENIDO -->	
+
+
+	<!-- FIN CONTENIDO -->
+	</td>
+</tr>
+</table>
+</BODY>
+</HTML>

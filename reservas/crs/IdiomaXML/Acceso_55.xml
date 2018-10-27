@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<datos>
+<userCR>laflorida</userCR>
+<pwdCR>tibidabo</pwdCR>
+<conexBD>lwdb093.servidoresdns.net</conexBD>
+<mysqlBD></mysqlBD>
+<userBD>qcn180</userBD>
+<pwdBD>Planeta2007</pwdBD>
+<modulosCR>4, 7, 1,</modulosCR>
+<hojaestilos>perfecthotels/perfect.css</hojaestilos>
+<hotelboss>8;27;</hotelboss>
+<metaTitulo>The Perfect Hotels - Barcelona</metaTitulo>
+<rutaFotos>perfecthotels/fotos</rutaFotos>
+<rutaDocu></rutaDocu>
+<empresa>Perfect Barcelona</empresa>
+<IdEmpresa>13</IdEmpresa>
+<adminboss>Falso</adminboss>
+</datos>

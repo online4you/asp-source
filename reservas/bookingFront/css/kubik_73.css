@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#3CC2FF;
+	color:black;
+	font-size:11px;
+}
+
+div#capaPrincipal {
+	background-color:#fff;
+	width:920px;
+}
+
+
+div#capaCabecera {
+	background-image:url(img/photoCastelldefels.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	height:310px;
+	margin:0px 10px 10px 10px;
+	border-bottom:1px solid #000;
+}
+img#logo {
+	top:9px;
+}
+div#idiomas {
+	margin-right:10px;
+}
+
+div#capaBuscador {
+	border:1px solid #CBE4F0;
+	background-color:#CBE4F0;
+}
+
+div#capaOfertas {
+	border:1px solid #CBE4F0;
+	background-color:#CBE4F0;
+}
+div#capaBuscador p, div#capaOfertas p {
+	color:#1183B1;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+div#capaBuscador span {
+	display:block;
+	clear:both;
+}
+div#capaBuscador span input {
+	border:none;
+}
+div#capaLateral {
+	margin-left:10px;
+}
+div#capaBuscador a.boton {
+	float:right;
+	height:30px;
+	display:block;
+	overflow:hidden;	
+}
+p.tituloCapa {
+	color:#055D80;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+}
+span.titulo_lista {
+	border:1px solid #0187C3;
+	color:#000;
+	background-position:top right;
+	height:15px;
+	/*padding-top:1px;*/
+	background-image:url(img/botonSelect.gif);
+	line-height:15px;
+}
+a#afini, a#affin {
+	background-image:url(img/calendar.gif);
+	background-color:#fff;
+	background-position:top right;
+	border:1px solid #0187C3;
+	height:19px;
+}
+
+div#frameCabecera a#afini, div#frameCabecera a#affin {
+	background-color:#fff;
+	background-position:top right;
+}
+
+a.boton {
+	width:90px;
+	color:#fff;
+	cursor:pointer;
+	text-decoration:none;
+	text-align:center;
+	background-image:url(img/fondoBoton.gif);
+	background-repeat:no-repeat;
+	border:none;
+	background-color:transparent;
+	height:19px;
+	line-height:20px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-weight:bold;
+}
+
+a.col_reserva {
+	background-image:url(img/fondoBoton.gif);
+	height:19px;
+	color:#fff;
+	text-decoration:none;
+	border:none;
+	background-color:transparent;
+	width:90px;
+	padding:0px;
+	letter-spacing:1px;
+	font-weight:bold;
+}
+
+div#principalFrame {
+	background-color:#FFF;
+}
+#iframeContenido {
+	border:1px solid #fff;
+	background-color:#fff;
+	width:653px;
+}
+
+table#resumen th {
+	background-color:#3cc2ff;
+	color:#fff;
+	padding:2px;
+}
+table#resumen td {
+	background-color:#d2e8f0;
+	color:#333;
+	padding:2px;
+	min-height:18px;
+}
+table#resumen td.coluTotal {
+	font-weight:bold;
+}
+
+table#datosPersonales {
+	border:1px solid #76d4ff;
+	margin-top:15px;
+	line-height:20px;
+}
+
+table#datosPersonales td.colu1 {
+	white-space:nowrap;
+	color:#0187c3;
+	padding-left:10px;
+	padding-right:5px;
+}
+table#datosPersonales input, table#datosPersonales select, table#datosPersonales textarea {
+	border:1px solid #0187c3;
+}
+table#datosPersonales td.colu1 span {
+	color:#333;
+}
+
+h2#capaTitulo, h1#capaTitulo {
+	margin:0px 0px 5px 0px;
+	text-transform:uppercase;
+}
+div#capaMonedas {
+	top:0px;
+}
+
+div#nHabitaciones {
+	border:1px solid #76D4FF;
+	padding:10px;
+	color:#000;
+}
+div.lahabi {
+	border:1px solid #76D4FF;
+	padding:10px;
+}
+div#capaPie {
+	margin-top:20px;
+}

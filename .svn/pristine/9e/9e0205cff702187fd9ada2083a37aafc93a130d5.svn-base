@@ -1,0 +1,147 @@
+<%
+	server.ScriptTimeout=80
+	
+	idh=paClng(request.QueryString("idh"))
+	if idh=0 then idh=paClng(request.querystring("bhotel"))
+	if idh=0 then idh=paClng(request.form("bhotel"))
+
+	Tzona=paClng(request.QueryString("idz"))
+	if TZona=0 then TZona=paClng(request.querystring("bzona"))
+	if TZona=0 then TZona=paClng(request.form("bzona"))
+
+	
+	tipoa=paClng(request.form("btipo"))
+	if tipoa=0 then tipoa=paClng(request.querystring("btipo"))
+	tservicio=request.form("ts")
+	if tservicio="" then tservicio=request.querystring("ts")
+	if tservicio<>"" then tservicio=replace(tservicio,", ","-") 'es un checkbox
+	
+	THabi=paClng(request.form("th"))
+	if THabi=0 then THabi=paClng(request.querystring("th"))
+	TCate=paClng(request.form("ca"))
+	if TCate=0 then TCate=paClng(request.querystring("ca"))
+	TRegimen=paClng(request.form("tr"))
+	if TRegimen=0 then TRegimen=paClng(request.querystring("tr"))
+	
+	adultos=paClng(request.form("ad"))
+	if adultos=0 then adultos=paClng(request.querystring("ad"))
+	ninos=paClng(request.form("ni"))
+	if ninos=0 then ninos=paClng(request.querystring("ni"))
+	fini="" & request.form("fini")
+	if fini="" then fini="" & request.querystring("fini")
+	ffin="" & request.form("ffin")
+	if ffin="" then ffin="" & request.querystring("ffin")
+	
+	'recupera de las cookies
+	if fini="" then fini=request.Cookies("bfini")
+	if fini="" then fini=date+1
+	if ffin="" then ffin=request.Cookies("bffin")
+	if ffin="" then ffin=date+2
+	fini=cdate(fini)
+	ffin=cdate(ffin)
+	if adultos=0 then adultos=2 'por defecto
+
+	'generar las cookies
+	response.Cookies("bfini")=fini
+	response.Cookies("bffin")=ffin
+	'response.Cookies("badultos")=adultos
+	'response.Cookies("bninos")=ninos
+	'response.Cookies("bregimen")=tr
+
+	
+	parametros="buscadorPrecios.asp?ide=" & IdEmpresa & "&est=" & idh & "&lang=" & lcase(lang) & "&ta=" & tipoa 
+	parametros=parametros & "&ts=" & tservicio & "&th=" & thabi & "&tcate=" & tcate
+	parametros=parametros & "&tr=" & tregimen & "&zona=" & tzona & "&ad=" & adultos
+	parametros=parametros & "&ni=" & ninos & "&fini=" & fini & "&ffin=" & ffin
+	parametros=parametros & "&hoteles=" & listaH 'array de hoteles permitidos
+	'response.write xmlURL & parametros & "<br>"
+
+	'Valores del array
+	nlista=-1
+	LCodi=0
+	LNombre=1
+	LTipo=2
+	LCate=3
+	LEstado=4
+	LZona=5
+	LFoto=6
+	LDescri=7
+	LHabi=8
+	LRegi=9
+	LPelas=10
+	LCHabi=11
+	LCRegi=12
+	LOferta=13
+	LDire=14
+	LCiudad=15
+	LEstadoHab=16
+
+	Set objDom = Server.CreateObject("Microsoft.XMLDOM")
+	objDom.async = false
+	objDom.validateOnParse = false
+	objDom.setProperty "ServerHTTPRequest", true
+	if objDom.Load(xmlURL & parametros) then
+		nResultados=paClng(objDom.SelectSingleNode("/data/resultados").text)
+		For Each objItem in objDom.documentElement.SelectNodes("/data/hotel")
+			nlista=nlista+1
+			redim preserve Lista(16,nlista)
+			Lista(LCodi,nlista)=objItem.SelectSingleNode("codigo").text
+			Lista(LNombre,nlista)=objItem.SelectSingleNode("nombre").text
+			Lista(LTipo,nlista)=objItem.SelectSingleNode("tipo").text
+			Lista(LCate,nlista)=objItem.SelectSingleNode("categoria").text
+			Lista(LEstado,nlista)=objItem.SelectSingleNode("estado").text
+			Lista(LZona,nlista)=objItem.SelectSingleNode("zona").text
+			
+			Lista(LFoto,nlista)=objItem.SelectSingleNode("urlfoto").text
+			Lista(LDescri,nlista)=objItem.SelectSingleNode("descripcion").text
+			
+			primera=true 'carga habitaciones
+			For Each eso in objItem.SelectNodes("habitacion")
+				if primera then 'primera hab
+					Lista(LCHabi,nlista)=eso.SelectSingleNode("codhab").text
+					Lista(LHabi,nlista)=eso.SelectSingleNode("nombrehab").text
+					Lista(LCRegi,nlista)=eso.SelectSingleNode("codregi").text
+					Lista(LRegi,nlista)=eso.SelectSingleNode("regimen").text
+					Lista(LPelas,nlista)=eso.SelectSingleNode("importe").text
+					Lista(LOferta,nlista)=eso.SelectSingleNode("oferta").text
+					Lista(LEstadoHab,nlista)=eso.SelectSingleNode("estadohabitacion").text
+					primera=false
+				else 'siguientes
+					nlista=nlista+1
+					redim preserve Lista(16,nlista)
+					Lista(LCodi,nlista)=Lista(LCodi,nlista-1) 'es el mismo hotel
+					Lista(LCHabi,nlista)=eso.SelectSingleNode("codhab").text
+					Lista(LHabi,nlista)=eso.SelectSingleNode("nombrehab").text
+					Lista(LCRegi,nlista)=eso.SelectSingleNode("codregi").text
+					Lista(LRegi,nlista)=eso.SelectSingleNode("regimen").text
+					Lista(LPelas,nlista)=eso.SelectSingleNode("importe").text
+					Lista(LOferta,nlista)=eso.SelectSingleNode("oferta").text
+					Lista(LEstadoHab,nlista)=eso.SelectSingleNode("estadohabitacion").text
+				end if
+				'response.write Lista(LHabi,nlista) & "<br>"
+			next
+
+		next 'each
+	
+	
+	else
+		 ' No se ha cargado el documento.
+		
+			' Obtenga el objeto ParseError
+			Set xPE = objDom.parseError
+			
+			strErrText = "Your XML Document failed to load due the following error.<br>"
+			strErrText =strErrText & "Error #: " & xPE.errorCode & ": " & xPE.reason & "<br>"
+			strErrText =strErrText & "Line #: " & xPE.Line & "<br>"
+			strErrText =strErrText & "Line Position: " & xPE.linepos & "<br>"
+			strErrText =strErrText & "Position In File: " & xPE.filepos & "<br>"
+			strErrText =strErrText & "Source Text: " & xPE.srcText & "<br>"
+			strErrText =strErrText & "Document URL: " & xPE.url & "<br>"
+			'response.write strErrText
+	end if	
+	
+	set rsVte=nothing
+	Set objDom = Nothing
+	Set objItem = Nothing
+	
+%>

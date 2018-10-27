@@ -1,0 +1,91 @@
+// I18N constants
+
+// LANG: "en", ENCODING: UTF-8 | ISO-8859-1
+// Author: Mihai Bazon, http://dynarch.com/mishoo
+
+// FOR TRANSLATORS:
+//
+//   1. PLEASE PUT YOUR CONTACT INFO IN THE ABOVE LINE
+//      (at least a valid email address)
+//
+//   2. PLEASE TRY TO USE UTF-8 FOR ENCODING;
+//      (if this is not possible, please include a comment
+//       that states what encoding is necessary.)
+
+TableOperations.I18N = {
+	"Frames and Borders":			"Marcos y bordes",
+	"Align":					  "Alineación",
+	"All four sides":				  "Todos los lados",
+	"Background":					  "Fondo",
+	"Baseline":                                       "Línea de base",
+	"Border":					  "Borde",
+	"Borders":					  "Bordes",
+	"Bottom":                                         "Inferior",
+	"CSS Style":					  "Estilo [CSS]",
+	"Caption":					  "Subtítulo",
+	"Cell Properties":                                "Propiedades celda",
+	"Center":					  "Centrar",
+	"Char":                                           "Carbón",
+	"Collapsed borders":                              "Sin bordes",
+	"Color":					  "Color",
+	"Description":					  "Descripción",
+	"FG Color":					  "Color FG",
+	"Float":                                          "Flotante",
+	"Frames":					  "Marcos",
+	"Height":                                         "Altura",
+	"How many columns would you like to merge?":      "¿Cuantas columnas quiere combinar?",
+	"How many rows would you like to merge?":         "¿Cuantas filas quiere combinar?",
+	"Image URL":					  "URL imagen",
+	"Justify":                                        "Justificar",
+	"Layout":					  "Disposición",
+	"Left":						  "Izquierda",
+	"Margin":                                         "Márgen",
+	"Middle":                                         "Medio",
+	"No rules":					  "Sin reglas",
+	"No sides":					  "Sin reglas",
+	"None":                                           "Ningúna",
+	"Padding":					  "Margenes",
+	"Please click into some cell":                    "Por favor, clic sobre la celda",
+	"Right":					  "Derecha",
+	"Row Properties":                                 "Propiedades fila",
+	"Rules will appear between all rows and columns": "Las reglas serán para todas las filas y columnas",
+	"Rules will appear between columns only":	  "Las reglas serán solo para las columnas",
+	"Rules will appear between rows only":		  "Las reglas serán solo para las filas",
+	"Rules":					  "Reglas",
+	"Spacing and padding":                            "Espaciado y margenes",
+	"Spacing":					  "Espaciado",
+	"Summary":					  "Sumario",
+	"TO-cell-delete":				  "Borrar celda",
+	"TO-cell-insert-after":				  "Añadir celda izquierda",
+	"TO-cell-insert-before":			  "Añadir celda derecha",
+	"TO-cell-merge":				  "Fusionar celdas",
+	"TO-cell-prop":					  "Propiedades celda",
+	"TO-cell-split":				  "Partir celda",
+	"TO-col-delete":				  "Borrar columna",
+	"TO-col-insert-after":				  "Añadir columna izquierda",
+	"TO-col-insert-before":				  "Añadir columna derecha",
+	"TO-col-split":					  "Partir columna",
+	"TO-row-delete":				  "Borrar fila",
+	"TO-row-insert-above":				  "Añadir fila superior",
+	"TO-row-insert-under":				  "Añadir fila inferior",
+	"TO-row-prop":					  "Propiedades fila",
+	"TO-row-split":					  "Partir fila",
+	"TO-table-prop":				  "Propiedades tabla",
+	"Table Properties":				  "Propiedades tabla",
+	"Text align":                                     "Alineación texto",
+	"The bottom side only":				  "Lado inferior",
+	"The left-hand side only":			  "Lado izquierdo",
+	"The right and left sides only":		  "Lados derecho e izquierdo",
+	"The right-hand side only":			  "Lado derecho",
+	"The top and bottom sides only":		  "Lados superior e inferior",
+	"The top side only":				  "Lado superior",
+	"Top":                                            "Superior",	
+	"Unset color":                                    "Color Unset",
+	"Vertical align":                                 "Alineación vertival",
+	"Width":					  "Anchura",
+	"not-del-last-cell":				  "HTMLArea rechaza borrar la última celda de la fila.",
+	"not-del-last-col":				  "HTMLArea rechaza borrar la última columna de la tabla.",
+	"not-del-last-row":				  "HTMLArea rechaza borrar la última fila de la tabla.",
+	"percent":					  "porcentaje",
+	"pixels":					  "píxeles"
+};

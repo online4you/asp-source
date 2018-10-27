@@ -1,0 +1,14 @@
+Hotel;Cod. Reserva;Fecha;F. Llegada;F. Salida;Apellidos;Nombre;EMail;Telefono;Dirección;CP;Ciudad;Idioma;País;Importe Reserva;Importe Comisión;Confirmada
+Hotel Canal Olimpic;37;05/10/2009;06/10/2009;07/10/2009;Pla;Vicente;gemma.ferriz@castelldefelsturismo.info;k;kl;k;k;es;k;55;6,6;NO
+Hotel Canal Olimpic;36;05/10/2009;06/10/2009;07/10/2009;Pla;Vicente;vicente@planeta-web.com;k;kl;k;k;es;k;55;6,6;NO
+Hotel Canal Olimpic;35;05/10/2009;06/10/2009;07/10/2009;Pla;Vicente;vicente@planeta-web.com;k;kl;k;k;es;k;55;6,6;NO
+Apartamentos SG;34;05/10/2009;06/10/2009;07/10/2009;Gemma ;Test;gemma.ferriz@castelldefelsturisme.info;936352742;Calle test;08815;Testing;es;España;66;7,92;NO
+Apartamentos SG;33;05/10/2009;06/10/2009;07/10/2009;Gemma ;Test;gemma.ferriz@castelldefelsturisme.info;936352742;Calle test;08815;Testing;es;España;66;7,92;NO
+Apartamentos SG;32;05/10/2009;06/10/2009;07/10/2009;Gemma ;Test;gemma.ferriz@castelldefelsturisme.info;936352742;Calle test;08815;Testing;es;España;66;7,92;NO
+Apartamentos SG;31;05/10/2009;06/10/2009;07/10/2009;Gemma ;Test;gemma.ferriz@castelldefelsturisme.info;936352742;Calle test;08815;Testing;es;España;66;7,92;NO
+Apartamentos SG;30;05/10/2009;06/10/2009;07/10/2009;Gemma ;Test;gemma.ferriz@castelldefelsturisme.info;936352742;Calle test;08815;Testing;es;España;66;7,92;NO
+Pruebas servicio técnico;29;02/10/2009;13/10/2009;17/10/2009;Pla;Vicente;vicente@planeta-web.com;k;kl;k;k;es;k;432;51,84;SI
+Pruebas servicio técnico;26;02/10/2009;13/10/2009;17/10/2009;Pla;Vicente;vicente@planeta-web.com;k;kl;k;k;es;k;777,6;93,31;NO
+Pruebas servicio técnico;25;02/10/2009;13/10/2009;17/10/2009;Pla;Vicente;vicente@planeta-web.com;k;kl;k;k;es;k;777,6;93,31;NO
+Pruebas servicio técnico;24;02/10/2009;13/10/2009;17/10/2009;Pla;Vicente;vicente@planeta-web.com;k;kl;k;k;es;k;777,6;93,31;NO
+Pruebas servicio técnico;18;30/09/2009;01/10/2009;03/10/2009;asd;asd;asd@asd.com;asd;;;;es;;200;24;NO

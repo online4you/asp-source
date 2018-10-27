@@ -1,0 +1,2253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datos>
+	<traducciones><etiqueta>i_duplicar</etiqueta><traduccion>Copy</traduccion><detalle></detalle></traducciones><traducciones><etiqueta>i_generarFactura</etiqueta><traduccion>Would you like to generate a bild?</traduccion><detalle></detalle></traducciones><traducciones><etiqueta>i_mailEnviadoKO</etiqueta><traduccion>Mail Error</traduccion><detalle></detalle></traducciones><traducciones><etiqueta>i_mailEnviadoOK</etiqueta><traduccion>Mail Sent</traduccion><detalle></detalle></traducciones><traducciones><etiqueta>i_ModificarYenviar</etiqueta><traduccion>Up. and send</traduccion><detalle></detalle></traducciones><traducciones><etiqueta>i_enviar</etiqueta><traduccion>Send</traduccion><detalle></detalle></traducciones><traducciones>
+		<etiqueta>i_aceptoprivacidad</etiqueta>
+		<traduccion>I accept the Privacy Policy</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nif</etiqueta>
+		<traduccion>VAT Number</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_transferencia</etiqueta>
+		<traduccion>Transfer</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tarjetacredito</etiqueta>
+		<traduccion>Credit Card</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_acepto</etiqueta>
+		<traduccion>I accept the terms and conditions</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_dirFiscal</etiqueta>
+		<traduccion>Tax domicile </traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_datosFactura</etiqueta>
+		<traduccion>Bild Details</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>I_datosFactura</etiqueta>
+		<traduccion>Bild Details</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_totalFactura</etiqueta>
+		<traduccion>Total Bild</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_iva</etiqueta>
+		<traduccion>Taxes (18 %)</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_datosEconomicos</etiqueta>
+		<traduccion>Payment Detail</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_baseImponible</etiqueta>
+		<traduccion>Tax base</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_numFactura</etiqueta>
+		<traduccion>Bild Number</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_datosPersonales</etiqueta>
+		<traduccion>Personal data</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_deseoRecibirOfertas</etiqueta>
+		<traduccion>I would like to recive offers</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>I_NIFIncorrecto</etiqueta>
+		<traduccion>Incorrect NIF</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_mailIncorrecto</etiqueta>
+		<traduccion>Set a valid E-mail</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_otros</etiqueta>
+		<traduccion>Others</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_namePasaporte</etiqueta>
+		<traduccion>Passport</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_documento</etiqueta>
+		<traduccion>Document number</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tipoDocu</etiqueta>
+		<traduccion>Document type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_personaContacto</etiqueta>
+		<traduccion>Contact person is NOT the same as reservation details</traduccion>
+		<detalle></detalle>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_emailFactura</etiqueta>
+		<traduccion>E-Mail to send the bill to</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_CifNif</etiqueta>
+		<traduccion>Document</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_razonSocial</etiqueta>
+		<traduccion>Name</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_deseoFactura</etiqueta>
+		<traduccion>I would like a bill</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_formasDePago</etiqueta>
+		<traduccion>Credit card or bank transfer</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_no_amigo</etiqueta>
+		<traduccion>Id. Amigo: -</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_catalan</etiqueta>
+		<traduccion>Catalán</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_es_oferta</etiqueta>
+		<traduccion>¿Oferta?</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_incluirloenoferta</etiqueta>
+		<traduccion>Incluirlo en oferta</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fechaestancia</etiqueta>
+		<traduccion>fechas estancia</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fvalida</etiqueta>
+		<traduccion>Válida desde</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_localizacionhotel</etiqueta>
+		<traduccion>Hotel Location</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_visitas</etiqueta>
+		<traduccion>Visitas página hotel</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_admiteninos</etiqueta>
+		<traduccion>Admits children?</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_pendientes</etiqueta>
+		<traduccion>Pendientes</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_pendiente</etiqueta>
+		<traduccion>Pendiente</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_horallegada</etiqueta>
+		<traduccion>Hora Llegada</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_diasAntelacion</etiqueta>
+		<traduccion>Días antelacion llegada</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_dias</etiqueta>
+		<traduccion>days</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_ru</etiqueta>
+		<traduccion>Nombre Rus.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tradu_ru</etiqueta>
+		<traduccion>Texto Ruso</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_ru</etiqueta>
+		<traduccion>Texto Ruso</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevacaracteristica</etiqueta>
+		<traduccion>Nueva Característica</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevogrupo</etiqueta>
+		<traduccion>Nuevo Grupo</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_grupocaracter</etiqueta>
+		<traduccion>Grupo Característica</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tipotarjeta</etiqueta>
+		<traduccion>Credit card type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textodtoregi</etiqueta>
+		<traduccion>Los adultos sólo tienen descuento cuando ocupan cama supletoria.&lt;br&gt;Las plazas con descuento empiezan a contar a partir de la capacidad normal de la habitación que está indicada más arriba, exepto los niños que en el caso de que el precio sea por habitación siempre se calculará el descuento en el régimen. Puede indicar las plazas con descuento o dejarlo a cero (todas).</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_desdeplazas</etiqueta>
+		<traduccion>nº de plazas que tendrán&lt;br&gt;este descuento</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textodto3</etiqueta>
+		<traduccion>* Sólo se tiene en cuenta este descuento cuando la habitación tiene definidos los precios por persona. Si el precio está definido por habitacion entonces solo se tendrá en cuenta el campo precio (el campo % no aplica) &lt;br&gt;Las plazas con descuento empiezan a contar a partir de la capacidad normal de la habitación que está indicada más arriba. Puede indicar las plazas con descuento o dejarlo a cero (todas).</traduccion>
+		<detalle></detalle>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textoproduccion</etiqueta>
+		<traduccion>(Marcar sólo cuando se hayan hecho las pruebas)</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_produccion</etiqueta>
+		<traduccion>TPV en Producción</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_clavexor</etiqueta>
+		<traduccion>Clave XOR TPV</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_clave</etiqueta>
+		<traduccion>Clave TPV</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_terminal</etiqueta>
+		<traduccion>Nº Terminal</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_codcomercio</etiqueta>
+		<traduccion>Cód. comercio</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tpvSERMEPA</etiqueta>
+		<traduccion>TPV Sermepa</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tpvCECA</etiqueta>
+		<traduccion>TPV CECA</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tpvBBVA</etiqueta>
+		<traduccion>TPV BBVA</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tpv4B</etiqueta>
+		<traduccion>TPV 4B</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fpago_onrequest</etiqueta>
+		<traduccion>formulario On Request</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_verificacion</etiqueta>
+		<traduccion>Formulario verificación tarjeta</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_formapago</etiqueta>
+		<traduccion>Tipo Forma Pago</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_comision</etiqueta>
+		<traduccion>Comisión</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_anuladas</etiqueta>
+		<traduccion>Anuladas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_anularmarcadas</etiqueta>
+		<traduccion>Anular Marcadas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_buscadispo</etiqueta>
+		<traduccion>Buscar disponibilidad</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_resumenmes</etiqueta>
+		<traduccion>Resumen mes</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estadisticasgraficasmes</etiqueta>
+		<traduccion>Graphic Statistics Month</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estadisticasgraficasanyo</etiqueta>
+		<traduccion>Graphic Statistics Year</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_comparaconanyo</etiqueta>
+		<traduccion>Compara con año</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fechaentrada</etiqueta>
+		<traduccion>Check-in date</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fechareserva</etiqueta>
+		<traduccion>Booking Date</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estadisticapor</etiqueta>
+		<traduccion>Statics by</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_poridioma</etiqueta>
+		<traduccion>por Idiomas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_porimportemedio</etiqueta>
+		<traduccion>Importe Medio</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_porestanciamedia</etiqueta>
+		<traduccion>Average Stay</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_porimporte</etiqueta>
+		<traduccion>por Importe</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_recarga</etiqueta>
+		<traduccion>Recarga</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_bulgaro</etiqueta>
+		<traduccion>Bulgarian</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_lcheckin</etiqueta>
+		<traduccion>CheckIn</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_limitecheckin</etiqueta>
+		<traduccion>Lí­mite Check-In día</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_checkinhabidia</etiqueta>
+		<traduccion>Limite Check-In por habitación y día</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_ca</etiqueta>
+		<traduccion>Text Cat.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_fr</etiqueta>
+		<traduccion>Text Fra.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_de</etiqueta>
+		<traduccion>Text Ger.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_en</etiqueta>
+		<traduccion>Text Eng.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_it</etiqueta>
+		<traduccion>Text Ita.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_es</etiqueta>
+		<traduccion>Text Spa.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo_ca</etiqueta>
+		<traduccion>Title Cat.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo_fr</etiqueta>
+		<traduccion>Title Fra.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo_it</etiqueta>
+		<traduccion>Title Ita.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo_de</etiqueta>
+		<traduccion>Title Ger.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo_en</etiqueta>
+		<traduccion>Title Eng.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo_es</etiqueta>
+		<traduccion>Title Spa.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_limiteCheckin</etiqueta>
+		<traduccion>Lí­mite Check-in</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevodto3</etiqueta>
+		<traduccion>Añadir dto tercera persona</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textosfotos</etiqueta>
+		<traduccion>Textos y fotos</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_errorfechas</etiqueta>
+		<traduccion>Fechas incorrectas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_avisosolapan</etiqueta>
+		<traduccion>Las fechas se solapan con otra temporada</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_ca</etiqueta>
+		<traduccion>Nombre Cat.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_es</etiqueta>
+		<traduccion>Text Spa.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_de</etiqueta>
+		<traduccion>Text Ger.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_it</etiqueta>
+		<traduccion>Text Ita.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_fr</etiqueta>
+		<traduccion>Text Fra.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_en</etiqueta>
+		<traduccion>Text Eng.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nohaytemporadas</etiqueta>
+		<traduccion>Este establecimiento no tiene temporadas en este año.&lt;br&gt;Seleccione otro alojamiento.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_diamesanyo</etiqueta>
+		<traduccion>(day/month/year)</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tradu_es</etiqueta>
+		<traduccion>Texto Ing.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_gestionsecciones</etiqueta>
+		<traduccion>Gestión secciones</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textocaracter</etiqueta>
+		<traduccion>Seleccionar las caracterí­sticas del hotel, esta información se podrá utilizar en el buscador avanzado de la web.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_subiendofoto</etiqueta>
+		<traduccion>Subiendo foto</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_notacambio</etiqueta>
+		<traduccion>Nota: Si realiza un cambio tiene que actualizar en la ventana anterior.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fotoseccion</etiqueta>
+		<traduccion>Fotos sección</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textoseccion</etiqueta>
+		<traduccion>Textos sección</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_seccion</etiqueta>
+		<traduccion>Sección hotel</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_icono</etiqueta>
+		<traduccion>Icon</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_datoshotel</etiqueta>
+		<traduccion>Datos Hotel</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_todos</etiqueta>
+		<traduccion>All</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_regporpagina</etiqueta>
+		<traduccion>registros por página</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tradu_ca</etiqueta>
+		<traduccion>Texto Cat.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tradu_it</etiqueta>
+		<traduccion>Text Ita.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tradu_fr</etiqueta>
+		<traduccion>Text Fra.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tradu_de</etiqueta>
+		<traduccion>Text Ger.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tradu_en</etiqueta>
+		<traduccion>Text Eng.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_solapacaracter</etiqueta>
+		<traduccion>Características</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_caracter</etiqueta>
+		<traduccion>Caracterí­sticas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_porhabitacion</etiqueta>
+		<traduccion>per room / Day</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_porreserva</etiqueta>
+		<traduccion>por nº Reservas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_pordia</etiqueta>
+		<traduccion>per day</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_porpersona</etiqueta>
+		<traduccion>per person / Day</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_obligado</etiqueta>
+		<traduccion>Add this item price to the reservation price</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_obligado</etiqueta>
+		<traduccion>Compulsory</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_reservasanyo</etiqueta>
+		<traduccion>Reservations per year</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_espanol</etiqueta>
+		<traduccion>Spanish</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_ingles</etiqueta>
+		<traduccion>English</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_aleman</etiqueta>
+		<traduccion>German</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_frances</etiqueta>
+		<traduccion>French</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_italiano</etiqueta>
+		<traduccion>Italian</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fechaalta</etiqueta>
+		<traduccion>Registration Date</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_publicidad</etiqueta>
+		<traduccion>Admits advertisements?</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_idioma</etiqueta>
+		<traduccion>Language</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cliente</etiqueta>
+		<traduccion>Customer</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_provincia</etiqueta>
+		<traduccion>Province</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_localidad</etiqueta>
+		<traduccion>City</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevoservicio</etiqueta>
+		<traduccion>New Service</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_servicios</etiqueta>
+		<traduccion>Services</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombreservicio</etiqueta>
+		<traduccion>Service Name</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_codigoiso</etiqueta>
+		<traduccion>ISO Code</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fotoalojamiento</etiqueta>
+		<traduccion>Hotel's photo or logo</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_precios</etiqueta>
+		<traduccion>Prices</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_abreviado</etiqueta>
+		<traduccion>Short text</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tarifas</etiqueta>
+		<traduccion>Rates</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevatarifa</etiqueta>
+		<traduccion>New Rate</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_ninguna</etiqueta>
+		<traduccion>None</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_servicio</etiqueta>
+		<traduccion>Service</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tiposmoneda</etiqueta>
+		<traduccion>Currency types</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_solapatipomoneda</etiqueta>
+		<traduccion>Currency type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_pordefecto</etiqueta>
+		<traduccion>Default</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevotipomoneda</etiqueta>
+		<traduccion>New currency type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textonuevatarifa</etiqueta>
+		<traduccion>Select a rate on which the new one will be based.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tarifa</etiqueta>
+		<traduccion>Rate</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_margentarifa</etiqueta>
+		<traduccion>% on the rate (negative value discounts on the chosen rate)</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_exportacsv</etiqueta>
+		<traduccion>Export to CSV</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_mediaporanyo</etiqueta>
+		<traduccion>Yearly average income</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nochesporanyo</etiqueta>
+		<traduccion>Yearly Average Stay</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_totalimporteanyo</etiqueta>
+		<traduccion>Total Yearly Income</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_mediapormes</etiqueta>
+		<traduccion>Average income per reservation</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_ctodosloshoteles</etiqueta>
+		<traduccion>All the hotels</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nochespormes</etiqueta>
+		<traduccion>Average Stay</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estadisticasgraficas</etiqueta>
+		<traduccion>Grafic Statistics</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_importespormes</etiqueta>
+		<traduccion>Monthly Reservation Revenue</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_confirmadaspormes</etiqueta>
+		<traduccion>Monthly nbr  of confirmed res</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_solapadispo</etiqueta>
+		<traduccion>Availability</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_informedispo</etiqueta>
+		<traduccion>Availability Report</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_habiseleccionada</etiqueta>
+		<traduccion>Room selected</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevaagencia</etiqueta>
+		<traduccion>New Agency</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_agencia</etiqueta>
+		<traduccion>Agency</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_agencias</etiqueta>
+		<traduccion>Agencies</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textopromocion</etiqueta>
+		<traduccion>(esta oferta sólo será activa si el cliente indica el código de promoción)</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_promocion</etiqueta>
+		<traduccion>Promotion Code</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tiporegimen</etiqueta>
+		<traduccion>Board Type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevoregimen</etiqueta>
+		<traduccion>New Board</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevazona</etiqueta>
+		<traduccion>New Area</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevacategoria</etiqueta>
+		<traduccion>New Category</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_llaves</etiqueta>
+		<traduccion>Keys</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estrellas</etiqueta>
+		<traduccion>Stars</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_sintipo</etiqueta>
+		<traduccion>Sin tipo</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tipocategoria</etiqueta>
+		<traduccion>Categorie Type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_libres</etiqueta>
+		<traduccion>Free</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_ocup</etiqueta>
+		<traduccion>Ocup.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_est_minima</etiqueta>
+		<traduccion>Min. stay</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_importesrealizados</etiqueta>
+		<traduccion>Importes realizados en</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nreservas</etiqueta>
+		<traduccion>Nº de reservas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_reservasnoconfirmadasanyo</etiqueta>
+		<traduccion>Total reservas No confirmadas el año</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_reservasconfirmadasanyo</etiqueta>
+		<traduccion>Total reservas confirmadas el año</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_totalreservasmes</etiqueta>
+		<traduccion>Total reservas mes</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_mes</etiqueta>
+		<traduccion>Month</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_anyosiguiente</etiqueta>
+		<traduccion>Year Next</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_anyoanterior</etiqueta>
+		<traduccion>Year Previous</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_filtrar</etiqueta>
+		<traduccion>Filtrar</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_sinfiltro</etiqueta>
+		<traduccion>Quitar Filtro</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_confirmadas</etiqueta>
+		<traduccion>¿Confirmadas?</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_filtrolistado</etiqueta>
+		<traduccion>Filtro del listado</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estadisticasanyo</etiqueta>
+		<traduccion>Year Statistics</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_reservasnoconfirmadasmes</etiqueta>
+		<traduccion>Total reservas No confirmadas mes</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_reservasconfirmadasmes</etiqueta>
+		<traduccion>Total reservas confirmadas mes</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_totalreservasdia</etiqueta>
+		<traduccion>Total reservas día</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_reservasnoconfirmadas</etiqueta>
+		<traduccion>Reservas&lt;br/&gt;No Confirmadas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_reservasconfirmadas</etiqueta>
+		<traduccion>Reservas&lt;br/&gt;Confirmadas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_dia</etiqueta>
+		<traduccion>Day</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estadisticasmes</etiqueta>
+		<traduccion>Month Statistics</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_reservasrealizadas</etiqueta>
+		<traduccion>Reservas realizadas en</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_habiocupadas</etiqueta>
+		<traduccion>Habitaciones ocupadas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_verimportes</etiqueta>
+		<traduccion>Ver Importes</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_reservasmes</etiqueta>
+		<traduccion>Nº de reservas al mes</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_todosloshoteles</etiqueta>
+		<traduccion>All the hotels</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_imprimirreserva</etiqueta>
+		<traduccion>Print Reservation</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_codtransaccion</etiqueta>
+		<traduccion>Cod. Transacción</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_codaprovacion</etiqueta>
+		<traduccion>Cod. Aprovación</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_codigostpv</etiqueta>
+		<traduccion>Códigos TPV</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_totalreserva</etiqueta>
+		<traduccion>Total</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estaconfirmada</etiqueta>
+		<traduccion>¿Estancia&lt;br/&gt;confirmada?</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_pais</etiqueta>
+		<traduccion>Country</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_bebes</etiqueta>
+		<traduccion>Babies</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_plazas</etiqueta>
+		<traduccion>Pax</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_no</etiqueta>
+		<traduccion>No</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_freserva</etiqueta>
+		<traduccion>Booking Date</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_reserva</etiqueta>
+		<traduccion>Booking</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_confir</etiqueta>
+		<traduccion>Confir.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tipoventa</etiqueta>
+		<traduccion>Venta</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_importe</etiqueta>
+		<traduccion>Total</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_apellidos</etiqueta>
+		<traduccion>Second name</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fsalida</etiqueta>
+		<traduccion>Check-out</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fllegada</etiqueta>
+		<traduccion>Check-in</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_filtralistado</etiqueta>
+		<traduccion>Filtra listado</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_hotelcerrado</etiqueta>
+		<traduccion>Closed hotel</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tipohabi</etiqueta>
+		<traduccion>Room Type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevotipo</etiqueta>
+		<traduccion>New type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_realizacalculo</etiqueta>
+		<traduccion>Calculate?</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_destacada</etiqueta>
+		<traduccion>Highlighted</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_rellenarcampo</etiqueta>
+		<traduccion>fill out only one of the fields, leave the others in blank</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_o</etiqueta>
+		<traduccion>or</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nochesgratis</etiqueta>
+		<traduccion>free nights</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_laofertaes</etiqueta>
+		<traduccion>The special offer represents</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_realizaoferta</etiqueta>
+		<traduccion>Apply the Special offer when the stay is superior or equal to</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_noches</etiqueta>
+		<traduccion>nights</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estanciasuperior</etiqueta>
+		<traduccion>Stay superior or equal  to</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cualquierregimen</etiqueta>
+		<traduccion>which ever Regime or a specific one</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cualquierhabitacion</etiqueta>
+		<traduccion>All room types or a specific one</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textoaplicaroferta</etiqueta>
+		<traduccion>determine what type of services the Special Offer applies to</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_preciohabi</etiqueta>
+		<traduccion>Room Rate</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_diasaplica</etiqueta>
+		<traduccion>Days when it applies</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo_ita</etiqueta>
+		<traduccion>Title Ita.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo_fra</etiqueta>
+		<traduccion>Title Fra.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo_ale</etiqueta>
+		<traduccion>Title Ger.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo_ing</etiqueta>
+		<traduccion>Title Eng.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo_esp</etiqueta>
+		<traduccion>Title Spa.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_oferta</etiqueta>
+		<traduccion>Offer</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_noseusa</etiqueta>
+		<traduccion>No se usa</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_si</etiqueta>
+		<traduccion>Yes</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_todo</etiqueta>
+		<traduccion>All</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_activa</etiqueta>
+		<traduccion>Active</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_calcula</etiqueta>
+		<traduccion>Calcula</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_aplicaoferta</etiqueta>
+		<traduccion>Apply offer to</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fcaduca</etiqueta>
+		<traduccion>Valid until</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fechafinal</etiqueta>
+		<traduccion>End Date</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fechainicio</etiqueta>
+		<traduccion>Start Date</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_titulo</etiqueta>
+		<traduccion>Title</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevaoferta</etiqueta>
+		<traduccion>New Offer</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cupo</etiqueta>
+		<traduccion>Allotment</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cambiarotros</etiqueta>
+		<traduccion>Change to other function</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nocambiar</etiqueta>
+		<traduccion>No change</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cambiardatos</etiqueta>
+		<traduccion>Change data from</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_todoslosdias_o</etiqueta>
+		<traduccion>all days or</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nodatosfechas</etiqueta>
+		<traduccion>&lt;b&gt;No hay datos en esas fechas o esa habitación&lt;/b&gt;</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_messiguiente</etiqueta>
+		<traduccion>Next month</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_mesanterior</etiqueta>
+		<traduccion>Previous month</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_anual</etiqueta>
+		<traduccion>Annual</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_semestral</etiqueta>
+		<traduccion>Semestrial</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_trimestral</etiqueta>
+		<traduccion>Quarterly</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_mensual</etiqueta>
+		<traduccion>Monthly</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_todas</etiqueta>
+		<traduccion>All</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_hotelseleccionado</etiqueta>
+		<traduccion>Hotel Selected</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estadohabidia</etiqueta>
+		<traduccion>Daily status per room type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_eminimahabidia</etiqueta>
+		<traduccion>Daily minimun stay per room type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_releasehabidia</etiqueta>
+		<traduccion>Daily release per room type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_precioshabidia</etiqueta>
+		<traduccion>Daily prices per room type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_delasemana</etiqueta>
+		<traduccion>de la semana.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_todoslosdias</etiqueta>
+		<traduccion>Todos los días de la semana.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fechasseleccionadas</etiqueta>
+		<traduccion>Fechas seleccionadas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cambiosrealizar</etiqueta>
+		<traduccion>Cambios a realizar</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_ponerdatos</etiqueta>
+		<traduccion>Poner los datos que quiera actualizar</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_segundafecha</etiqueta>
+		<traduccion>Seleccionar la segunda fecha</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_solomismahab</etiqueta>
+		<traduccion>Sólo se pueden marcar fechas sobre la misma habitación</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_xhabitacion</etiqueta>
+		<traduccion>per room</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_xpersona</etiqueta>
+		<traduccion>x pers.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_quitarfoto</etiqueta>
+		<traduccion>Delete photo</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cambiarfoto</etiqueta>
+		<traduccion>Change photo</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_galeriafotos</etiqueta>
+		<traduccion>Photos Gallery</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_subirfoto</etiqueta>
+		<traduccion>Upload photo</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textofotos</etiqueta>
+		<traduccion>Fotos de la sección, el sistema genera dos tamaños, el mayor será de 600px de ancho. Conviene que el nombre de la foto no tenga espacios en blanco, acentos o carácteres especiales.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_subirfotos</etiqueta>
+		<traduccion>Upload new photos</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_fra</etiqueta>
+		<traduccion>Text Fra.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_ale</etiqueta>
+		<traduccion>Text Ger.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_ing</etiqueta>
+		<traduccion>Text Eng.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_ita</etiqueta>
+		<traduccion>Text Ita.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto_esp</etiqueta>
+		<traduccion>Text Spa.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fotos</etiqueta>
+		<traduccion>Photos</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_texto</etiqueta>
+		<traduccion>Text</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textohabitacion</etiqueta>
+		<traduccion>Texto y fotos habitación</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_regimenexiste</etiqueta>
+		<traduccion>Este régimen ya existe</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_precioregimen</etiqueta>
+		<traduccion>Regime Price</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_dtoexiste</etiqueta>
+		<traduccion>Este descuento ya existe</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_descuento</etiqueta>
+		<traduccion>Discount</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_dtosregimen</etiqueta>
+		<traduccion>Descuentos en Régimen</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estahab</etiqueta>
+		<traduccion>Esta Hab.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cualquiera</etiqueta>
+		<traduccion>Any</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_incluido</etiqueta>
+		<traduccion>Incluido</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_regimenhabitacion</etiqueta>
+		<traduccion>Régimen de la habitación</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevo</etiqueta>
+		<traduccion>New</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_borrar</etiqueta>
+		<traduccion>Delete</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_dto</etiqueta>
+		<traduccion>Dto.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_dtocamahabitacion</etiqueta>
+		<traduccion>Descuento cama supletoria Habitación</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_actuprecios</etiqueta>
+		<traduccion>Update Prices</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tipocalculo</etiqueta>
+		<traduccion>Tipo Cálculo</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_preciostemporada</etiqueta>
+		<traduccion>Season Prices</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_anadirhabitacion</etiqueta>
+		<traduccion>Add Room</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_descrihabitacion</etiqueta>
+		<traduccion>Room Description</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_textocunaocupa</etiqueta>
+		<traduccion>(si está marcado los bebes ocupan plaza de la habitación)</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cunaocupa</etiqueta>
+		<traduccion>¿La cuna ocupa plaza?</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_ninmaximo</etiqueta>
+		<traduccion>Niños Máximo</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_adulmaximo</etiqueta>
+		<traduccion>Adult. Máximo</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_adulminimo</etiqueta>
+		<traduccion>Adult. Mínimo</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_capmaxima</etiqueta>
+		<traduccion>Cap. Máxima</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_capnormal</etiqueta>
+		<traduccion>Cap. Normal</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_capminima</etiqueta>
+		<traduccion>Capacidad Mínima</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tipohab_estandar</etiqueta>
+		<traduccion>Tipo Habitación Estandar</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cambiohabitacion</etiqueta>
+		<traduccion>Este cambio modificará los datos de la habitación\n¿Desea continuar?</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_dtoregi</etiqueta>
+		<traduccion>Dtos Régimen</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_regimen</etiqueta>
+		<traduccion>Board</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_dtocolec</etiqueta>
+		<traduccion>Dtos Colec.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_precio</etiqueta>
+		<traduccion>Price</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_habitacion</etiqueta>
+		<traduccion>Room</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_habitaciones</etiqueta>
+		<traduccion>Rooms</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_dispocupos</etiqueta>
+		<traduccion>Availability / Allotments</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevahabitacion</etiqueta>
+		<traduccion>Add Room</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_anadirhotel</etiqueta>
+		<traduccion>Add Hotel</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_relpublicas</etiqueta>
+		<traduccion>Rel. Públicas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_recepcion</etiqueta>
+		<traduccion>Reception</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_administrador</etiqueta>
+		<traduccion>Administrator</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nivelacceso</etiqueta>
+		<traduccion>Level access</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_obligados</etiqueta>
+		<traduccion>Los campos marcados con * son obligatorios</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_activo</etiqueta>
+		<traduccion>Active</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nivel</etiqueta>
+		<traduccion>Level</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_usuarios</etiqueta>
+		<traduccion>Users</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevousuario</etiqueta>
+		<traduccion>Add User</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_colectivo</etiqueta>
+		<traduccion>Group</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_ing</etiqueta>
+		<traduccion>Text Eng.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_fra</etiqueta>
+		<traduccion>Text Fra.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_ita</etiqueta>
+		<traduccion>Text Ita.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_ale</etiqueta>
+		<traduccion>Text Ger.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_Ing</etiqueta>
+		<traduccion>Text Eng.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre_esp</etiqueta>
+		<traduccion>Text Spa.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_orden</etiqueta>
+		<traduccion>Order</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_seguro</etiqueta>
+		<traduccion>¿Está seguro/a?</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_hastadia</etiqueta>
+		<traduccion>To day</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_desdedia</etiqueta>
+		<traduccion>From day</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_temporada</etiqueta>
+		<traduccion>Season</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_borrarmarcadas</etiqueta>
+		<traduccion>Delete Marked</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevatemporada</etiqueta>
+		<traduccion>Nueva Temporada</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_borratemporada</etiqueta>
+		<traduccion>Este proceso también borra los ficheros\nrelacionados con la temporada.\n¿Está seguro/a?</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_condicioneshotel</etiqueta>
+		<traduccion>Condiciones Hotel</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_anadir</etiqueta>
+		<traduccion>Add new</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_modificar</etiqueta>
+		<traduccion>Update</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cerrar</etiqueta>
+		<traduccion>Close</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_observaciones</etiqueta>
+		<traduccion>Observaciones</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estadohotel</etiqueta>
+		<traduccion>Estado Hotel</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_prepago</etiqueta>
+		<traduccion>Prepago</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_diasanula</etiqueta>
+		<traduccion>Dias anulación</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_ordenvisual</etiqueta>
+		<traduccion>Orden de visual.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_moneda</etiqueta>
+		<traduccion>Moneda</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_fax</etiqueta>
+		<traduccion>Fax</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_telefono</etiqueta>
+		<traduccion>Teléfono</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_poblacion</etiqueta>
+		<traduccion>Población</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cp</etiqueta>
+		<traduccion>C.P.</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_direccion</etiqueta>
+		<traduccion>Address</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_categoria</etiqueta>
+		<traduccion>Categorie</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_alojamiento</etiqueta>
+		<traduccion>Hotel</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_borrahotel</etiqueta>
+		<traduccion>Esto supone el borrado de todos los ficheros\nrelacionados con el establecimiento.\n¿Está seguro/a?</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevotipoaloj</etiqueta>
+		<traduccion>New Accommodation type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_online</etiqueta>
+		<traduccion>On Line</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_onrequest</etiqueta>
+		<traduccion>On Request</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_noventa</etiqueta>
+		<traduccion>No Sales</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estado</etiqueta>
+		<traduccion>Status</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_zona</etiqueta>
+		<traduccion>Area</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tipo</etiqueta>
+		<traduccion>Type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nombre</etiqueta>
+		<traduccion>Name</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_datosalojamiento</etiqueta>
+		<traduccion>Accommodation Data</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_borrarmarcados</etiqueta>
+		<traduccion>Delete Marked</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_nuevoalojamiento</etiqueta>
+		<traduccion>Add Hotel</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_buscar</etiqueta>
+		<traduccion>Search</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_buscahotel</etiqueta>
+		<traduccion>Search by name</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_seleccionar</etiqueta>
+		<traduccion>Select</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_anyo</etiqueta>
+		<traduccion>Year</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cerrarsesion</etiqueta>
+		<traduccion>Close session</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_solapaparonventas</etiqueta>
+		<traduccion>Room sales</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_solapaprecioshabitacion</etiqueta>
+		<traduccion>Room Rates</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_solapatipohab</etiqueta>
+		<traduccion>Room Types</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_solapacategorias</etiqueta>
+		<traduccion>Categories</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_solapatipoaloja</etiqueta>
+		<traduccion>Accom. Type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_rangomeses</etiqueta>
+		<traduccion>Periodicity</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tipodatos</etiqueta>
+		<traduccion>Function</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cuposhabitaciondia</etiqueta>
+		<traduccion>Daily Allotment Per Room Type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_hasta</etiqueta>
+		<traduccion>To</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_desde</etiqueta>
+		<traduccion>From</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_rangofechas</etiqueta>
+		<traduccion>Date Range</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_pulsarsobredia</etiqueta>
+		<traduccion>Click on day to select the dates</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_cupos</etiqueta>
+		<traduccion>Allotment</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_menuanterior</etiqueta>
+		<traduccion>Back</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estadisticas</etiqueta>
+		<traduccion>Statistics</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_listareservas</etiqueta>
+		<traduccion>Reservations</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_infoparonventas</etiqueta>
+		<traduccion>Room sales</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_informes</etiqueta>
+		<traduccion>REPORTS</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_ofertas</etiqueta>
+		<traduccion>Special Offers</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_yieldmanagement</etiqueta>
+		<traduccion>Calendar View</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estadohab</etiqueta>
+		<traduccion>Reservation status</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_releasehab</etiqueta>
+		<traduccion>Release</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_comercial</etiqueta>
+		<traduccion>Comercial</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_preciosdia</etiqueta>
+		<traduccion>Room rates day</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_estanciaminima</etiqueta>
+		<traduccion>Minimum stay</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_disponibilidad</etiqueta>
+		<traduccion>Availability / Allotments</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_inventario</etiqueta>
+		<traduccion>YIELD MANAGEMENT</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_precioshabitacion</etiqueta>
+		<traduccion>Room Rates</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_colectivos</etiqueta>
+		<traduccion>Groups</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_temporadas</etiqueta>
+		<traduccion>Seasons</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_alojamientos</etiqueta>
+		<traduccion>Hotels</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_usuarioypwd</etiqueta>
+		<traduccion>Insert User Name and Password</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_usuario</etiqueta>
+		<traduccion>User Name</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_pwd</etiqueta>
+		<traduccion>Password</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_recordarme</etiqueta>
+		<traduccion>Keep me signed in</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_entrar</etiqueta>
+		<traduccion>Enter</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_datosgenerales</etiqueta>
+		<traduccion>Settings</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tipoaloja</etiqueta>
+		<traduccion>Accommodation type</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_categorias</etiqueta>
+		<traduccion>Hotel Categories</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_zonas</etiqueta>
+		<traduccion>City Areas</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_tipohab</etiqueta>
+		<traduccion>Room Types</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_regimenes</etiqueta>
+		<traduccion>Packaged Rates</traduccion>
+		<detalle/>
+	</traducciones>
+	<traducciones>
+		<etiqueta>i_infohotel</etiqueta>
+		<traduccion>Hotel Information</traduccion>
+		<detalle/>
+	</traducciones>
+</datos>

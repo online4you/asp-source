@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***** buscador lateral *******/
+div#capaBuscador {
+	padding:0px 0px 0px 10px;
+}
+input#fini, input#ffin {
+	width:70px;
+}
+div#capaBuscador span {
+	line-height:18px;
+}
+
+div#capaOfertas {
+	padding:0px 0px 0px 10px;
+}
+
+/************************************************************/
+
+/***** procesos frames ******/
+div#frameCabecera a#afini, div#frameCabecera a#affin {
+	/*padding:2px 25px 3px 2px;*/
+	display:inline-block;
+}
+
+h2#capaTitulo {
+	padding-top:10px;
+}
+
+.stars {
+	top:0px;
+}

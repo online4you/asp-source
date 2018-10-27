@@ -1,0 +1,8 @@
+Hotel;Cod. Reserva;Fecha;F. Llegada;F. Salida;Apellidos;Nombre;EMail;Telefono;Direccion;CP;Ciudad;Idioma;Pais;Importe Reserva;Tipo Venta;Confirmada;Oferta;Importe Oferta
+ApartHotel Fontanellas Playa;7;29/03/2010;16/05/2010;20/05/2010;Pla;Vicente;vicente@planeta-web.com;lk;k,mlk;lk;lk;ru;lk;728,8;ONLINE;SI;;
+ApartHotel Fontanellas Playa;6;29/03/2010;16/05/2010;20/05/2010;Pla;Vicente;vicente@planeta-web.com;lk;k,mlk;lk;lk;ru;lk;228;ONLINE;SI;;
+ApartHotel Fontanellas Playa;5;25/03/2010;17/05/2010;29/05/2010;Pla;Vicente;vicente@planeta-web.com;lk;k,mlk;lk;lk;es;lk;684;ONLINE;SI;;
+ApartHotel Fontanellas Playa;4;25/03/2010;17/05/2010;29/05/2010;Pla;Vicente;vicente@planeta-web.com;lk;k,mlk;lk;lk;ru;lk;684;ONLINE;NO;;
+ApartHotel Fontanellas Playa;3;25/03/2010;17/05/2010;29/05/2010;Pla;Vicente;vicente@planeta-web.com;lk;k,mlk;lk;lk;ru;lk;684;ONLINE;SI;;
+ApartHotel Fontanellas Playa;2;25/03/2010;17/05/2010;29/05/2010;Pla;Vicente;vicente@planeta-web.com;lk;k,mlk;lk;lk;ru;lk;684;ONLINE;NO;;
+ApartHotel Fontanellas Playa;1;22/03/2010;24/05/2010;30/05/2010;Pla;Vicente;vicente@planeta-web.com;lk;k,mlk;lk;lk;es;lk;1500;ONLINE;SI;;

@@ -1,0 +1,106 @@
+<%
+	idh=paClng(request.QueryString("idh"))
+	if idh=0 then idh=paClng(request.Form("idh"))
+	
+	dim RegSecciones()
+	SecTitulo=0
+	SecTexto=1
+	SecFotos=2
+	haySecciones=false
+	n_servi=-1
+	
+	parametros="datosHotel.asp?ide=" & IdEmpresa & "&est=" & idh & "& lang=" & lang & "&fini=" & fini & "&ffin=" & ffin & "&FPago="&Fpago
+	Response.Write("<!--" & xmlURL & parametros & "-->")
+	'Response.Write(xmlURL & parametros & "<br>")
+		
+	Set objDom = Server.CreateObject("Microsoft.XMLDOM")
+	objDom.async = false
+	objDom.validateOnParse = false
+	objDom.setProperty "ServerHTTPRequest", true
+	if objDom.Load(xmlURL & parametros) then
+		
+		For Each objItem in objDom.documentElement.SelectNodes("/data")
+			
+			nombreHotel=objItem.SelectSingleNode("hotel").text
+			emailHotel=objItem.SelectSingleNode("email").text
+			direHotel=objItem.SelectSingleNode("direccion").text
+			cpHotel=objItem.SelectSingleNode("cp").text
+			poblaHotel=objItem.SelectSingleNode("poblacion").text
+			teleHhotel=objItem.SelectSingleNode("telefono").text
+			faxHotel=objItem.SelectSingleNode("fax").text
+			fotoHotel=objItem.SelectSingleNode("foto").text
+			monedaHotel=objItem.SelectSingleNode("moneda").text
+			monedaDefecto=monedaHotel
+			tipoHotel=objItem.SelectSingleNode("tipoaloja").text
+			categoriaHotel=objItem.SelectSingleNode("categoria").text
+			zona=objItem.SelectSingleNode("zona").text
+			
+			'Comprobar googlemap
+			haymapa=false
+			on error resume next
+			valor_x=objItem.SelectSingleNode("googlemap/valor_X").text
+			valor_y=objItem.SelectSingleNode("googlemap/valor_Y").text
+			mapazoom=paDbl(objItem.SelectSingleNode("googlemap/zoom").text)
+			mapatexto=objItem.SelectSingleNode("googlemap/texto").text
+			if err.number=0 and mapaZoom<>0 then haymapa=true
+			on error goto 0
+			
+			
+			'on error resume next
+			'Cargar los contenidos
+			For Each esto in objItem.SelectNodes("contenidos/seccion")
+				if err.number=0 then
+					n_servi=n_servi+1
+					redim preserve RegSecciones(2,n_servi)
+					RegSecciones(SecTitulo,n_servi)=esto.SelectSingleNode("titulo").text
+					RegSecciones(SecTexto,n_servi)=esto.SelectSingleNode("descripcion").text
+					RegSecciones(SecFotos,n_servi)=esto.SelectSingleNode("fotos").text
+					haySecciones=true
+				end if 'err
+			next 'las habis
+			'on error goto 0
+			
+			
+			'Comprobar datos TPV, no todos los hoteles lo requieren
+			verTPV=false
+			on error resume next
+			TPV_tipoPago    = paClng(objItem.SelectSingleNode("FPago/tipoFpago").text)
+			TPV_codComercio = objItem.SelectSingleNode("FPago/codComercio").text
+			TPV_acquirerBIN = objItem.SelectSingleNode("FPago/acquirerBIN").text
+			TPV_terminal    = objItem.SelectSingleNode("FPago/terminal").text
+			TPV_clave       = objItem.SelectSingleNode("FPago/clave").text
+			TPV_clavexor    = objItem.SelectSingleNode("FPago/clavexor").text
+			TPV_produccion  = objItem.SelectSingleNode("FPago/produccion").text
+			if err.number=0 then 
+				verTPV=true
+			else
+				TPV_tipoPago=0
+			end if
+			on error goto 0
+			
+			
+			
+		next 'each
+	
+	
+	else
+		 ' No se ha cargado el documento.
+		
+			' Obtenga el objeto ParseError
+			Set xPE = objDom.parseError
+			
+			strErrText = "Your XML Document failed to load due the following error.<br>"
+			strErrText =strErrText & "Error #: " & xPE.errorCode & ": " & xPE.reason & "<br>"
+			strErrText =strErrText & "Line #: " & xPE.Line & "<br>"
+			strErrText =strErrText & "Line Position: " & xPE.linepos & "<br>"
+			strErrText =strErrText & "Position In File: " & xPE.filepos & "<br>"
+			strErrText =strErrText & "Source Text: " & xPE.srcText & "<br>"
+			strErrText =strErrText & "Document URL: " & xPE.url & "<br>"
+			responseLog(strErrText)
+			'errormsg="Hotel cerrado o sin disponibilidad"
+	end if	
+	
+	Set objDom = Nothing
+	Set objItem = Nothing
+	
+%>

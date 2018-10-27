@@ -1,0 +1,89 @@
+/* SLIMBOX */
+
+#lbOverlay {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: #A98349;
+	cursor: pointer;
+	z-index:2;
+}
+
+#lbCenter{
+	position: absolute;
+	left: 50%;
+	overflow: hidden;
+	background-color: #fff;
+	z-index:3;
+	padding:10px 20px 0 20px;
+}
+
+.lbLoading {
+	background: #fff url(loading.gif) no-repeat center;
+	z-index:3;
+}
+
+#lbImage {
+	border: 10px solid #fff;
+}
+
+#lbPrevLink, #lbNextLink {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	outline: none;
+	z-index:4;
+}
+
+#lbPrevLink {
+	left: 0;
+  background: transparent url(prevlabel.gif) no-repeat 0% 15%;
+}
+
+#lbPrevLink:hover {
+	background: transparent url(prevlabel.gif) no-repeat 0% 15%;
+}
+
+#lbNextLink {
+	right: 0;	
+	background: transparent url(nextlabel.gif) no-repeat 100% 15%;
+}
+
+#lbNextLink:hover {
+	background: transparent url(nextlabel.gif) no-repeat 100% 15%;
+}
+
+#lbBottom {
+	position: absolute;
+	left: 50%;
+	overflow: hidden;
+	background-color: #fff;
+	z-index:3;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	line-height: 1.4em;
+	text-align: left;
+	border: 10px solid #fff;
+	border-top-style: none;
+	padding:0 20px;
+	margin-right:30px;
+}
+
+#lbCloseLink {
+	display: block;
+	float: right;
+	width: 66px;
+	height: 31px;
+	background: transparent url(closelabel.gif) no-repeat center;
+	margin: 0;
+}
+
+#lbCaption, #lbNumber {
+	margin-right: 71px;
+}
+
+#lbCaption {
+	font-weight: bold;
+}

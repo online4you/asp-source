@@ -1,0 +1,148 @@
+// JavaScript Document
+
+function ponAdultos(esos) {
+	document.fb.ad.value=esos;
+	var lista=$("#adultos span.titulo_lista");
+	for (i=0;i<lista.length;i++)
+		lista[i].innerHTML=esos; //poner la seleccion
+}
+
+function ponNinos(esos) {
+	document.fb.ni.value=esos;
+	var lista=$("#ninos span.titulo_lista");
+	for (i=0;i<lista.length;i++)
+		lista[i].innerHTML=esos; //poner la seleccion
+}
+
+function cambiaHotel(hcodi,hnombre) {
+	document.fb.bhotel.value=hcodi;
+	var lista=$("#hoteles span.titulo_lista");
+	for (i=0;i<lista.length;i++)
+		lista[i].innerHTML=hnombre; //poner la seleccion
+}
+
+function cambiaZona(zcodi,znombre) {
+	var ide=$("#ide").attr("value");
+	var idioma=$("#lang").attr("value");
+	var idtipo=document.getElementById("btipo").value;
+	url="cargaHoteles.asp?ide="+ide+"&lang="+idioma+"&idz="+zcodi+"&idtipo="+idtipo;
+	$("#paProcesos").attr("src",url); //carga los hoteles de la zona
+	
+	document.fb.bzona.value=zcodi;
+	var lista=$("#zonas span.titulo_lista");
+	for (i=0;i<lista.length;i++)
+		lista[i].innerHTML=znombre; //poner texto de la seleccion
+}
+
+function cambiaTipo(Tcodi,Tnombre) {
+	var ide=$("#ide").attr("value");
+	var idioma=$("#lang").attr("value");
+	var idz=document.getElementById("bzona").value;
+	url="cargaHoteles.asp?ide="+ide+"&lang="+idioma+"&idz="+idz+"&idtipo="+Tcodi;
+	$("#paProcesos").attr("src",url); //carga los hoteles de ese tipo*/
+	
+	document.fb.btipo.value=Tcodi;
+	var lista=$("#tipos span.titulo_lista");
+	for (i=0;i<lista.length;i++)
+		lista[i].innerHTML=Tnombre; //poner texto de la seleccion
+}
+
+function ponFechas() {
+	$("#afini").html($("#fini").attr("value"));
+	$("#affin").html($("#ffin").attr("value"));
+}
+
+function enviaBusca(){
+	//ponEspera();
+	//Guarda las cookies
+	
+	SetCookie("bfini",document.fb.fini.value,null,"/");
+	SetCookie("bffin",document.fb.ffin.value,null,"/");
+    SetCookie("badultos",document.fb.ad.value,null,"/");
+	SetCookie("bninos",document.fb.ni.value,null,"/");
+	
+	if (document.fb.bhotel)
+	  	SetCookie("bhotel",document.fb.bhotel.value,null,"/");
+		
+	if (document.fb.bzona)
+		SetCookie("bzona",document.fb.bzona.value,null,"/");
+
+	if (document.fb.btipo)
+		SetCookie("btipo",document.fb.btipo.value,null,"/");
+	
+	
+	document.fb.submit();
+}
+
+function abreCalendar(esaFecha){
+	lafecha=eval("document.fb."+esaFecha+".value");
+	var ide=$("#ide").attr("value");
+	var idioma=$("#lang").attr("value");
+	laurl="calendario.asp?ide="+ide+"&lang="+idioma+"&elForm=fb&valor="+esaFecha+"&"+esaFecha+"="+lafecha;
+	ptop=$('#a'+esaFecha).position().top-30;
+	pleft=10;
+	palIframe(document.getElementById('verCalendario'),250,120,ptop,pleft,laurl);
+}
+
+function abreCalendarFrame(esaFecha){
+	lafecha=eval("document.fb."+esaFecha+".value");
+	var laide=$("#ide").attr("value");
+	var idioma=$("#lang").attr("value");
+	laurl="calendario.asp?ide="+laide+"&lang="+idioma+"&elForm=fb&valor="+esaFecha+"&"+esaFecha+"="+lafecha;
+	ptop=$('#a'+esaFecha).position().top-30;
+	pleft=100;
+	palIframe(document.getElementById('verCalendario'),250,120,ptop,pleft,laurl);
+}
+
+function abreCalendarDispo(ese,hotel,habi,mesIni,anyIni){
+	var ide=$("#ide").attr("value");
+	var idioma=$("#lang").attr("value");
+	laurl="calendarioDispo.asp?ide="+ide+"&lang="+idioma+"&idh="+hotel+"&codhab="+habi+"&mesI="+mesIni+"&anyI="+anyIni;
+	ptop=miY-150; //miY posicion top, es de la funcion posicRatonXY
+	pleft=90;
+	palIframe(document.getElementById('verCalendario'),400,180,ptop,pleft,laurl);
+}
+
+
+function fechaWeb(lafecha){
+	Fdia=lafecha.getDate();
+	if (Fdia<10)
+		Fdia="0"+Fdia;
+	Fmes=lafecha.getMonth()+1;
+	if (Fmes<10)
+		Fmes="0"+Fmes;
+	Fany=lafecha.getFullYear();
+	return Fdia+"/"+Fmes+"/"+Fany;
+}
+
+cambioFecha=false;
+var mindias=1;
+
+function Comprueba(){
+	//Comprobamos si las fechas son correctas
+	dias=document.fb.txtdias.value;
+	if (dias=="" || dias=="***"){
+		alert('<%=ap("ponerfecha")%>');
+		return false;
+		}
+	
+	return true;
+}
+
+function sumaLosDias(){
+	laFecha=document.fb.fini.value;
+	losDias=parseInt(document.fb.txtdias.value,10);
+	//la fecha viene en formato dd/mm/aaaa
+	fdia=laFecha.substring(0,2);
+	fmes=parseInt(laFecha.substring(3,5),10)-1;
+	fany=laFecha.substring(6,10);
+	midia=new Date(fany,fmes,fdia);
+
+	milisegundos=parseInt(losDias*24*60*60*1000);
+	tiempo=midia.getTime();
+	total=midia.setTime(parseInt(tiempo+milisegundos));
+	
+	//retorno en el mismo formato
+	document.fb.ffin.value=fechaWeb(midia);
+}
+

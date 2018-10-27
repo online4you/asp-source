@@ -1,0 +1,34 @@
+<html>
+<head>
+</head>
+<body>
+
+<form action="" method="post" name="f1">
+<table>
+  <tr>
+    <td><div align="center" class="tituloTabla">CONSULTAS SQL</div></td>
+  </tr>
+<%'if adminBoss then%>
+	<tr>
+    	<td><div align="center">Seleccionar Empresa:<br/>
+			<select name="laempre" onChange="javascript:cargaEmpresa();">
+				<option value="0">Todas</option>
+					<%if hayempre then
+						for e=0 to ubound(RegEmpre,2)
+							marca=""
+							if RegEmpre(EmCodi,e)=clng("0" & request.Cookies("IdEmpresa")) then marca=" selected"%>
+								<option value="<%=RegEmpre(EmCodi,e)%>"<%=marca%>><%=RegEmpre(EmNombre,e)%></option>
+						<%next
+					end if%>
+			</select>
+		</div></td>
+	</tr>
+	<tr><td>
+	  <textarea name="cs" cols="80" rows="10"></textarea>
+	
+	</td></tr>
+<%'end if%>
+</table>
+</form>
+</body>
+</html>

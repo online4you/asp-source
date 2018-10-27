@@ -1,0 +1,59 @@
+.diaocupado {  background-color: #00cc66}
+.dialibre {  background-color: #cc0000}
+.dianodisp {  background-color: #666666}
+.titulotabla {  background-color: #035013; font-weight: bold}
+.filapar {  background-color: #d6e6a9}
+.filaimpar {  background-color: #f6fede}
+.titulo {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #035013; font-size: 12px; font-weight: bold}
+BODY, P, {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000; {SCROLLBAR-FACE-COLOR: #336666; SCROLLBAR-HIGHLIGHT-COLOR: #336666; SCROLLBAR-SHADOW-COLOR: #999999; SCROLLBAR-3DLIGHT-COLOR: #FFFFFF; SCROLLBAR-ARROW-COLOR:  #ffcc00; SCROLLBAR-TRACK-COLOR: #999999; SCROLLBAR-DARKSHADOW-COLOR: #666666; 
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+TD, TH, DIV, BLOCKQUOTE, DL, UL, OL{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;}
+	INPUT, SELECT, TEXTAREA {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 9px;
+	color: #035013;
+	background-color: #d6e6a9;
+	border: thin ridge #035013;
+}a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFF00;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #035013;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00FFFF;
+	text-decoration: none;
+}
+a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFF00;
+	text-decoration: none;
+}
+.CabeTabla {
+	color: #FFCF00;
+	background-color: #849E31;
+	height:15;
+}
+.borde {
+	border: 1px solid #849E31;
+}

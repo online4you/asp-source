@@ -1,0 +1,67 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #ffffff;
+	/*margin-top:20px;
+	margin-left:20px;*/
+	background-image:none;
+}
+
+#iframePrincipal {
+	border:1px solid #000000;
+	width:798px;
+	height:553px;
+	overflow: scroll;
+}
+#iframeConte {
+	/*margin-top:20px;*/
+	top:30px;
+	margin-left:20px;
+	position:relative;
+	overflow:auto;
+	/*overflow:visible;*/
+}
+/*
+#lineaSolapa {
+	position:absolute;
+	background-color:#f2f2f2;
+	width:120px;
+	height:1px;
+	top:10px;
+	left:1px;
+	z-index:10;
+	display:block;
+}
+*/
+#imgDerecha {
+	position:absolute;
+	background-image: url(img/esquinaDer.gif);
+	background-repeat:no-repeat;
+	width:6px;
+	height:6px;
+	top:0px;
+	left:794px;
+	z-index:10;
+}
+
+.enlacePagina {
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+	margin-top:2px;
+}
+.enlacePaginaEsta {
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+	border:1px solid #666666;
+	text-decoration:none;
+	padding:0 3px 0 3px;
+	margin-top:2px;
+}
+
+.rallita {
+	border-top:1px solid #ECCA38;
+}

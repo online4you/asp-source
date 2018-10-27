@@ -1,0 +1,11 @@
+Id;Nombre;EMail;Direccion;CP;Localidad;Pais;Telefono;Fax;Comision;BAL;Contacto;Usuario;Clave;Activa
+1;Planeta Web;vicente@planeta-web.com;General Riera, 37;jkjkjk;Palma;España;67567575;;15;11111;Vicente Pla;vicente;planeta;SI
+25;INTERTUR;alonso@intertur.es;AAAAAAAAAAAAA;07006;AAAAAAAAAAAAA;ESPAÑA;999999999;999999999;10;A098098098;ALONSO;ALONSO;ALONSO;SI
+26;viajes test;reservas@intertur.es;;;;;658511564;;10;;teresa test;reservas;reservas test;NO
+27;ALONSO1;alonso@intertur.es;PRUEBA;123123;JJJJJJJJJJJJJJJJJJ;ESPAÑA;123123123;12345678;20;A345433242424;ALONSO1;ALONSO1;ALONSO1;SI
+28;Intertur;marketing@intertur.es;Av. Mexico;07013;Palma;Spain;971460351;;10;;Lenka;Lenka;marketing1409;NO
+29;OTRA PRUEBA;alonso@intertur.es;CIELO;07000;CIELO;ESPAÑA;987987987;0980998098;10;A0598585959;PEPITO PEREZ;ALONSO2;alonso2;NO
+30;;;;;;;;;10;;;;;NO
+31;Juana Mª;jmbauza@planeta-web.com;;;;;6999999999999;;10;;Juana Mª;jmbauza@planeta-web.com;planetaweb;NO
+32;Intertur;marketing@intertur.es;;;;;971460342;;10;;Lenka;lenka;lenka;SI
+33;prueba planeta web;ealmendros@bizzit.es;;;;;971111111;;10;;prueba planeta web;planetaweb;planetaweb;NO

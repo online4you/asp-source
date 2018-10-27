@@ -1,0 +1,459 @@
+<html style="height: 100%">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Ayuda editor WYSIWYG</title>
+<script type="text/javascript" src="popup.js"></script>
+<style type="text/css">
+html, body {
+  background: ButtonFace;
+  color: ButtonText;
+  font: 11px Tahoma,Verdana,sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+body { padding: 5px; }
+table {
+  font: 11px Tahoma,Verdana,sans-serif;
+}
+select, input, button { font: 11px Tahoma,Verdana,sans-serif; }
+button { width: 70px; }
+table .label { text-align: right; width: 8em; }
+
+.title { background: none; color: #000; font-weight: bold; font-size: 120%; padding: 3px 10px; margin-bottom: 10px;
+border-bottom: 1px solid black; letter-spacing: 2px;
+}
+
+#buttons {
+      margin-top: 1em; border-top: 1px solid black;
+      padding: 2px; text-align: center;
+}
+</style>
+</HEAD>
+
+<BODY scroll="yes" onLoad="self.focus();" onUnLoad="opener.focus();">
+
+<div class="title">Ayuda del editor WYSIWYG</div>
+
+<P>
+Nota: Para un salto de línea normal, use &lt;Shift + Enter&gt; para una línea en blanco &lt;Enter&gt;.<br />
+For a paragraph use &lt;Enter&gt;.
+</P>
+
+<P>
+Si usted está utilizando Mozilla, Firefox o Netscape, puede tener algun problema al cambiar
+al modo HTML y volviendo al modo WYSIWYG o al cambiar entre las pestañas &quot;Contenido&quot;, &quot;Imágenes&quot;, &quot;Publicación&quot; y &quot;Metadata&quot;.
+Si no puede editar el contenido en el editor, al conmutar del editor WYSIWYG a HTML y a la inversa por favor, use explorer para la administración de MOSxi. Esto es un error de los navegadores basados en Mozilla.
+</P>
+
+<b>Descripción breve:</b>
+
+<P>
+<table width="100%" border="1" cellspacing="0" cellpadding="5" bordercolor="#333333">
+<TR>
+<TH>Iconos</TH>
+<TH>Descripción</Th>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Crear enlace" src="../images/ed_mos_internallink.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Crear o editar hipervínculos.</TD>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="{mospagebreak}" src="../images/ed_mos_pagebreak.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Añadir etiqueta {mospagebreak}. Esto es para paginar el artículo.
+</TD>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="{mosimage}" src="../images/ed_mos_image.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Añadir etiqueta {mosimage}. Asegúrese, que ha selecciona imágenes en la pestaña "Imágenes" antes.
+</TD>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="Modo HTML" src="../images/ed_html.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Cambia entre el modo WYSIWYG y HTML y a la inversa.
+</TD>
+</TR>
+<TR>
+<TD ALIGN="left">
+<select><option>Encabezado 1</option><option>Encabezado 2</option><option>Encabezado 3</option></select></TD>
+<TD VALIGN="TOP">
+Escoja un formato (ej. Encabezado 1 o Párrafo)
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="left">
+<select><option>Arial</option><option>Times New Roman</option><option>Verdana</option><option>Trebuchet</option></select></TD>
+<TD VALIGN="TOP">
+Escoja el tipo de fuente (los tipos de fuente no se recomiendan, ya que han sido definidas en la hoja de estilos del diseño. Recomendamos, NUNCA seleccionar tipo de fuente)
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="left">
+<select><option>1 (8pt)</option><option>2 (10pt)</option><option>3 (12pt)</option></select></TD>
+<TD VALIGN="TOP">
+Escoja tamaño fuente (los tamaños de fuente no se recomiendan, ya que han sido definidas en la hoja de estilos del diseño. Recomendamos, NUNCA seleccionar tamaño de fuente)
+</TD>
+</TR>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="Color fuente" src="../images/ed_color_fg.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Color de fuente (el color de fuente no se recomienda, ya que ha sido definido en la hoja de estilos del diseño. Recomendamos, NUNCA seleccionar color de fuente, salvo que usted quiera remarcar algo con un color diferente)
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Color de fondo" src="../images/ed_color_bg.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Color de fondo del texto (el color del fondo no se recomienda, ya que ha sido definido en la hoja de estilos del diseño. Recomendamos, NUNCA seleccionar color de fondo, salvo que usted quiera remarcar algo con un color diferente)
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Borrar formato" src="../images/ed_remove_format.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Quita el formato en el texto seleccionado
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Negrita" src="../images/ed_format_bold.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Texto en negrita
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Cursiva" src="../images/ed_format_italic.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Texto en cursiva
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Subrayado" src="../images/ed_format_underline.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Texto subrayado
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Tachado" src="../images/ed_format_strike.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Texto tachado
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Superíndice" src="../images/ed_format_sup.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Texto superíndice
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Subíndice" src="../images/ed_format_sub.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Texto subíndice
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Alineación izquierda" src="../images/ed_align_left.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Alinear a la izquierda
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Centrado" src="../images/ed_align_center.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Centrar
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Alineación derecha" src="../images/ed_align_right.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Alinear a la derecha
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Justificar texto" src="../images/ed_align_justify.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Justificar texto
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Viñeta" src="../images/ed_list_bullet.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Viñeta
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Lista numerada" src="../images/ed_list_num.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Lista numerada
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Disminuir sangría" src="../images/ed_indent_less.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Disminuir sangría
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Aumentar sangría" src="../images/ed_indent_more.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Aumentar sangría
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Añadir línea horizontal" src="../images/ed_hr.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Añadir línea horizontal
+</TD>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="Añadir carácter especial" src="../images/ed_charmap.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Añadir carácter especial
+</TD>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="Añadir imagen" src="../images/ed_insert_image.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Abre en una nueva ventana el navegador de imágenes.
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Cortar" src="../images/ed_cut.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Cortar lo seleccionado
+</TD>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="Copiar" src="../images/ed_copy.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Copiar lo seleccionado
+</TD>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="Pegar" src="../images/ed_paste.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Pegar el contenido del portapapeles
+</TD>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="Añadir tabla" src="../images/insert_table.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Añadir tabla
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Mostrar/ocultar bordes tabla" src="../images/ed_show_0_border.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Mostrar/ocultar bordes tabla cuando están a 0<br><br>
+Esta función es muy útil cuando sus tablas tienen borde 0, pinchando en el botón usted podrá ver los márgenes de la tabla
+</TD>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="Limpiar etiquetas de Word" src="../images/ed_clean_word.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Limpiar las etiquetas de Microsoft Word al pegar un documento desde Word. Muy útil, por favor, use esta opción simpre al pegar de Word al documento en MOSxi.
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Editor agrandado" src="../images/fullscreen_maximize.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Abre el editor en una nueva ventana
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Editor normal" src="../images/fullscreen_minimize.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Cierra el editor en la ventana nueva y vuelve a su estado normal
+</TD>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="Propiedades de tabla" src="../plugins/TableOperations/img/table-prop.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Propiedades de tabla
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Añadir fila" src="../plugins/TableOperations/img/row-insert-under.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Añadir fila
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Borrar fila" src="../plugins/TableOperations/img/row-delete.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Borrar  fila
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Añadir columna" src="../plugins/TableOperations/img/col-insert-after.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Añadir columna
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Borrar columna" src="../plugins/TableOperations/img/col-delete.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Borrar columna
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Añadir celda" src="../plugins/TableOperations/img/cell-insert-after.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Añadir celda
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Borrar celda" src="../plugins/TableOperations/img/cell-delete.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Borrar celda
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Fusionar celdas" src="../plugins/TableOperations/img/cell-merge.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Fusionar celdas
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN="center">
+  <img alt="Partir celdas" src="../plugins/TableOperations/img/cell-split.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Partir celdas
+</TD>
+</TR>
+<TR>
+<TD ALIGN="center">
+  <img alt="Ayuda" src="../images/ed_help.gif" align="absMiddle" width="18" height="18">
+</TD>
+<TD VALIGN="TOP">
+Abre esta ventana de ayuda
+</TD>
+</TR>
+
+
+</TABLE>
+</P>
+<form>
+<div id="buttons">
+  <button type="button" name="cancel" onclick="self.close();">Cierra</button><br />
+  &copy 2004 Bernhard Pfeifer - versión de: Xarxa Internet
+</div>
+</form>
+
+</BODY>
+
+</HTML>

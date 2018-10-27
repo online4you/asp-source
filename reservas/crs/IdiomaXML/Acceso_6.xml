@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<datos>
+<userCR>vicente</userCR>
+<pwdCR>patataweb</pwdCR>
+<conexBD></conexBD>
+<mysqlBD>0</mysqlBD>
+<userBD></userBD>
+<pwdBD></pwdBD>
+<modulosCR></modulosCR>
+<hojaestilos></hojaestilos>
+<hotelboss>0</hotelboss>
+<metaTitulo></metaTitulo>
+<rutaFotos></rutaFotos>
+<rutaDocu></rutaDocu>
+<empresa></empresa>
+<IdEmpresa></IdEmpresa>
+<adminboss>1</adminboss>
+</datos>

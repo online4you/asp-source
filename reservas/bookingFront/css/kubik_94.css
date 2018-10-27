@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	/*background-color:#fff;*/
+	color:black;
+	font-size:12px;
+	background:url("./img/body.gif") repeat scroll 0 0 transparent !important;
+}
+
+div#contenidoFrame a.col_reserva {
+	line-height:15px;
+	text-transform:none;
+}
+
+.stars {
+	background:url("img/stars1.gif") repeat-x scroll 0 0 transparent; 
+} 
+
+div.resultado h3 a:visited {
+	color:#009294;
+	font-size:17px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+h2#capaTitulo, h1#capaTitulo {
+	font-size:15px;
+	font-weight:normal;
+	color:#404F85;
+	font-family:"Times New Roman", Times, serif;
+}
+
+a:link, a:visited {
+	text-decoration:none;
+}
+
+div#capaPrincipal {
+	background-color:#fff;
+	width:920px;
+}
+
+div.lista {
+	border:1px solid #BABABA;
+}
+
+div#capaCabecera {
+	background-image:url(img/photoCastelldefels.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	height:310px;
+	margin:0px 10px 10px 10px;
+	border-bottom:1px solid #000;
+}
+img#logo {
+	top:9px;
+}
+div#idiomas {
+	margin-right:10px;
+}
+
+div#capaBuscador {
+	border:1px solid #CBE4F0;
+	background-color:#CBE4F0;
+}
+
+div#capaOfertas {
+	border:1px solid #CBE4F0;
+	background-color:#CBE4F0;
+}
+div#capaBuscador p, div#capaOfertas p {
+	color:#1183B1;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+div#capaBuscador span {
+	display:block;
+	clear:both;
+}
+div#capaBuscador span input {
+	border:none;
+}
+div#capaLateral {
+	margin-left:10px;
+}
+div#capaBuscador a.boton {
+	float:right;
+	height:30px;
+	display:block;
+	overflow:hidden;	
+}
+p.tituloCapa {
+	color:#055D80;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+}
+span.titulo_lista {
+	border:2px solid #0B89B2;
+	color:#000;
+	background-position:top right;
+	height:15px;
+	/*padding-top:1px;*/
+	background-image:url(img/booksel.gif);
+	line-height:15px;
+}
+a#afini, a#affin {
+	background-image:url(img/cal1.gif);
+	background-color:#fff;
+	background-position:top right;
+	border:2px solid #0b89b2;  
+	height:19px;
+}
+
+div#frameCabecera a#afini, div#frameCabecera a#affin {
+	background-color:#fff;
+	background-position:top right;
+}
+
+a.boton {
+	width:91px;
+	height:18px;
+	color:#10bfc3;
+	font-size:16px;
+	cursor:pointer;
+	text-decoration:none;
+	text-align:center;
+	border:none;
+	line-height:15px;
+	letter-spacing:1px;
+	font-weight:bold;
+	background-color:#181818;
+	/*background-image:url(img/button_dlg.gif);*/
+	background-repeat:no-repeat;
+	padding-left:0px;
+	text-transform:capitalize;
+	padding-top:5px;
+ 	
+}
+
+a.col_reserva {
+	height:17px;
+	color:#fff;
+	text-decoration:none;
+	border:none;
+	width:90px;
+	padding:0px;
+	letter-spacing:1px;
+	font-weight:bold;
+	background-color:#001e5e;
+	background-image:url(img/izqBoton.gif);
+	background-repeat:no-repeat;
+	padding-left:10px;
+}
+
+div#principalFrame {
+	background-color:#FFF;
+	margin-top:15px;
+	background-image:url(./img/body.gif);
+}
+#iframeContenido {
+	border:1px solid #fff;
+	background-color:#fff;
+	width:653px;
+}
+
+table#resumen th {
+	background-color:#0B89B2;
+	color:#fff;
+	padding:2px;
+}
+table#resumen td {
+	background-color:#000;
+	color:#fff;
+	padding:2px;
+	min-height:18px;
+}
+table#resumen td.coluTotal {
+	font-weight:bold;
+}
+
+table#datosPersonales {
+	border:1px solid #BABABA;
+	margin-top:15px;
+	line-height:20px;
+}
+
+table#datosPersonales td.colu1 {
+	white-space:nowrap;
+	color:#333;
+	padding-left:10px;
+	padding-right:5px;
+}
+table#datosPersonales input, table#datosPersonales select, table#datosPersonales textarea {
+	border:2px solid #0B89B2;
+}
+table#datosPersonales td.colu1 span {
+	color:#333;
+}
+
+h2#capaTitulo, h1#capaTitulo {
+	margin:0px 0px 5px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#0b89b2;
+	text-decoration:underline;
+}
+div#capaMonedas {
+	top:0px;
+}
+
+div#nHabitaciones {
+	border:1px solid #BABABA;
+	padding:10px;
+	color:#000;
+}
+div.lahabi {
+	border:1px solid #BABABA; 
+	padding:10px;
+} 
+div#capaPie {
+	margin-top:20px; 
+}
+a.condi {
+	color:#333;
+}
+a.condi:hover {
+	color:#000;
+	font-weight:bold;
+}
+
+div#frameCabecera {
+	background:url("img/s2-booking.png") repeat scroll 0 0 transparent;
+	font-family:Arial!important;
+	font-size:12px;
+	color:#181818;
+	background-color:!important;
+}
+
+div.izq_resultado {
+	width: auto;	
+}
+
+.izq_resultado a img{
+	border:2px solid #46B6E4;
+	margin-right:0px!important;
+}
+
+.stars-5 {
+width:50px;
+}
+.stars-4 {
+width:40px;
+}
+.stars-3 {
+width:30px;
+}
+.stars-2 {
+width:20px;
+}
+.stars-1 {
+width:10px;
+}

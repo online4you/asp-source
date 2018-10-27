@@ -1,0 +1,324 @@
+<!--#include file="datosEmpresa.asp"-->
+<%
+set base=server.createobject("ADODB.Connection")
+base.Open Conecta
+set rs=server.createobject("ADODB.Recordset")
+rs.CursorLocation = adUseServer
+rs.CursorType=adOpenForwardOnly
+rs.LockType=adLockReadOnly
+
+tablaExcepciones=array("spa","sol","sun","mar","sea","tv","bar","aga") 'excepciones de < 3 letras
+tablaNoBusco=array("como","nahe","with","nearby","entre","antes","there","here") 'palabras > 3 letras que no hay que buscar
+
+lang=request.QueryString("lang")
+busco=request.QueryString("search")
+
+dim tablaBusco()
+tb=-1 'valor inicial
+primerSplit=split(busco," ")
+for n=0 to ubound(primerSplit)
+	guena=false
+	if len(primerSplit(n))<=3 then 'busca excepciones
+		for t=0 to ubound(tablaExcepciones)
+			if lcase(primerSplit(n))=tablaExcepciones(t) then
+				guena=true
+				exit for
+			end if 'guena
+		next 'exepciones
+		
+	else 'palabras >3
+		guena=true 'por defecto 
+		'Comprobar palabras no válidas
+		for t=0 to ubound(tablaNoBusco)
+			if lcase(primerSplit(n))=tablaNoBusco(t) then
+				guena=false
+				exit for
+			end if 'guena
+		next 'noBusco
+	
+	end if '<=3
+	
+	if guena then 'poner en la busqueda
+		tb=tb+1
+		redim preserve tablaBusco(tb)
+		tablaBusco(tb)=ControlAcentos(primerSplit(n))
+	end if 'gueno
+next
+
+if tb>-1 then 'hay para buscar
+	dim Resultados()
+	nlista=-1
+	HCodi=0
+	HTexto=1
+	HPuntos=2
+
+	'buscar en nombre hotel
+	cs="SELECT CodigoEsta,Nombre FROM " & precrs & "Establecimientos Establecimientos WHERE "
+	for tb=0 to ubound(tablaBusco)
+		cs=cs & "Nombre LIKE '%" & tablaBusco(tb) & "%' AND "
+	next 'tb
+	cs=left(cs,len(cs)-4) 'quitar el ultimo AND
+	rs.open cs,base
+	do while not rs.eof
+		nlista=nlista+1
+		redim Preserve Resultados(2,nlista)
+		Resultados(HCodi,nlista)=rs("codigoesta")
+		Resultados(HTexto,nlista)=""
+		Resultados(HPuntos,nlista)=10
+		rs.movenext
+	loop
+	rs.close
+
+	'buscar en direccion hotel
+	cs="SELECT CodigoEsta,Direccion,Poblacion FROM " & precrs & "DatosHotel DatosHotel WHERE ("
+	for tb=0 to ubound(tablaBusco)
+		cs=cs & "Direccion LIKE '%" & tablaBusco(tb) & "%' AND "
+	next 'tb
+	cs=left(cs,len(cs)-5) & ") OR (" 'quitar el ultimo AND
+	for tb=0 to ubound(tablaBusco)
+		cs=cs & "Poblacion LIKE '%" & tablaBusco(tb) & "%' AND "
+	next 'tb
+	cs=left(cs,len(cs)-5) & ")" 'quitar el ultimo AND
+	
+	rs.open cs,base
+	do while not rs.eof
+		nlista=nlista+1
+		redim Preserve Resultados(2,nlista)
+		Resultados(HCodi,nlista)=rs("codigoesta")
+		Resultados(HTexto,nlista)=""
+		Resultados(HPuntos,nlista)=8
+		rs.movenext
+	loop
+	rs.close
+
+	'buscar en zona hotel
+	cs="SELECT CodigoEsta,ISNULL(dbo.fnGetTraduccion('Zonas','Zonas.Zona',Zonas.Id,'" & lang & "'),Zonas.Zona) AS Zona "
+	cs=cs & "FROM " & precrs & "DatosHotel DatosHotel INNER JOIN Zonas ON "
+	cs=cs & "DatosHotel.Zona=Zonas.Id WHERE "
+	for tb=0 to ubound(tablaBusco)
+		cs=cs & "ISNULL(dbo.fnGetTraduccion('Zonas','Zonas.Zona',Zonas.Id,'" & lang & "'),Zonas.Zona) LIKE '%" & tablaBusco(tb) & "%' AND "
+	next 'tb
+	cs=left(cs,len(cs)-4) 'quitar el ultimo AND
+	rs.open cs,base
+	do while not rs.eof
+		nlista=nlista+1
+		redim Preserve Resultados(2,nlista)
+		Resultados(HCodi,nlista)=rs("codigoesta")
+		Resultados(HTexto,nlista)=""
+		Resultados(HPuntos,nlista)=8
+		rs.movenext
+	loop
+	rs.close
+	
+	'Caracteristicas hotel
+	cs="SELECT CodigoEsta,ISNULL(dbo.fnGetTraduccion('Caracteristicas','Caracteristica',Caracteristicas.Id,'" & lang & "'),Caracteristicas.Caracteristica) AS Titulo "
+	cs=cs & "FROM " & precrs & "Caracteristicas Caracteristicas INNER JOIN " & precrs & "CaracteristicasHotel CaracteristicasHotel ON "
+	cs=cs & "Caracteristicas.Id=CaracteristicasHotel.IdCaracter WHERE "
+	for tb=0 to ubound(tablaBusco)
+		cs=cs & "ISNULL(dbo.fnGetTraduccion('Caracteristicas','Caracteristica',Caracteristicas.Id,'" & lang & "'),Caracteristicas.Caracteristica) LIKE '%" & tablaBusco(tb) & "%' OR "
+	next 'tb
+	cs=left(cs,len(cs)-4) 'quitar el ultimo AND
+	'response.write cs & "<br>"
+	rs.open cs,base
+	do while not rs.eof
+		nlista=nlista+1
+		redim Preserve Resultados(2,nlista)
+		Resultados(HCodi,nlista)=rs("codigoesta")
+		Resultados(HTexto,nlista)=rs("titulo")
+		Resultados(HPuntos,nlista)=6
+		rs.movenext
+	loop
+	rs.close
+	
+	'textos hotel
+	cs="SELECT CodigoEsta,ISNULL(dbo.fnGetTraduccion('TextosHotel','Texto',TextosHotel.Id,'" & lang & "'),TextosHotel.Texto) AS Texto "
+	cs=cs & "FROM " & precrs & "TextosHotel TextosHotel WHERE "
+	for tb=0 to ubound(tablaBusco)
+		cs=cs & "ISNULL(dbo.fnGetTraduccion('TextosHotel','Texto',TextosHotel.Id,'" & lang & "'),TextosHotel.Texto) LIKE '%" & tablaBusco(tb) & "%' AND "
+	next 'tb
+	cs=left(cs,len(cs)-4) 'quitar el ultimo AND
+	'response.write cs & "<br>"
+	rs.open cs,base
+	do while not rs.eof
+		nlista=nlista+1
+		redim Preserve Resultados(2,nlista)
+		Resultados(HCodi,nlista)=rs("codigoesta")
+		Resultados(HTexto,nlista)=rs("texto")
+		Resultados(HPuntos,nlista)=5
+		rs.movenext
+	loop
+	rs.close
+
+	'habitaciones hotel
+	cs="SELECT CodigoEsta,ISNULL(dbo.fnGetTraduccion('HabitacionesHotel','Texto',HabitacionesHotel.IdHabitacion,'" & lang & "'),HabitacionesHotel.Texto) AS Texto "
+	cs=cs & "FROM " & precrs & "HabitacionesHotel HabitacionesHotel WHERE "
+	for tb=0 to ubound(tablaBusco)
+		cs=cs & "ISNULL(dbo.fnGetTraduccion('HabitacionesHotel','Texto',HabitacionesHotel.IdHabitacion,'" & lang & "'),HabitacionesHotel.Texto) LIKE '%" & tablaBusco(tb) & "%' AND "
+	next 'tb
+	cs=left(cs,len(cs)-4) 'quitar el ultimo AND
+	'response.write cs & "<br>"
+	rs.open cs,base
+	do while not rs.eof
+		nlista=nlista+1
+		redim Preserve Resultados(2,nlista)
+		Resultados(HCodi,nlista)=rs("codigoesta")
+		Resultados(HTexto,nlista)=rs("texto")
+		Resultados(HPuntos,nlista)=5
+		rs.movenext
+	loop
+	rs.close
+	
+	if nlista>-1 then 'ha encontrado 
+		dim Registros()
+		nregi=-1
+		RCodi=0
+		RNombre=1
+		RTipoa=2
+		RCate=3
+		RDire=4
+		RPobla=5
+		RZona=6
+		REstado=7
+		RFoto=8
+		RTexto=9
+		RPuntos=10
+		
+		sortArray Resultados,HCodi 'ordenados por codigoesta
+		
+		'poner un registro por hotel
+		antehotel=0
+		for r=0 to ubound(Resultados,2) 
+			if antehotel<>Resultados(HCodi,r) then 'cambio hotel
+				nregi=nregi+1
+				redim Preserve Registros(10,nregi)
+				Registros(RCodi,nregi)=Resultados(HCodi,r)
+				Registros(RTexto,nregi)=server.HTMLEncode("" & Resultados(HTexto,r))
+				Registros(RPuntos,nregi)=Resultados(HPuntos,r)
+			else 'mismo hotel
+				if Resultados(HPuntos,r)>Registros(RPuntos,nregi) then Registros(RPuntos,nregi)=Resultados(HPuntos,r)
+				if Registros(RTexto,nregi)="" then Registros(RTexto,nregi)=server.HTMLEncode("" & Resultados(HTexto,r))
+			end if
+			antehotel=Resultados(HCodi,r)
+		next 'r
+		
+		
+		'if nlista>-1 then
+'			for l=0 to ubound(Resultados,2)
+'				response.write Resultados(HCodi,l) & " - " & Resultados(HNombre,l) & " - Texto: " & Resultados(HTexto,l) & " -Ptos:" & Resultados(HPuntos,l) & "<br>"
+'			next
+'		
+'		end if
+		if nregi>-1 then
+			'Ordenar por puntos
+			SortArrayDesc Registros,RPuntos 'descendente por puntos
+			
+			'Tabla tipos alojamiento
+			cs="SELECT Id,ISNULL(dbo.fnGetTraduccion('TipoAlojamiento','Nombre',Id,'" & lang & "'),Nombre) AS Nombre "
+			cs=cs & "FROM " & precrs & "TipoAlojamiento"
+			rs.open cs,base
+			haytipoa=false
+			if not rs.eof then
+				RegTipoA=rs.getrows
+				RTCodi=0
+				RTNombre=1
+				haytipoa=true
+			end if
+			rs.close
+	
+			'Tabla categorias
+			cs="SELECT Id,ISNULL(dbo.fnGetTraduccion('Categorias','Nombre',Id,'" & lang & "'),Nombre) AS Nombre "
+			cs=cs & "FROM " & precrs & "Categorias"
+			rs.open cs,base
+			haycate=false
+			if not rs.eof then
+				RegCate=rs.getrows
+				RCCodi=0
+				RCNombre=1
+				haycate=true
+			end if
+			rs.close
+			
+			'Buscar todos los datos
+			for l=0 to ubound(Registros,2)
+				cs="SELECT Nombre,Direccion,Poblacion,Estado,Zonas.Zona,DatosHotel.Foto,TipoAlojamiento,Categoria "
+				cs=cs & "FROM (" & precrs & "Establecimientos Establecimientos INNER JOIN " & precrs & "DatosHotel DatosHotel ON "
+				cs=cs & "Establecimientos.CodigoEsta=DatosHotel.CodigoEsta) LEFT JOIN Zonas ON "
+				cs=cs & "DatosHotel.Zona=Zonas.Id WHERE Establecimientos.CodigoEsta=" & Registros(RCodi,l)
+				rs.open cs,base
+				if not rs.eof then
+					Registros(RNombre,l)=server.HTMLEncode("" & rs("nombre"))
+					Registros(RDire,l)=server.HTMLEncode("" & rs("direccion"))
+					Registros(RPobla,l)=server.HTMLEncode("" & rs("poblacion"))
+					Registros(RZona,l)=server.HTMLEncode("" & rs("zona"))
+					Registros(RFoto,l)=server.HTMLEncode("" & rs("foto"))
+					Registros(REstado,l)=rs("estado")
+					tipoaloja=rs("tipoalojamiento")
+					categoria=rs("categoria")
+				end if 'eof
+				rs.close
+				
+				'if (Registros(RTexto,l) = "") or (Request.QueryString("bab") = "1") then 'buscar texto principal 'AÑADIDO JAVI CONTROL BABELOO
+					cs="SELECT TOP 1 ISNULL(dbo.fnGetTraduccion('TextosHotel','Texto',TextosHotel.Id,'" & lang & "'),TextosHotel.Texto) AS Texto "
+					cs=cs & "FROM " & precrs & "TextosHotel TextosHotel INNER JOIN " & precrs & "SeccionesHotel SeccionesHotel "
+					cs=cs & "ON TextosHotel.IdSeccion=SeccionesHotel.Id "
+					cs=cs & "WHERE TextosHotel.CodigoEsta=" & Registros(RCodi,l)
+					cs=cs & " ORDER BY SeccionesHotel.Orden,SeccionesHotel.Id"
+					rs.open cs,base
+					if not rs.eof then
+						Registros(RTexto,l)=server.HTMLEncode("" & rs("texto"))
+						'response.write("texto: " & Registros(RTexto,l))
+					end if
+					rs.close
+				'end if 'texto				
+				
+				'Buscar Tipo
+				if haytipoa then
+				for t=0 to ubound(RegTipoA,2)
+					if RegTipoA(RTCodi,t)=tipoaloja then
+						Registros(RTipoa,l)=server.HTMLEncode(RegTipoA(RTNombre,t))
+						exit for
+					end if
+				next 't
+				end if 'haytipoa
+				'Buscar Categoria
+				if haycate then
+				for t=0 to ubound(RegCate,2)
+					if RegCate(RCCodi,t)=categoria then
+						Registros(RCate,l)=server.HTMLEncode(RegCate(RCNombre,t))
+						exit for
+					end if
+				next 't
+				end if 'haycate
+				
+			next 'l
+			
+			'Generar XML
+			response.write "<?xml version='1.0' encoding='utf-8'?>" & vbcrlf
+			response.write "<hoteles>" & vbcrlf
+			for r=0 to ubound(Registros,2)
+				response.write vbtab & "<hotel>" & vbcrlf
+				response.write vbtab & vbtab & "<codigo>" & Registros(RCodi,r) & "</codigo>" & vbcrlf
+				response.write vbtab & vbtab & "<nombre>" & Registros(RNombre,r) & "</nombre>" & vbcrlf
+				response.write vbtab & vbtab & "<direccion>" & Registros(RDire,r) & "</direccion>" & vbcrlf
+				response.write vbtab & vbtab & "<poblacion>" & Registros(RPobla,r) & "</poblacion>" & vbcrlf
+				response.write vbtab & vbtab & "<zona>" & Registros(RZona,r) & "</zona>" & vbcrlf
+				response.write vbtab & vbtab & "<estado>" & Registros(REstado,r) & "</estado>" & vbcrlf
+				response.write vbtab & vbtab & "<foto>" & Registros(RFoto,r) & "</foto>" & vbcrlf
+				response.write vbtab & vbtab & "<categoria>" & Registros(RCate,r) & "</categoria>" & vbcrlf
+				response.write vbtab & vbtab & "<tipoalojamiento>" & Registros(RTipoa,r) & "</tipoalojamiento>" & vbcrlf
+				response.write vbtab & vbtab & "<descripcion><![CDATA[" & Registros(RTexto,r) & "]]></descripcion>" & vbcrlf
+				response.write vbtab & vbtab & "<puntos>" & Registros(RPuntos,r) & "</puntos>" & vbcrlf
+				response.write vbtab & "</hotel>" & vbcrlf
+			next 'r			
+			response.write "</hoteles>"
+		
+		end if 'nregi
+
+	end if 'nlista
+end if
+
+
+set rs=nothing
+base.close
+set base=nothing
+%>

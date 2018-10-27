@@ -1,0 +1,6 @@
+Hotel;Cod. Reserva;Fecha;F. Llegada;F. Salida;Apellidos;Nombre;EMail;Telefono;Direccion;CP;Ciudad;Idioma;Pais;Importe Reserva;Tipo Venta;Confirmada;Oferta;Importe Oferta
+Hotel BW Mediterraneo;123;04/08/2010;12/08/2010;15/08/2010;GOMEZ DEL CERRO;JUAN CARLOS;jcgomez@indra.es;655621459;;;;es;;299,88;ONLINE;SI;;
+Hotel BW Mediterraneo;122;04/08/2010;10/08/2010;13/08/2010;GOMEZ DEL CERRO;JUAN CARLOS;jcgomez@indra.es;655621459;;;;es;;322,38;ONLINE;SI;;
+Hotel BW Mediterraneo;121;04/08/2010;10/08/2010;13/08/2010;GOMEZ DEL CERRO;JUAN CARLOS;jcgomez@indra.es;655621459;;;;es;;322,38;ONLINE;NO;;
+Hotel BW Mediterraneo;120;04/08/2010;10/08/2010;13/08/2010;GOMEZ DEL CERRO;JUAN CARLOS;jcgomez@indra.es;655621459;;;;es;;322,38;ONLINE;NO;;
+Hotel BW Mediterraneo;119;04/08/2010;10/08/2010;13/08/2010;GOMEZ DEL CERRO;JUAN CARLOS;jcgomez@indra.es;655621459;;;;es;;322,38;ONLINE;NO;;

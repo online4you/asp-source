@@ -1,0 +1,253 @@
+/* CSS Document */
+body {
+	margin:5px;
+	padding:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+}
+
+form, p {
+	margin:0px;
+	padding:0px;
+}
+a:link, a:active, a:visited {
+	text-decoration:none;
+	color:#758999;
+}
+a:hover {
+	color:#000000;
+}
+
+div#capa_izq {
+	float:left;
+	/*height:550px;*/
+	height:auto;
+	width:240px;
+	overflow:hidden;
+}
+
+div#capa_centro {
+	float:left;
+	height:550px;
+	width:560px;
+	overflow:hidden;
+	border:1px solid #d0d0d0;
+	margin-left:10px;
+}
+
+div#capa_thumbnail {
+	width:560px;
+	clear:both;
+	overflow:hidden;
+	height:320px;
+}
+div.thumbnail img {
+	max-height:96px;
+	max-width:90px;
+	display:block;
+	margin:auto;
+	margin-top:5px;
+}
+div#capa_thumbnail div.thumbnail {
+	position:relative;
+	float:left;
+	margin:10px 5px 0px 5px;
+	text-align:center;
+	font-size:9px;
+	height:126px;
+	width:100px;
+	overflow:hidden;
+	border:1px solid #d0d0d0;
+	cursor:pointer;
+}
+div#capa_thumbnail div.thumbnail:hover {
+	border:1px solid #DF6C01;
+}
+
+div#capa_thumbnail div p {
+	position:absolute;
+	height:18px;
+	width:100%;
+	overflow:hidden;
+	bottom:0px;
+	left:0px;
+	background-color:#e4e2e0;
+	margin:0px;
+	padding:0px;
+}
+.clear {
+	clear:both;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+div#capa_foto {
+	margin-top:10px;
+	height:225px;
+	width:560px;
+	overflow:hidden;
+	position:relative;
+	/*border:1px solid #d0d0d0;*/
+}
+div#capa_foto img {
+	max-height:190px;
+	max-width:450px;
+	display:block;
+	margin:auto;
+	margin-top:5px;
+}
+div#capa_foto p {
+	font-size:10px;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+
+div.titulo_thumbnail {
+	width:100%;
+	height:21px;
+	background-color:#8b9ead;
+	overflow:hidden;
+	margin:0px;
+	text-align:left;
+	font-size:10px;
+	padding-left:5px;
+	line-height:20px;
+	background-image:url(../img/fondoBarra.gif);
+	background-repeat:repeat-x;
+	color:#ffffff;
+}
+
+div#capa_carpetas {
+	height:260px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	border:1px solid #d0d0d0;
+}
+div#capa_upfichero {
+	height:278px;
+	overflow:hidden;
+	border:1px solid #d0d0d0;
+	margin-top:10px;
+}
+
+
+/* estilos seccion carpetas */
+ul.carpeta { 
+	background-image:url(../img/cerrada.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	padding:0px 0px 0px 25px;
+	margin:10px 0px 0px 6px;
+	min-height:16px;
+	line-height:18px;
+}
+ul.carpetaConSub { 
+	background-image:url(../img/carpeta+.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	padding:0px 0px 0px 25px;
+	margin:10px 0px 0px 0px;
+	line-height:18px;
+}
+ul.carpetaAbierta { 
+	background-image:url(../img/abierta.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	padding:0px 0px 0px 25px;
+	margin:10px 0px 0px 6px;
+	line-height:18px;
+}
+
+li.carpetaAbierta { 
+	background-image:url(../img/abierta.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+ul li {
+	/*list-style-image:url(../img/carpeta.gif);*/
+	list-style:none;
+	background-image:url(../img/cerrada.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	margin:0px;
+	/*padding:0px;*/
+	padding:0px 0px 0px 25px;
+	line-height:18px;
+	height:auto;
+	white-space:nowrap;
+}
+ul li ul {
+	margin:0px;
+	padding:0px;
+}
+ul li ul li {
+	margin:0px;
+	padding:0px 0px 0px 25px;
+}
+div.paginas {
+	margin-top:3px;
+	text-align:center;
+	height:15px;
+	line-height:15px;
+	font-size:11px;
+}
+
+input.boton {
+	background-color:#f0f0ee;
+	border:1px solid #c2c2c0;
+	height:20px;
+	width:95px;
+	display:block;
+	cursor:pointer;
+}
+
+div.paginas select {
+	text-align:center;
+	height:17px;
+	font-size:11px;
+	border:1px solid #d0d0d0;
+	text-decoration:none;
+}
+
+div#capa_botones {
+	text-align:center;
+	width:97px;
+	position:absolute;
+	bottom:10px;
+	right:5px;
+}
+
+.capaIframe {
+	display:none;
+	overflow:hidden;
+	height:1px;
+	width:1px;
+}
+div#capa_upfichero p {
+	padding:5px 10px 5px 10px;
+	position:relative;
+}
+div#capa_upfichero input.texto {
+	height:14px;
+	font-size:11px;
+	background-color:#F0F0EE;
+	border:1px solid #C2C2C0;
+}
+div.capaFile {
+	margin:0px 0px 0px 10px; 
+	overflow:hidden; 
+	position:relative;
+}
+div#capa_upfichero input#file_archivo {
+	height:22px;
+	width:100px;
+	margin-left:-146px;
+}
+img#espera {
+	position:absolute;
+	top:5px;
+	right:25px;
+	display:none;
+}

@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,p,form { margin:0px }
+
+#caption {
+	clear:both;
+	width:180px;
+	height:22px;
+	overflow:hidden;
+}
+
+#elmes {
+	border:1px solid #333333;
+	width:130px;
+	height:18px;
+	text-decoration:none;
+}
+#spanLeft {
+	float:left;
+	width:25px;
+	font-size:18px;
+	text-align:center;
+	cursor:pointer;
+	line-height:18px;
+	
+}
+#spanCentro {
+	float:left;
+	width:130px;
+	line-height:18px;
+	/*padding-top:2px;*/
+	overflow:hidden;
+}
+#spanRight {
+	float:left;
+	width:25px;
+	font-size:18px;
+	text-align:center;
+	cursor:pointer;
+	line-height:18px;
+	/*margin-left:5px;*/
+}
+
+#clnd {
+	width:230px;
+	overflow:visible;
+	margin:0px;
+	padding:0px;
+}
+
+.div-calendario {
+	background-color: #999999;
+}
+.table-calendario {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/*border:1px solid #178EB6;*/
+	font-size: 10px;
+	background-color: #ffffff;
+}
+
+.title-style {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #F38A12;
+}
+
+.dropdown-style-normal {
+	background-color: #339900;
+	color: #ffffff;
+}
+
+.title-background-style {
+	background-color: #d2d2d2;
+}
+
+.title-control-normal-style {
+	border:0em solid transparent;
+	cursor: pointer;
+	width: 80px;
+	color: #FF0000;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.title-control-select-style {
+	border:0em solid transparent;
+	cursor: pointer;
+}
+
+.dropdown-style {
+font-family: arial;
+font-size: 11px;
+border:1px solid #001F5A;
+background-color: #339900;
+cursor: pointer;
+color: #ffffff;
+}
+
+.dropdown-select-style {
+background-color: #267700;
+color: #cccccc;
+}
+
+.selected-day-style {
+border:0px solid;
+background-color: red;
+color: white;
+font-weight: bold;
+}
+
+.dropdown-normal-style {
+background-color: transparent;
+}
+
+.body-style {
+font-family: verdana;
+font-size: 11px;
+background-color: #FFFFFF;
+}
+
+.title-name-day {
+background-color: #FFFFFF;
+font-family: verdana;
+font-size: 10px;
+color: #ffffff;
+font-weight: bold;
+}
+
+.end-of-weekday-style {
+color: black;
+text-decoration: none;
+}
+
+.current-day-style {
+font-weight: bold;
+text-decoration: none;
+}
+
+.normal-day-style {
+color: black;
+text-decoration: none;
+}
+.normal-day-style:hover {
+color: green;
+text-decoration: none;
+}
+
+.not-selected-day-style {
+border:0px solid;
+background-color: #FFFFFF;
+text-decoration: line-through;
+color: #CFCFCF;
+}
+
+.holiday-style {
+background-color: silver;
+color: silver;
+}
+
+.today-style {
+color: #ffffff;
+background-color: #339900;
+text-align: center;
+text-decoration: none;
+}
+
+.weeknumber-div-style {
+background-color: #d0d0d0;
+color: #ffffff;
+}
+
+a.botonGris75{color:#fff;}
+a:hover.botonGris75{
+	text-decoration:none;
+}
+
+/* lista desplegable de meses */
+span.titulo_lista {
+	text-align:center;
+}
+div#listaMeses.lista {
+	position:fixed;
+	top:25px;
+	left:30px;
+	text-align:left;
+	max-height:100px;
+	width:128px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+div#listaHabis.lista {
+	max-height:100px;
+	overflow-x:hidden;
+	/*overflow-y:scroll;*/
+	text-align:left;
+	width:175px;
+	position:relative;
+	top:0;
+	left:0;
+}
+div#listaHabitaciones div.capa_lista {
+	/*display:inline-block;*/
+	line-height:17px;
+}

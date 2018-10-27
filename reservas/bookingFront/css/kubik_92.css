@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#fff;
+	color:#666666;
+	font-size:11px;
+}
+
+div.eligeHabi span.tituHabi {
+	float:left;
+	text-align:right;
+	width:130px;
+}
+div.eligePlazas span.tituHabi {
+	float:left;
+	text-align:right;
+	width:130px;
+}
+div#contenidoFrame div.habiHotel div.textoHabi {
+	padding-bottom:10px;
+	line-height:12px;
+}
+div#contenidoFrame div.habiHotel {
+	border-bottom:1px dotted #999999;
+	margin-top:10px;
+	padding-bottom:16px;
+}
+div.der_resultado {
+	width: 400px;
+}
+
+div.contenidoHotel {
+	border-bottom:1px dotted #999999;
+}
+
+div#contenidoFrame p.linea {
+	border-bottom:1px dotted #999999;
+}
+div#frameCabecera p.texto {
+	float:right;
+	margin-right:5px;
+}
+
+div.resultado {
+	border-bottom:1px dotted #999999;
+}
+
+div#contenidoFrame a.col_reserva {
+	line-height:15px;
+	text-transform:none;
+}
+
+div.resultado h3 a:visited {
+	color:#009294;
+	font-size:17px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+h2#capaTitulo, h1#capaTitulo {
+	font-size:15px;
+	font-weight:normal;
+}
+
+a:link, a:visited {
+	text-decoration:none;
+}
+
+div#capaPrincipal {
+	background-color:#fff;
+	width:920px;
+}
+
+div.lista {
+	border:1px solid #999999;
+}
+
+div#capaCabecera {
+	background-image:url(img/photoCastelldefels.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	height:310px;
+	margin:0px 10px 10px 10px;
+	border-bottom:1px solid #000;
+}
+img#logo {
+	top:9px;
+}
+div#idiomas {
+	margin-right:10px;
+}
+
+div#capaBuscador {
+	border:1px solid #CBE4F0;
+	background-color:#CBE4F0;
+}
+
+div#capaOfertas {
+	border:1px solid #CBE4F0;
+	background-color:#CBE4F0;
+}
+div#capaBuscador p, div#capaOfertas p {
+	color:#1183B1;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+div#capaBuscador span {
+	display:block;
+	clear:both;
+}
+div#capaBuscador span input {
+	border:none;
+}
+div#capaLateral {
+	margin-left:10px;
+}
+div#capaBuscador a.boton {
+	float:right;
+	height:30px;
+	display:block;
+	overflow:hidden;	
+}
+p.tituloCapa {
+	color:#055D80;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+}
+span.titulo_lista {
+	border:1px solid #999999;
+	color:#000;
+	background-position:top right;
+	height:15px;
+	/*padding-top:1px;*/
+	background-image:url(img/selectGrown.gif);
+	line-height:15px;
+}
+a#afini, a#affin {
+	background-image:url(img/calendar_90.gif);
+	background-color:#fff;
+	background-position:top right;
+	border:1px solid #999999;
+	height:19px;
+}
+
+div.habiHotel img.fotoHabitacion {
+	width:145px;
+}
+div#frameCabecera a#afini, div#frameCabecera a#affin {
+	background-color:#fff;
+	background-position:top right;
+	width:100px;
+}
+
+a.boton {
+	width:90px;
+	color:#fff;
+	cursor:pointer;
+	text-decoration:none;
+	text-align:center;
+	border:none;
+	height:17px;
+	line-height:15px;
+	letter-spacing:1px;
+	font-weight:bold;
+	background-color:#837A69;
+}
+
+a.col_reserva {
+	height:17px;
+	color:#fff;
+	text-decoration:none;
+	border:none;
+	width:90px;
+	padding:0px;
+	letter-spacing:1px;
+	font-weight:bold;
+	background-color:#837A69;
+}
+
+div#principalFrame {
+	background-color:#FFF;
+	width:558px;
+	margin:auto;
+}
+#iframeContenido {
+	border:1px solid #fff;
+	background-color:#fff;
+	width:653px;
+}
+
+table#resumen th {
+	background-color:#fc9700;
+	color:#fff;
+	padding:2px;
+}
+table#resumen td {
+	background-color:#fdd496;
+	color:#000;
+	padding:2px;
+	min-height:18px;
+}
+table#resumen td.coluTotal {
+	font-weight:bold;
+}
+
+table#datosPersonales {
+	border:1px solid #999999;
+	margin-top:15px;
+	line-height:20px;
+}
+
+table#datosPersonales td.colu1 {
+	white-space:nowrap;
+	color:#333;
+	padding-left:10px;
+	padding-right:5px;
+}
+table#datosPersonales input, table#datosPersonales select, table#datosPersonales textarea {
+	border:1px solid #999999;
+}
+table#datosPersonales td.colu1 span {
+	color:#333;
+}
+
+h2#capaTitulo, h1#capaTitulo {
+	margin:0px 0px 5px 0px;
+	text-transform:uppercase;
+	color:#77BCF0;
+	text-decoration:none;
+	font-weight:bold;
+}
+div#capaMonedas {
+	top:0px;
+}
+
+div#nHabitaciones {
+	border:1px solid #999999;
+	padding:10px;
+	color:#000;
+}
+div.lahabi {
+	border:1px solid #999999;
+	padding:10px;
+}
+div#capaPie {
+	margin-top:20px;
+}
+a.condi {
+	color:#333;
+}
+a.condi:hover {
+	color:#000;
+	font-weight:bold;
+}
+
+div#frameCabecera {
+	background-color:#E6E6E6;
+	color:#000000;
+	font-weight:bold;
+}
+div.columna_der {
+	float:left;
+	margin-left:0px;
+	margin-top:5px;
+	width:180px;
+}
+
+div.confoto span.tituHabi {
+	float:left;
+	text-align:left;
+	width:auto;
+}
+
+div.fotosHabi {
+	float:left;
+	width:155px;
+}
+
+div#contenidoFrame div.habiHotel div.procreserva {
+	line-height:12px;
+	text-align:justify;
+	width:380px;
+}
+
+div.eligePlazas span.tituColec {
+	float:left;
+	text-align:right;
+	width:100px;
+}
+div.flotaDer {
+	float:right;
+	text-align:right;
+}

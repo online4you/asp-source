@@ -1,0 +1,19 @@
+textarea { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #636563;
+	background-color: #ffffff; 
+	border: 1px solid 00ffff;
+}
+p {
+	margin:0px;
+}
+
+.capaTextoDiv {
+	width:345px;
+	height:150px;
+	border:1px solid #F54029;
+	cursor:pointer;
+	margin-top:3px;
+	overflow:auto;
+}

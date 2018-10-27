@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link title="Estilo general" rel="stylesheet" href="estilo/css/general.css" type="text/css" />
+	<link rel="stylesheet" href="estilo/css/print.css" type="text/css" media="print" />
+	<script type="text/javascript" src="js/main.js"></script>
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="estilo/css/styleIE.css" /><![endif]-->
+<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="estilo/css/styleIE6.css" /><![endif]-->
+</head>
+<body class="frame">
+
+<div class="container">
+
+	<div class="content1">
+	<table cellspacing="0" cellpadding="0" border="0"><tr>
+	<td class="leftcontent">
+		<form method="post" action="">
+		<div id="resform">
+			<h2>DÓNDE DORMIR</h2>
+
+			<div class="form1">
+				<p><label>ALOJAMIENTO</label></p>
+				<p>
+					<select class="sel1" name="">
+						<option value="">hotel</option>
+					</select>
+				</p>
+			</div>
+			<div class="clear"></div>
+
+			<div class="form1">
+				<p><label>NOMBRE DEL HOTEL</label></p>
+				<p>
+					<select class="sel1" name="">
+						<option value="">cualquiera</option>
+					</select>
+				</p>
+			</div>
+			<div class="clear"></div>
+
+			<div class="form1">
+				<p><label>FECHA DE LLEGADA</label></p>
+				<p><input type="text" name="" value="03/01/2009" class="sel1 inp1"/><a href="#" class="calendar-link"><img src="imagenes/calendar.gif" alt=""/></a></p>
+			</div>
+			<div class="clear"></div>
+
+			<div class="form1">
+				<p><label>FECHA DE SALIDA</label></p>
+				<p><input type="text" name="" value="09/01/2009" class="sel1 inp1"/><a href="#" class="calendar-link"><img src="imagenes/calendar.gif" alt=""/></a></p>
+			</div>
+			<div class="clear"></div>
+
+			<div class="form1">
+				<p><label>ADULTOS</label></p>
+				<p>
+					<select class="sel1 sel2" name="">
+						<option value="">5</option>
+					</select>
+				</p>
+			</div>
+			<div class="form1 form2">
+				<p><label>NIÑOS</label></p>
+				<p>
+					<select class="sel1 sel2" name="">
+						<option value="">5</option>
+					</select>
+				</p>
+			</div>
+			<div class="clear"></div>
+
+			<div class="form1">
+				<p><label>ORDENAR POR</label></p>
+				<p>
+					<select class="sel1" name="">
+						<option value="">&nbsp;</option>
+					</select>
+				</p>
+			</div>
+			<div class="clear"></div>
+
+			<div class="form1 f1cb">
+				<p><label>FILTRAR POR</label></p>
+				<p class="f1cbpad"><input type="checkbox" name="" id="animcb" /><label for="animcb" class="cblabel">Admite animales</label></p>
+				<p><input type="checkbox" name="" id="adapcb" /><label for="adapcb" class="cblabel">Adaptado minusválidos</label></p>
+			</div>
+			<div class="clear"></div>
+
+			<div class="button resbutton">
+				<input type="submit" name="" value="BUSCAR" />
+			</div>
+			<div class="clear"></div>
+		</div>
+		</form>
+	</td><!-- leftcontent end -->
+	<td class="rightcontent">
+		<h2>PASO 2: TIPO DE HABITACIÓN Y PERSONAS</h2>
+
+		<div class="results-info results-info2 results-info4" >
+			<div class="ri-container">
+				<p>Fechas seleccionadas: 24/09/08 - 28/09/08</p>
+				<p>Nº noches: 4</p>
+				<p>HOTEL CASTELLDEFELS</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="rccon rccon1">
+			<h3>NÚMERO DE HABITACIONES</h3>
+			<p>
+				<select name="" class="sel1">
+					<option value="">2</option>
+				</select>
+			</p>
+			<p>*Seleccione el tipo de habitación y el número de personas que incluye la habitación. Seleccione el régimen y 
+pulse sobre siguiente</p>
+		</div>
+		<div class="rccon rccon2 rccon4">
+			<h3>TIPO DE HABITACIÓN 1</h3>
+
+			<div class="formitem1">Tipo de habitación 1</div>
+			<div class="formitem2">
+				<select name="" class="sel1">
+					<option value="">estudio self catering</option>
+				</select>
+			</div>
+			<div class="clear"></div>
+
+			<div class="formitem1">Régimen</div>
+			<div class="formitem2">
+				<select name="" class="sel1">
+					<option value="">solo alojamiento</option>
+				</select>
+			</div>
+			<div class="clear"></div>
+
+			<div class="formitem1">Adultos</div>
+			<div class="formitem2">
+				<select name="" class="sel1 sel2">
+					<option value="">5</option>
+				</select>
+			</div>
+			<div class="clear"></div>
+
+			<div class="formitem1">Niños</div>
+			<div class="formitem2">
+				<select name="" class="sel1 sel2">
+					<option value="">5</option>
+				</select>
+			</div>
+			<div class="clear"></div>
+
+		</div>
+
+		<div class="rccon rccon2 rccon4">
+			<h3>TIPO DE HABITACIÓN 2</h3>
+
+			<div class="formitem1">Tipo de habitación 1</div>
+			<div class="formitem2">
+				<select name="" class="sel1">
+					<option value="">estudio self catering</option>
+				</select>
+			</div>
+			<div class="clear"></div>
+
+			<div class="formitem1">Régimen</div>
+			<div class="formitem2">
+				<select name="" class="sel1">
+					<option value="">solo alojamiento</option>
+				</select>
+			</div>
+			<div class="clear"></div>
+
+			<div class="formitem1">Adultos</div>
+			<div class="formitem2">
+				<select name="" class="sel1 sel2">
+					<option value="">5</option>
+				</select>
+			</div>
+			<div class="clear"></div>
+
+			<div class="formitem1">Niños</div>
+			<div class="formitem2">
+				<select name="" class="sel1 sel2">
+					<option value="">5</option>
+				</select>
+			</div>
+			<div class="clear"></div>
+
+		</div>		
+
+		<div class="rebuttons rebuttons3">
+			<div class="button button2">
+				<a href="#">ANTERIOR</a>
+			</div>
+			<div class="button">
+				<a href="#">SIGUIENTE</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+
+	</td><!-- rightcontent end -->
+	</tr></table>
+	</div><!-- content1 end -->
+
+	<div class="footer">
+		&copy; 2009 Castelldefels Turisme
+		<span>-</span><a href="#">Contactar</a>
+		<span>-</span><a href="#">Avisos legales</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+	pageLoaded1();
+</script>
+
+</body>
+</html>

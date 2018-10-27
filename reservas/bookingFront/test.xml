@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+<servicio>
+	<id>14</id>
+	<titulo>Gala de Nochevieja 31.12.10 obligatoria en Media pension</titulo>
+	<descripcion></descripcion>
+	<url></url>
+	<precios>
+		<precio>
+
+			<fechaInicio>31/12/2010</fechaInicio>
+			<fechaFinal>31/12/2010</fechaFinal>
+			<colectivo>34;Adultos;0</colectivo>
+			<tipo>0</tipo>
+			<importe>1106,7</importe>
+			<obligado>1</obligado>
+
+			<regimen>3</regimen>
+			<habitaciones>56, 57</habitaciones>
+			<oferta>1</oferta>
+		</precio>
+		<precio>
+			<fechaInicio>31/12/2010</fechaInicio>
+			<fechaFinal>31/12/2010</fechaFinal>
+
+			<colectivo>35;Ni&#241;os 2-5 a&#241;os;1</colectivo>
+			<tipo>0</tipo>
+			<importe>26,67</importe>
+			<obligado>1</obligado>
+			<regimen>3</regimen>
+
+			<habitaciones></habitaciones>
+			<oferta>1</oferta>
+		</precio>
+		<precio>
+			<fechaInicio>31/12/2010</fechaInicio>
+			<fechaFinal>31/12/2010</fechaFinal>
+			<colectivo>36;Ni&#241;os 6-12 a&#241;os;2</colectivo>
+
+			<tipo>0</tipo>
+			<importe>53,35</importe>
+			<obligado>0</obligado>
+			<regimen>2</regimen>
+			<habitaciones></habitaciones>
+			<oferta>0</oferta>
+
+		</precio>
+		<precio>
+			<fechaInicio>31/12/2010</fechaInicio>
+			<fechaFinal>31/12/2010</fechaFinal>
+			<colectivo>35;Ni&#241;os 2-5 a&#241;os;1</colectivo>
+			<tipo>0</tipo>
+
+			<importe>53,35</importe>
+			<obligado>0</obligado>
+			<regimen>2</regimen>
+			<habitaciones></habitaciones>
+			<oferta>0</oferta>
+		</precio>
+	</precios>
+
+	<fotos>
+		<foto></foto>
+	</fotos>
+</servicio>
+</data>

@@ -1,0 +1,195 @@
+Hotel;Cod. Reserva;Fecha;F. Llegada;F. Salida;Apellidos;Nombre;EMail;Telefono;Direccion;CP;Ciudad;Idioma;Pais;Importe Reserva;Tipo Venta;Confirmada;Oferta;Importe Oferta
+Apartamentos Maribel Menorca;500;24/08/2010;01/09/2010;13/09/2010;Michelangelo;Grassi;jamike@libero.it;00393389248411;Via Guido Cantelli 17;40015;Galliera;es;Italia;579,6;ONLINE;SI;;
+Apartamentos Maribel Menorca;499;23/08/2010;02/09/2010;06/09/2010;Valles Lara;David;valles_7cat@hotmail.com;670332580;castanyer;17251;Calonge;es;España;436;ONLINE;SI;;
+Apartamentos Maribel Menorca;498;22/08/2010;01/09/2010;09/09/2010;de francisco jimenez;nerea;nereaji@yahoo.com;649190285;avda salazar y torres, 36-3ºB;42200;almazan;es;españa;386,4;ONLINE;SI;;
+Apartamentos Maribel Menorca;497;22/08/2010;01/09/2010;08/09/2010;Rodriguez Llodra;Alejandro;alexrodr46@hotmail.com;685500849;C/Paris,31;28490;Becerril de la Sierra;es;España;280;ONLINE;SI;;
+Apartamentos Maribel Menorca;496;21/08/2010;16/09/2010;29/09/2010;Tamurejo Ruiz;Raul;www.Sildavya 76@hotmail.com;615861114;Coin nº 9;28018;Madrid;es;España;509,6;ONLINE;SI;;
+Apartamentos Maribel Menorca;495;20/08/2010;26/09/2010;03/10/2010;lanza herreros;mario;mario_desde1989@hotmail.com;649361467;san juan de ribera;46850;l¨olleria;es;españa;323;ONLINE;SI;;
+Apartamentos Maribel Menorca;490;18/08/2010;05/09/2010;11/09/2010;Benito Garcia;Eva Maria;evabenito@ono.com;626529155;Calle Ciudad Real nº 12 pta 34;46970;Paterna;es;España;289,8;ONLINE;SI;;
+Apartamentos Maribel Menorca;487;18/08/2010;13/09/2010;17/09/2010;lopez medina;juan antonio;juantxo72@gmail.com;617368460;c/ viridiana, 9, portal J, 3º d;28018;madrid;es;españa;180;ONLINE;SI;;
+Apartamentos Maribel Menorca;486;18/08/2010;02/09/2010;07/09/2010;Igual Fiol;Josep;pepigual@terra.es;609005478;Guillem Terrassa i Pol, 11;07350;Binissalem;es;España;241,5;ONLINE;SI;;
+Apartamentos Maribel Menorca;485;18/08/2010;16/09/2010;25/09/2010;satamaria ramos;jose luis;ne.cane75@hotmail.com;615023877;c7rio ebro casa 37;50430;maria de huerva;es;españa;351;ONLINE;SI;;
+Apartamentos Maribel Menorca;483;17/08/2010;16/09/2010;19/09/2010;Hidalgo Bernabe;Julia;julia_5005@hotmail.com;665116063;c/Rossello 508 ;08026;Barcelona;es;España;105,3;ONLINE;SI;;
+Apartamentos Maribel Menorca;482;17/08/2010;25/08/2010;05/09/2010;galilea   laya; fco javier;fjgali@telefonica.net;600667716;duque de mandas 42.5-c;20012;san sebastian;es;españa;816,2;ONLINE;SI;;
+Apartamentos Maribel Menorca;481;17/08/2010;31/08/2010;07/09/2010;llorente sancho;marta;marta.ll.s@hotmail.com;654384177;c/frederica montseny,13,2-2,;08980;sant feliu de llobregat;es;españa;364,8;ONLINE;SI;;
+Apartamentos Maribel Menorca;475;16/08/2010;31/08/2010;05/09/2010;SANAGUSTIN COLOME;MARTA;sanagustin79@hotmail.com;649652466;GERMANOR 20  5-3;08720;VILAFRANCA PENEDES;es;ESPANYA;306,2;ONLINE;SI;;
+Apartamentos Maribel Menorca;474;15/08/2010;04/09/2010;12/09/2010;Sánchez Ouro;Paula;pau248@yahoo.es;658547953;Paseo Duque de Mandas;20012;San Sebastián;es;España;442,4;ONLINE;SI;;
+Apartamentos Maribel Menorca;473;15/08/2010;25/08/2010;01/09/2010;Gomez de Pablo;Ismael;ismaelgomezdep@gmail.com;653809185;;;;es;;595;ONLINE;SI;;
+Apartamentos Maribel Menorca;459;12/08/2010;25/08/2010;30/08/2010;Parra Lubary;Marta;marta_fstyle@hotmail.com;625751414;c/Antonio Literas 12 3º;07013;Palma de Mallorca;es;España;375;ONLINE;SI;;
+Apartamentos Maribel Menorca;452;10/08/2010;06/09/2010;10/09/2010;GONZALEZ RAMON;SONIA;sonia77gonzalez@hotmail.com;659093260;;;;es;;193,2;ONLINE;SI;;
+Apartamentos Maribel Menorca;451;10/08/2010;31/08/2010;06/09/2010;PAGES PUIG;JORDI;adrijordi@hotmail.com;620244318;PERE ANTONI, 7;17185;VILOBI ONYAR;es;ESPANYA;602,7;ONLINE;SI;Oferta de media pension para Septiembre;57,6
+Apartamentos Maribel Menorca;449;10/08/2010;28/08/2010;06/09/2010;Akkus Bonafe Diaz ;Pelin;akkuspelin@hotmail.com;656785043;Bruguers 13-15 2º 1ª;08820;El Prat de Llobregat;es;España;541,5;ONLINE;SI;;
+Apartamentos Maribel Menorca;447;10/08/2010;28/08/2010;06/09/2010;Akkus Bonafe Diaz ;Pelin;akkuspelin@hotmail.com;656785043;Bruguers 13-15 2º 1ª;08820;El Prat de Llobregat;es;España;541,5;ONLINE;SI;;
+Apartamentos Maribel Menorca;443;10/08/2010;27/08/2010;03/09/2010;Fernández Fernández;Roberto;robertofdezfdez@yahoo.es;652339686;Primero de Mayo nº 58-5,1ºB;;santander;es;;535,6;ONLINE;SI;;
+Apartamentos Maribel Menorca;438;08/08/2010;30/08/2010;06/09/2010;Alsina Martí;Marc;marc_alsina@hotmail.com;616965961;;;;es;;391,5;ONLINE;SI;;
+Apartamentos Maribel Menorca;435;08/08/2010;03/09/2010;13/09/2010;Roldán Fau;Yolanda;yolpepe5@hotmail.com;976662935;Pablo Gargallo 2;50600;Ejea de los Caballeros;es;España;483;ONLINE;SI;;
+Apartamentos Maribel Menorca;432;06/08/2010;25/08/2010;01/09/2010;Aranda Escalante;Amaru ;amaru.aranda@gmail.com;913442053;;28033;Madrid;es;España;595;ONLINE;SI;;
+Apartamentos Maribel Menorca;430;06/08/2010;17/08/2010;22/08/2010;llopis;hernan;hernan76ll@hotmail.com;653833020;;;;es;;595;ONLINE;SI;;
+Apartamentos Maribel Menorca;422;05/08/2010;20/08/2010;25/08/2010;GARCIA PINO;Mª ISABEL;maruxa333@gmail.com;675485282;CTRA DE TOLEDO 6, 2º IZQDA;28680;SAN MARTÍN DE VALDEIGLESIAS;es;ESPAÑA;350;ONLINE;SI;;
+Apartamentos Maribel Menorca;418;05/08/2010;08/09/2010;12/09/2010;gonzalez medrano ;yolanda;yolandagmedrano@telefonica.net;917678407;avd francisco pi y margall;28050;madrid;es;españa;221,2;ONLINE;SI;;
+Apartamentos Maribel Menorca;416;04/08/2010;06/09/2010;13/09/2010;Rico Garcia;Silvia;silvia_rig@hotmail.com;620171695;;;;es;España;338,1;ONLINE;SI;;
+Apartamentos Maribel Menorca;415;04/08/2010;20/08/2010;26/08/2010;RUIZ RODRIGUEZ;JUAN MANUEL;jm_ruiz85@hotmail.com;650066498;C/SEVILLA 8, BLOQUE 2, ESC. A, BAJO B;07011;PALMA MALLORCA;es;ESPAÑA;525;ONLINE;SI;;
+Apartamentos Maribel Menorca;414;04/08/2010;20/08/2010;25/08/2010;Perez Duran;Anna;aeneat@gmail.com;660240988;C7 sant casimir, 3 2n 1a;08290;Cerdanyola del Vallès;es;España;585;ONLINE;SI;;
+Apartamentos Maribel Menorca;409;03/08/2010;21/08/2010;02/09/2010;Freixinet Lopez;Fernando;mixivita@hotmail.com;619815176;Jose Agustin Goytisolo 21 2º1ª;08970;Sant Joan despi;es;España;1528;ONLINE;SI;;
+Apartamentos Maribel Menorca;408;03/08/2010;01/09/2010;07/09/2010;Pulido Gomez;Javier;j_pulido85@yahoo.es;696456557;;08100;mollet del valles;es;España;289,8;ONLINE;SI;;
+Apartamentos Maribel Menorca;405;03/08/2010;04/08/2010;09/08/2010;Cortese;Enrico;ec_83@libero.it;634810234;Via Calá Ulloa 10;80141;Napoli;es;Italia;350;ONLINE;SI;;
+Apartamentos Maribel Menorca;401;03/08/2010;27/08/2010;02/09/2010;CANET PRIMO;CRISTINA;cristinacanet9@hotmail.com;6535467809;PEREZ CHOVI 35;46230;ALGINET;es;España;423,3;ONLINE;SI;;
+Apartamentos Maribel Menorca;379;29/07/2010;31/07/2010;04/08/2010;Villa Gonzalez;Laura;lvg_90@hotmail.com;627253668;c/lesport 14 1º 3ª B;08950;Esplugues de Llobregat;es;Espanya;270;ONLINE;SI;;
+Apartamentos Maribel Menorca;378;29/07/2010;01/08/2010;08/08/2010;Boyd;Kathryn;richwebb@mac.com;07973720452;77 Longton Grove ;SE26;London;en;;973;ONLINE;SI;;
+Apartamentos Maribel Menorca;376;28/07/2010;18/08/2010;21/08/2010;toran gonzalez;esther;estoran@msn.com;637304088;monlau 76 ent.1º;08027;barcelona;es;españa;357;ONLINE;SI;;
+Apartamentos Maribel Menorca;372;27/07/2010;23/08/2010;27/08/2010;larrañaga endemaño;vanesa;vaneti_moreti@hotmail.com;607416367;san-martin;48993;getxo;es;españa;300;ONLINE;SI;;
+Apartamentos Maribel Menorca;370;27/07/2010;15/08/2010;23/08/2010;Zaragoza Marfá;Pablo;pzaragoza@santanderconsumer.com;610492187;Balmes, 452 1;08022;Barcelona;es;España;560;ONLINE;SI;;
+Apartamentos Maribel Menorca;368;26/07/2010;11/08/2010;20/08/2010;LUNA GOMEZ;MIGUEL;miguel_luna2002@hotmail.com;609789252;ADV DE LOS DESCUBRIMIENTOS;13005;CIUDAD REAL;es;ESPAÑA;630;ONLINE;SI;;
+Apartamentos Maribel Menorca;367;26/07/2010;05/08/2010;11/08/2010;Sala Millan;Berta;berta_atreb9@hotmail.com;695930513;Guifré 107;08912;Badalona;es;España;420;ONLINE;SI;;
+Apartamentos Maribel Menorca;366;26/07/2010;04/09/2010;08/09/2010;CLEMENTE GALLEGO;ANNA;anneta82@gmail.com;0033 457936432;88 RUE DES TAILLEES;38400;SAINT MARTIN DHÈRES;es;FRANCE;193,2;ONLINE;SI;;
+Apartamentos Maribel Menorca;365;26/07/2010;13/08/2010;16/08/2010;Maturana Ibáñez;Vanesa;vanematu69@hotmail.com;636297242;C/Cervantes, 24;04740;El Parador;es;España;477;ONLINE;SI;;
+Apartamentos Maribel Menorca;364;25/07/2010;16/08/2010;22/08/2010;Gonzalez Rodriguez;Cecilia;cecigonro@hotmail.com;690873751;Calle María Tudor,nº34;28050;Madrid;es;España;714;ONLINE;SI;;
+Apartamentos Maribel Menorca;363;25/07/2010;08/08/2010;12/08/2010;GONZALEZ FERNADEZ ;PAULA ;paulao_ts@hotmail.com;627511685;AVDA TAGAMANENT 165;08520;ES FRANQUESES DEL VALLES;es;ESPAÑA;476;ONLINE;SI;;
+Apartamentos Maribel Menorca;361;25/07/2010;31/07/2010;10/08/2010;Sacristán Sanz;Ana Belén;anabelee_s@hotmail.com;609171193;c/ Puerto Rico, 9;28016;Madrid;es;España;690;ONLINE;SI;;
+Apartamentos Maribel Menorca;360;25/07/2010;06/08/2010;12/08/2010;Aguilera Abad;Celia;celia_1605@hotmail.com;652039002;C/alcorisa;28043;Madrid;es;España;420;ONLINE;SI;;
+Apartamentos Maribel Menorca;359;25/07/2010;08/08/2010;19/08/2010;Ideo;Maurizio;maurizio.ideo@alice.it;0039 3316500871;;;;en;;1309;ONLINE;SI;;
+Apartamentos Maribel Menorca;358;24/07/2010;11/08/2010;19/08/2010;CERBONI;ELEONORA;cerboni@alice.it;00393398812170;VIA MATTEOTTI 48;20066;MELZO;es;ITALIA;560;ONLINE;SI;;
+Apartamentos Maribel Menorca;355;23/07/2010;27/07/2010;01/08/2010;alegre i fdez;anna;annaalfdez@hotmail.com;651300588;carrer carrasclet,17;43850;cambrils;es;espanya;495;ONLINE;SI;;
+Apartamentos Maribel Menorca;353;23/07/2010;06/08/2010;10/08/2010;VIÑETA ANDRÉS;GEMMA;u2gemma@hotmail.com;620674252;CARRER DE LA SALUD 47-49, BAIXOS 2ª;08243;MANRESA;es;ESPANYA;280;ONLINE;SI;;
+Apartamentos Maribel Menorca;350;22/07/2010;11/09/2010;19/09/2010;bator celihueta;francisco javier;voglitur@hotmail.com;948160430;saenz de oiza 30 2º a;31012;pamplona;es;españa;394,1;ONLINE;SI;;
+Apartamentos Maribel Menorca;349;22/07/2010;18/08/2010;21/08/2010;carqueijeda garcia;monica ;mlcarqueijeda@lacaixa.es;639177866;;;;es;;825;ONLINE;SI;;
+Apartamentos Maribel Menorca;345;20/07/2010;22/07/2010;25/07/2010;rullan losada;gabriel;grullanl@gmail.com;679849438;roca llisa 22;07141;marratxi-portol;es;españa;267;ONLINE;SI;;
+Apartamentos Maribel Menorca;344;20/07/2010;02/09/2010;06/09/2010;vilarrasa amat;olga;olguetava@hotmail.com;639022635;miquel picó jou, 4;17455;caldes de malavella;es;catalunya;193,2;ONLINE;SI;;
+Apartamentos Maribel Menorca;343;20/07/2010;01/09/2010;08/09/2010;Méndez Bautista;Javier;javimendezb@hotmail.com;696630014;Teresa de Cofrents, 23 At. 1;08042;Barcelona;es;España;338,1;ONLINE;SI;;
+Apartamentos Maribel Menorca;338;20/07/2010;04/09/2010;11/09/2010;ORTEGA PICATOSTE;JOSE;jose.valladolid@hotmail.es;617263495;AVENIDA MADRID, Nº 16, 3º A;47140;LAGUNA DE DUERO;es;ESPAÑA;338,1;ONLINE;SI;;
+Apartamentos Maribel Menorca;337;19/07/2010;23/08/2010;29/08/2010;Paniagua Labernia;Jordi;jordipani@hotmail.com;637716071;Plaça del Sol 4;08012;Barcelona;es;;510;ONLINE;SI;;
+Apartamentos Maribel Menorca;336;19/07/2010;25/08/2010;01/09/2010;peña cortes;victor;victorPCO@yahoo.es;645908773;av/ rocacrespa nº 8;08800;vilanova i geltru;es;españa;595;ONLINE;SI;;
+Apartamentos Maribel Menorca;335;19/07/2010;13/08/2010;21/08/2010;de la mata igon;carolina;ivan_y_karol@hotmail.com;686927266;pins 9;08960;sant just desvern;es;españa;952;ONLINE;SI;;
+Apartamentos Maribel Menorca;334;18/07/2010;26/07/2010;30/07/2010;SUAU OTERO;GABRIEL DAVID;bsuauo@hotmail.com;677859512;TRAVESSA SA CAPELLETA, 3;07100;SÓLLER;es;ESPANYA;500;ONLINE;SI;;
+Apartamentos Maribel Menorca;333;17/07/2010;25/07/2010;01/08/2010;ferrer ruiz;juan;juanferru@hotmail.com;696372245;c\San cristobal;46960;aldaia;es;españa;693;ONLINE;SI;;
+Apartamentos Maribel Menorca;330;16/07/2010;22/07/2010;27/07/2010;FERNÁNDEZ PARDO;JUAN CALOS;pagdoo@yahoo.es;600510071;C/ VERDIAL, 22 (Urb. Los Olivos);29730;RINCÓN DE LA VICTORIA;es;ESPAÑA;635;ONLINE;SI;;
+Apartamentos Maribel Menorca;329;16/07/2010;12/08/2010;17/08/2010;Angrill Toledo;Sara Angrill Toledo;sarah_one31@hotmail.com;650570117;Avda. Francesc Macià, 8 Esc. C 4º 1ª;43005;;es;España;695;ONLINE;SI;;
+Apartamentos Maribel Menorca;327;13/07/2010;13/08/2010;18/08/2010;Castell Larralde;Alba;alba.castell@gmail.com;660242210;Carrer Homer 55 2 4 ;08023;Barcelona;es;España;795;ONLINE;SI;;
+Apartamentos Maribel Menorca;325;13/07/2010;17/07/2010;29/07/2010;iruarrizaga;ricardo;ondairu@hotmail.com;680200557;c/labayru 19 5º dcha;48012;bilbao;es;españa;1068;ONLINE;SI;;
+Apartamentos Maribel Menorca;322;12/07/2010;16/07/2010;23/07/2010;martín cordon;laura;pilarcordon@telefonica.net;687653319;C/la fuente nº8;26510;pradejon;es;españa;434;ONLINE;SI;;
+Apartamentos Maribel Menorca;321;11/07/2010;15/08/2010;20/08/2010;Gonzalez Garcia;M Nieves;neusbadalona@hotmail.com;669760025-687949668;C Doctor Robert 181 at 1;08915;Badalona;es;España;595;ONLINE;SI;;
+Apartamentos Maribel Menorca;320;10/07/2010;15/07/2010;19/07/2010;escalera martinez;jorge;jordi_escalera@yahoo.es;661908533/670335654;av.francesc macia 163b 3º1º;08800;vilanova i la geltru;es;españa;235,6;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;12,4
+Apartamentos Maribel Menorca;318;10/07/2010;02/08/2010;07/08/2010;leon;edwin;eleon79@hotmail.es;652225045;sant elias 44;08006;barcelona;es;ESPAÑA;595;ONLINE;SI;;
+Apartamentos Maribel Menorca;317;09/07/2010;18/08/2010;26/08/2010;rodriguez lopez;cristina;cristinita_rodriguez@ya.com;659518630;;;;es;;1092;ONLINE;SI;;
+Apartamentos Maribel Menorca;314;07/07/2010;22/07/2010;29/07/2010;Martinez Zugasti;Maria Aranzazu;amartinezz@hirukide.org;660640933;Larramendi 3-G, 3ºF;20400;Tolosa;es;España;693;ONLINE;SI;;
+Apartamentos Maribel Menorca;313;06/07/2010;11/07/2010;19/07/2010;Berengueras Manera;Yolanda;Yoli_newjersey@hotmail.com;655360812;;;;es;;613;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;79
+Apartamentos Maribel Menorca;312;06/07/2010;09/08/2010;15/08/2010;Moreno Resina ;Lydia ;lydicore@hotmail.com;645837351  ;Passeig de la Muntanya , 148, 2º5ª;08402;Granollers;es;España ;954;ONLINE;SI;;
+Apartamentos Maribel Menorca;309;05/07/2010;18/07/2010;01/08/2010;herranz esteban;Mª Carmen;mcherranz@fhalcorcon.es;609242315     629801515;C/ Atalaya  .Nº 14 URB Las Suertes;28292;Las Zorreras;es;España;1246;ONLINE;SI;;
+Apartamentos Maribel Menorca;307;01/07/2010;05/08/2010;14/08/2010;MARTI CUERDA;FERRAN;conchi.ferran@gmail.com;670440807;C/ FRANCESC  LAYRET, 26, 5B;08100;MOLLET DEL VALLES;es;SPAIN;1251;ONLINE;SI;;
+Apartamentos Maribel Menorca;306;01/07/2010;14/07/2010;21/07/2010;Cabal Palicio;Ignacio;ignacabalp@gmail.com;627052631;;;;es;;835,4;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;47,6
+Apartamentos Maribel Menorca;304;30/06/2010;28/07/2010;03/08/2010;GÓMEZ LOZANO;ROCÍO;rogolom@hotmail.com;615552527;C/ TIERNO GALVÁN Nº 5;13580;ALMODÓVAR DEL CAMPO;es;ESPAÑA;674;ONLINE;SI;;
+Apartamentos Maribel Menorca;303;29/06/2010;01/07/2010;12/07/2010;perales rodriguez;patricia;patryloka89@hotmail.com;647939274;calle portacoeli nº 2 1º a;28026;madrid;es;españa;607,2;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;151,8
+Apartamentos Maribel Menorca;301;29/06/2010;04/07/2010;16/07/2010;SEIJO GONTAD;CARMEN ;carmenseijo_g@hotmail.com;629117622;TRAVESIA DE TELLEZ Nº 7,5º C;28007;MADRID;es;ESPAÑA;662,4;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;165,6
+Apartamentos Maribel Menorca;299;29/06/2010;06/07/2010;09/07/2010;PORRAS DIAZ;VANESSA;vane_sa_31@hotmail.com;676709125;AVINGUDA VERGE DE MONTSERRAT;08820;EL PRAT DE LLOBREGAT;es;ESPAÑA;199,2;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;49,8
+Apartamentos Maribel Menorca;293;27/06/2010;30/08/2010;04/09/2010;mateu navarro;mireia;mireia.mateu@gencat.cat;649551489;plaça tetuan, 24 pral 2a;08010;barcelona;es;espanya;425;ONLINE;SI;;
+Apartamentos Maribel Menorca;292;27/06/2010;27/07/2010;04/08/2010;Fuertes Solana;Mª  del Rosario;barbarella222@hotmail.com;609044065;c/ sevilla nº 4 bolque 2 p.4-1;03130;Santa Pola;es;España;912;ONLINE;SI;;
+Apartamentos Maribel Menorca;291;26/06/2010;31/07/2010;12/08/2010;ORDOÑEZ MOLINA;FRANCISCO ANDRES;francisco.ordonez@accenture.com;610515825;;;MADRID;es;ESPAÑA;1566;ONLINE;SI;;
+Apartamentos Maribel Menorca;290;26/06/2010;27/06/2010;01/07/2010;AMENGUAL FONT;PAU;pauamengu@hotmail.com;657371203;C/PROVENZA ,12;07004;PALMA DE MALLORCA;es;España;188,8;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;47,2
+Apartamentos Maribel Menorca;289;26/06/2010;07/07/2010;14/07/2010;Rodriguez Rodriguez;Sara;sararodriguez13@gmail.com;609668441;Montearagon 5;28033;Madrid;es;España;442,4;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;110,6
+Apartamentos Maribel Menorca;288;25/06/2010;19/08/2010;26/08/2010;climent molina;ezequiel;anubis505@hotmail.es;650452432;diagonal 59 3º ;03205;ELCHE;es;ESPAÑA;1073;ONLINE;SI;;
+Apartamentos Maribel Menorca;284;25/06/2010;25/07/2010;04/08/2010;dalmases casanovas;joan;sahilba@gmail.com;635533873;comte borrell 50;08224;terrassa;es;españa;980;ONLINE;SI;;
+Apartamentos Maribel Menorca;282;24/06/2010;07/07/2010;16/07/2010;Arrechea;Ana;ana.arretxea@hotmail.com;699595917;;;;es;;561,6;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;140,4
+Apartamentos Maribel Menorca;280;24/06/2010;10/07/2010;17/07/2010;sarti;antonio;antonio_sarti@alice.it; 393355487225;via san donato 48;40127;bologna;en;italy;501,4;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;99,6
+Apartamentos Maribel Menorca;278;22/06/2010;05/07/2010;15/07/2010;Perez Gallego;Alberto;aperez@digiserveis.com;934567891;Josep Ciurana, 40, 1º- 4ª;08024;Barcelona;es;España;632;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;158
+Apartamentos Maribel Menorca;277;22/06/2010;01/07/2010;08/07/2010;Flores Pino;Fº. Javier;javi_regata@hotmail.com;657818565;C/ Alcalde luis silvela Nº6 Pº1 E;28022;Madrid;es;España;358,4;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;89,6
+Apartamentos Maribel Menorca;276;21/06/2010;05/07/2010;12/07/2010;brugue segura;marc;ggracia01@hotmail.com;649819884;ripollet núm1;17463;flaçà;es;españa;442,4;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;110,6
+Apartamentos Maribel Menorca;274;21/06/2010;28/06/2010;07/07/2010;roche lopez;rosa;jrpir@hotmail.com;619057948;;;;es;;393,6;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;98,4
+Apartamentos Maribel Menorca;271;18/06/2010;02/07/2010;07/07/2010;Aurélie;Tissier;relibellule@gmail.com;606649832;;;;es;;256;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;64
+Apartamentos Maribel Menorca;270;18/06/2010;26/06/2010;01/07/2010;Polo Figueras;Cristina;cristy_flity@hotmail.com;607723655;Muntaner, 568, 4º;08022;Barcelona;es;España;276;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;69
+Apartamentos Maribel Menorca;269;18/06/2010;22/06/2010;25/06/2010;villarejo galende;silvia;chirvi81@hotmail.com;654138860;;;;es;;180;ONLINE;SI;;
+Apartamentos Maribel Menorca;266;17/06/2010;30/06/2010;06/07/2010;Reyes Torres;Jorge;praderin1@hotmail.com;616784711;Ctra. Antigua de Valencia nº 55;08914;Badalona;es;España;323,2;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;80,8
+Apartamentos Maribel Menorca;264;17/06/2010;01/09/2010;05/09/2010;GONZALEZ LOPEZ;RAQUEL;ra.82@hotmail.com;699801698;C/PONTEVEDRA 8 4D;37003;SALAMANCA;es;ESPAÑA;316;ONLINE;SI;;
+Apartamentos Maribel Menorca;263;17/06/2010;25/06/2010;01/07/2010;BIELSA SEGURA;MÒNICA;monica_bielsa@hotmail.com;609815083;CORNELI NEPÒS 11, 4º, 2ª;08206;SABADELL;es;ESPAÑA;180;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;36
+Apartamentos Maribel Menorca;262;16/06/2010;24/06/2010;27/06/2010;Ventura Torras;Adrià;mariyadria@hotmail.com;619.41.35.67;C/ Sant Isidre, 83 1º 3ª;08850;Gavà;es;España;265,2;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;11,8
+Apartamentos Maribel Menorca;260;16/06/2010;23/07/2010;30/07/2010;David;Ruiz Galisteo;davideva1@hotmail.com;93 6624333   617036665;Joanot Martorell nº 4 bajos;08850;Gava;es;España;693;ONLINE;SI;;
+Apartamentos Maribel Menorca;258;15/06/2010;20/06/2010;27/06/2010;PASABAN SANCHEZ;ALFREDO;APASABAN@terra.es;696813979;PAPER 7, 3º IZDA;20400;TOLOSA;es;ESPAÑA;696,4;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;14,6
+Apartamentos Maribel Menorca;257;15/06/2010;30/06/2010;07/07/2010;LOURENÇO RODRIGUEZ;SILVIA;sylmarjul@hotmail.com;937513370;C/ Reverend Paradeda, 16;08330;Premià de Mar;es;Espanya;434,4;ONLINE;SI;Oferta 5 primeras reservas 1ª quincena Julio;108,6
+Apartamentos Maribel Menorca;255;13/06/2010;25/07/2010;01/08/2010;Kim Derving;Sørensen;kmus@tdc.dk;0045 86741234;Teglbakken 75;8270;Højbjerg;en;Denmark;693;ONLINE;SI;;
+Apartamentos Maribel Menorca;251;11/06/2010;20/07/2010;27/07/2010;Bautista León;Asier;asierbautista@yahoo.es;699 844 178;C/ Lucas rey 12 - 3º Izq,;01470;Amurrio;es;España;903;ONLINE;SI;;
+Apartamentos Maribel Menorca;249;09/06/2010;07/08/2010;16/08/2010;Badias Santasusana;Àdria;adria22001@yahoo.es;690399360;Pl.Bages 13;08240;Manresa;es;Catalunya;1251;ONLINE;SI;;
+Apartamentos Maribel Menorca;247;09/06/2010;19/07/2010;29/07/2010;JIMENEZ ;LAURA;ljimenez@abm.es;677780308;C/RIO TORO ;28913;LEGANES;es;ESPAÑA;990;ONLINE;SI;;
+Apartamentos Maribel Menorca;246;09/06/2010;12/07/2010;17/07/2010;Salada Herms ;Gemma;gemma_6201@hotmail.com;620864811;c/Manresa, 15;08274;Sant Feliu Sasserra;es;Espanya;365;ONLINE;SI;;
+Apartamentos Maribel Menorca;245;08/06/2010;11/08/2010;17/08/2010;repollo jaramillo;ismael;pimpo880@hotmail.com;6503719620;c/ alcorcon nº 16 2ºC;28980;parla;es;españa;834;ONLINE;SI;;
+Apartamentos Maribel Menorca;243;07/06/2010;29/06/2010;06/07/2010;GRACIA JORGE;DAVID;davidgraciajorge@gmail.com;679926530;SANT JOAN DE MALTA Nº98 1º 2ª;08018;BARCELONA;es;ESPAÑA;533;ONLINE;SI;;
+Apartamentos Maribel Menorca;242;06/06/2010;19/07/2010;26/07/2010;Alcaraz Garcia;Demetrio;demeraquel@msn.com;647772814- 977696376;C/ Dues aigües, 23;43820;Calafell;es;España;623;ONLINE;SI;;
+Apartamentos Maribel Menorca;240;06/06/2010;19/06/2010;22/06/2010;rodriguez-manzaneque  ramos;nuria;unamujerdecampo@hotmail.com;622408653;;;;es;;87;ONLINE;SI;;
+Apartamentos Maribel Menorca;239;04/06/2010;09/06/2010;15/06/2010;Moreno Franco;Cristina;crismor77@hotmail.com;655240030;Pl/Virreina;08024;Barcelona;es;España;174;ONLINE;SI;;
+Apartamentos Maribel Menorca;237;02/06/2010;10/06/2010;15/06/2010;Holbek;Anne-Lie Holbek;annelieholbek@yahoo.es;635533063;Calle Las Palmeras n 30;38410;Los Realejos;es;España;145;ONLINE;SI;;
+Apartamentos Maribel Menorca;236;31/05/2010;04/06/2010;07/06/2010;Melia Coll;Demelsa;demelsa6@hotmail.com;605065541;cami can Sanat;07100;Soller;es;españa;87;ONLINE;SI;;
+Apartamentos Maribel Menorca;234;30/05/2010;03/07/2010;10/07/2010;RUIZ RUIZ;DANIEL;ruiz_d3@hotmail.com;667950122;C/PAU CASALS 110, 2º 3ª;08830;SANT BOI DE LLOBREGAT;es;ESPAÑA;483;ONLINE;SI;;
+Apartamentos Maribel Menorca;232;29/05/2010;14/09/2010;21/09/2010;Moreno Soriano;Cristina;kris_ms18@hotmail.com;662232261;Av. Can Serra 90 ESC 5ª;08906;Hospitalet Llobregat;es;España;333;ONLINE;SI;;
+Apartamentos Maribel Menorca;231;28/05/2010;10/06/2010;13/06/2010;Calero Calzada;Isabel;elbitandjordi@hotmail.com;647665778;;;;es;;147;ONLINE;SI;;
+Apartamentos Maribel Menorca;230;27/05/2010;09/08/2010;16/08/2010;Maseras Flor;Jordi;jordi.maseras@gmail.com;691020980;Puigventós 6 bis;08233;Vacarisses;es;España;833;ONLINE;SI;;
+Apartamentos Maribel Menorca;229;27/05/2010;24/07/2010;01/08/2010;FERNANDEZ PEREZ;ELENA;efp_1983@hotmail.com;607894655;;;;es;;792;ONLINE;SI;;
+Apartamentos Maribel Menorca;226;26/05/2010;10/08/2010;17/08/2010;HERNANDEZ MARTIN;MARCO ANTONIO;markelitos@hotmail.com;696040420;AVINGUDA ANTONI GAUDI 51 4º 1ª;08100;MOLLET DEL VALLES ;es;ESPAÑA;833;ONLINE;SI;;
+Apartamentos Maribel Menorca;225;24/05/2010;13/06/2010;20/06/2010;Etayo Baigorri;Nerea;netabai@yahoo.es;659021544;María Dominguez nº 3 7ºD;31013;Artica;es;España;801;ONLINE;SI;;
+Apartamentos Maribel Menorca;223;24/05/2010;18/07/2010;23/07/2010;garcia mesa;cristina;jooni_cris@hotmail.com;647552349   934792257;c/tibidabo 28-30 4º3º;08820;el prat de llobregat;es;españa;495;ONLINE;SI;;
+Apartamentos Maribel Menorca;222;23/05/2010;24/07/2010;31/07/2010;SASTRE;JEAN-LOUIS;jean.sastre@free.fr; 33685419645;9 RUE DES CHARDONS;13110;PORT DE BOUC;es;FRANCE;875;ONLINE;SI;;
+Apartamentos Maribel Menorca;221;22/05/2010;01/07/2010;06/07/2010;Ruano Gallego;David;davichele@hotmail.com;6570566125;C/ Manipa 87 Bloque 5 2ºB;28027;Madrid;es;España;595;ONLINE;SI;;
+Apartamentos Maribel Menorca;220;22/05/2010;01/08/2010;08/08/2010;Laguna Martinez;Fernando;flagunam@hotmail.com;639143788;C/ Errotazar 30 1º 1ª;31014;Pamplona;es;España;1477;ONLINE;SI;;
+Apartamentos Maribel Menorca;219;21/05/2010;16/07/2010;22/07/2010;Planella Arnaudas;Joan Albert;j.albert@a-vet.com;669867105;;;;es;España;594;ONLINE;SI;;
+Apartamentos Maribel Menorca;217;20/05/2010;17/07/2010;24/07/2010;Sabariego Manjon;Maria jose;mjsabariego@hotmail.com;649748361;murillo,41, 2 3;08940;Cornellâ de llobregat;es;España;1659;ONLINE;SI;;
+Apartamentos Maribel Menorca;215;19/05/2010;09/08/2010;23/08/2010;iavarone;antonio;iava10@hotmail.it;00393932253099;;;;en;;1946;ONLINE;SI;;
+Apartamentos Maribel Menorca;213;19/05/2010;02/07/2010;16/07/2010;garmendia;carmen;carmen_garmendia@donostia.org;635719937;paseo maestro arbos;20013;san sebastian;es;españa;1106;ONLINE;SI;;
+Apartamentos Maribel Menorca;212;19/05/2010;07/06/2010;12/06/2010;Alabau Sanchez-Belmonte;Sonia;ido_919@hotmail.com;606622798;;;;es;;145;ONLINE;SI;;
+Apartamentos Maribel Menorca;210;18/05/2010;08/08/2010;20/08/2010;martin lopetegi;amaia;amartinlopetegi@yahoo.es;659820471;santa madalena 4-3 izq;20210;lazkao;es;españa;2748;ONLINE;SI;;
+Apartamentos Maribel Menorca;207;15/05/2010;03/06/2010;08/06/2010;Romo Maroto;Alberto;albertoromo78@hotmail.com;677816312  / 620832776;Barranco de Novillo, 29, Apartamento 209;28051;Madrid;es;España;195;ONLINE;SI;;
+Apartamentos Maribel Menorca;205;13/05/2010;04/06/2010;11/06/2010;Etxebarria Iriondo;Juan Pedro;jpgl@euskalnet.net;619051030;Laminarrieta nº 3 4ºc;48960;Usanasolo;es;España;343;ONLINE;SI;;
+Apartamentos Maribel Menorca;202;12/05/2010;04/08/2010;18/08/2010;HOYO ZAMBRANA;DANIEL;danihoyo@hotmail.com;628129936;AVDA. COMTE RAMON BERENGUER, 170;08690;STA. COLOMA DE CERVELLO;es;ESPAÑA;1666;ONLINE;SI;;
+Apartamentos Maribel Menorca;201;10/05/2010;31/07/2010;07/08/2010;Martin Lopez;Belen;belen.martin@es.ibm.com;619099190;calle alicante 31;28045;Madrid;es;España;1213;ONLINE;SI;;
+Apartamentos Maribel Menorca;199;10/05/2010;12/05/2010;16/05/2010;Castro Gutiérrez;Beatriz;sad_eyes69@hotmail.com;699835899;;;;es;;105;ONLINE;SI;Oferta Mayo 2010;35
+Apartamentos Maribel Menorca;197;10/05/2010;01/06/2010;05/06/2010;Andujar Vidal;Ana;anduv@hotmail.com;629993681;C/Francecs Cambo;08970;Sant Joan Despi;es;España;156;ONLINE;SI;;
+Apartamentos Maribel Menorca;196;09/05/2010;18/08/2010;24/08/2010;Llorens Maimo;Anna Maria;alitraco@gmail.com;699436722;Pompeu Fabra,77 entrº4ª;08922;Sta. Coloma de Gramenet;es;España;834;ONLINE;SI;;
+Apartamentos Maribel Menorca;195;09/05/2010;29/05/2010;05/06/2010;Ruiz Fernandez;Carolina;krolina.ruiz@gmail.com;686599659;Passatge Modernisme 10, 1º 3ª;08720;Vilafranca del Penedes;es;España;234,75;ONLINE;SI;Oferta Mayo 2010;26,25
+Apartamentos Maribel Menorca;193;06/05/2010;26/07/2010;01/08/2010;Santiago Cuevas;David;dsantiago79@gmail.com;654649600;C/ Nord 4 1º 2ª;08291;Ripollet;es;España;750;ONLINE;SI;;
+Apartamentos Maribel Menorca;188;04/05/2010;28/06/2010;05/07/2010;garcia teixidor;Ariadna;ariadna_739@hotmail.com;669069435/639271354;C/ croades nº2 2-3;17004;girona;es;españa;453;ONLINE;SI;;
+Apartamentos Maribel Menorca;187;04/05/2010;21/05/2010;25/05/2010;Vioux;Camille;millou_v@hotmail.com;617 756 422;Calle BUenaventura Muñoz, 28 piso 6 2 ;08011;Barcelona;es;España;165;ONLINE;SI;Oferta Mayo 2010;55
+Apartamentos Maribel Menorca;186;03/05/2010;27/05/2010;03/06/2010;BARRENECHEA BATIZ;ZIORTZA;aztroiz8@hotmail.com;658739253;LA ARENA 21 2F;48508;ZIERBENA;es;SPAIN;359,25;ONLINE;SI;Oferta Mayo 2010;73,75
+Apartamentos Maribel Menorca;185;03/05/2010;27/05/2010;03/06/2010;BARRENECHEA BATIZ;ZIORTZA;aztroiz8@hotmail.com;658739253;LA ARENA 21 2F;48508;ZIERBENA;es;SPAIN;244,25;ONLINE;SI;Oferta Mayo 2010;48,75
+Apartamentos Maribel Menorca;184;02/05/2010;04/05/2010;12/05/2010;Alvarez Argüello;Sara Maria;mafalda_III@hotmail.com;984392613;Vega de Arriba c/C nº4;33391;Gijon;es;España;234;ONLINE;SI;Oferta Mayo 2010;78
+Apartamentos Maribel Menorca;183;01/05/2010;02/09/2010;06/09/2010;Flaqué Espaulella;Gerard;gerard_flaque@hotmail.com;676184729;Passatge Serra, 11;08185;Lliçà de Vall;es;Espanya;276;ONLINE;SI;;
+Apartamentos Maribel Menorca;182;01/05/2010;21/07/2010;26/07/2010;Fort Nos;Isabel;ifort@telefonica.net;93 8180908;Salvador Seguí, 26, 2n;08720;Vilafranca del Penedès;es;España;765;ONLINE;SI;;
+Apartamentos Maribel Menorca;181;01/05/2010;05/07/2010;12/07/2010;cardenas aguirre;gladys ;gladys645@hotmail.com;647154397;p. anselm clave 12   4-1;08181;sentmenat;es;españa;483;ONLINE;SI;;
+Apartamentos Maribel Menorca;178;01/05/2010;30/07/2010;06/08/2010;MINGUEZ;ANA;aminguez2003@hotmail.com;699503459;;;;es;;893;ONLINE;SI;;
+Apartamentos Maribel Menorca;177;30/04/2010;11/05/2010;17/05/2010;maurel gavalda;eva;tripinika@gmail.com;638845605;C/espronceda nº352      7. 2ª;08027;barcelona;es;españa;157,5;ONLINE;SI;Oferta Mayo 2010;52,5
+Apartamentos Maribel Menorca;176;28/04/2010;30/06/2010;07/07/2010;villavieja bueno;pilar;vompv@hotmail.com;633266283;princep de bergara nº 2 2º4ª;08912;badalona;es;españa;425,7;ONLINE;SI;Oferta de reserva anticipada;47,3
+Apartamentos Maribel Menorca;175;28/04/2010;06/05/2010;10/05/2010;Del carmen Villavieja;Daniel;kahjl@hotmail.com;619425501;c/ princep de bergara, 2-12 2º4ª;08912;Badalona;es;España;105;ONLINE;SI;Oferta Mayo 2010;21
+Apartamentos Maribel Menorca;175;28/04/2010;06/05/2010;10/05/2010;Del carmen Villavieja;Daniel;kahjl@hotmail.com;619425501;c/ princep de bergara, 2-12 2º4ª;08912;Badalona;es;España;105;ONLINE;SI;Oferta de reserva anticipada;14
+Apartamentos Maribel Menorca;173;25/04/2010;16/07/2010;31/07/2010;Ventura Gondon;Rosa M;rventura@bnc.cat;690229509;c. Virgili, 2 esc. A 6è 1a;08030;Barcelona;es;España;1201,5;ONLINE;SI;;
+Apartamentos Maribel Menorca;172;25/04/2010;23/05/2010;29/05/2010;CASTRO ALVAREZ;AMAIA;amaiacastro@hotmail.es;677602235;CALLE SANTA LEOCADIA Nº 5;20130;URNIETA;es;ESPAÑA;175,5;ONLINE;SI;;
+Apartamentos Maribel Menorca;171;23/04/2010;17/05/2010;21/05/2010;Frances Barrio;Pablo;lablera69@hotmail.com;627955499;Iberre Zeharbide nº 10, 5ºB;48630;Gorliz;es;;117;ONLINE;SI;;
+Apartamentos Maribel Menorca;169;22/04/2010;29/07/2010;05/08/2010;CERRATO FERNANDEZ;SONIA;soniaxc@hotmail.com;661857009;C/ JACINTO VERDAGUER 36, 4º 2ª;08291;RIPOLLET;es;ESPAÑA;668,7;ONLINE;SI;;
+Apartamentos Maribel Menorca;167;21/04/2010;26/06/2010;01/07/2010;Maspons Oliver;Montserrat;montse_8907@hotmail.com;629603445;;;;es;;310,5;ONLINE;SI;;
+Apartamentos Maribel Menorca;166;21/04/2010;25/07/2010;02/08/2010;Mateo Zapata;Emilio;elmorule@yahoo.es;645967377;c/ Doctor Robert 35 1º2ª;08130;Santa Perpetua de Mogoda;es;España;667,8;ONLINE;SI;;
+Apartamentos Maribel Menorca;162;17/04/2010;08/05/2010;10/05/2010;serna cañibano;sonia;sonia.serna@telefonica.net;691355296;c/ miquel biada, nº 60 2º 1ª;08302;mataró;es;españa;127,8;ONLINE;SI;;
+Apartamentos Maribel Menorca;159;15/04/2010;04/08/2010;10/08/2010;FARO AGUILAR;SHEILA;SHEILETA3@HOTMAIL.COM;938036735;TORRE DE CLARAMUNT DOS BIS CUARTO CUARTA;08700;IGUALADA;es;ESPAÑA;642,6;ONLINE;SI;;
+Apartamentos Maribel Menorca;158;15/04/2010;06/06/2010;16/06/2010;López López;Mª Purificación;puri2489@hotmail.com;660003463;Francisco Martinez Mirete;30400;Caravaca;es;España;441;ONLINE;SI;;
+Apartamentos Maribel Menorca;156;13/04/2010;11/06/2010;18/06/2010;Molinos Solsona;Marta;martamsol@gmail.com;656919598;Partida El caragol 206;12192;Vilafamés;es;Espanya;281,7;ONLINE;SI;;
+Apartamentos Maribel Menorca;155;12/04/2010;26/07/2010;31/07/2010;Daphne;Daca;daphne.daca@gmail.com;1-(514)-544-1790;;;;en;;580,5;ONLINE;SI;;
+Apartamentos Maribel Menorca;154;11/04/2010;16/07/2010;26/07/2010;ROURA MORILLAS;ALBERTO;aroura1976@hotmail.com;695657088;C/ CONDE VILARDAGA, 20;08980;SANT FELIU DE LLOBREGAT;es;ESPAÑA;801;ONLINE;SI;;
+Apartamentos Maribel Menorca;153;10/04/2010;10/08/2010;17/08/2010;CARRETERO BEDMAR;MARCIAL;marcicarretero@hotmail.com;677855924;PUIGCERDA, 229 10º 2ª;08020;BARCELONA;es;ESPAÑA;749,7;ONLINE;SI;;
+Apartamentos Maribel Menorca;152;10/04/2010;03/08/2010;10/08/2010;CARRETERO BEDMAR;MARCIAL;marcicarretero@hotmail.com;677855924;PUIGCERDA, 229 10 º 2ª;08020;BARCELONA;es;ESPAÑA;1386;ONLINE;SI;;
+Apartamentos Maribel Menorca;151;09/04/2010;04/08/2010;11/08/2010;Montes Cañadas;Salvador;mvguitart@ya.com;650561095;;;;es;;1215,9;ONLINE;SI;;
+Apartamentos Maribel Menorca;150;08/04/2010;10/06/2010;15/06/2010;LOIZAGA LEGARRA;MIREN K.;mirenloizaga@yahoo.es;617534359;C/kukullu 35-2ºdcha;48600;Sopelana;es;España;265,5;ONLINE;SI;;
+Apartamentos Maribel Menorca;149;08/04/2010;08/09/2010;12/09/2010;Ruiz Fernández;Sandra;tresoret@live.com;636007663;C/ Puigcerda nº 225 8º-2ª;08020;Barcelona;es;España;248,4;ONLINE;SI;;
+Apartamentos Maribel Menorca;147;03/04/2010;14/07/2010;21/07/2010;Espín Borregón;Judit;juditespin23@hotmail.com;933052240  o 696399540;c/ flix 20-22, 2º 1ª;08030;barcelona;es;España;587,7;ONLINE;SI;;
+Apartamentos Maribel Menorca;146;03/04/2010;28/08/2010;04/09/2010;Abellan Castillo;Alfons;alfons.abellan@gmail.com;635659914;Rosselló, 47, 1 2;08940;Cornellà de Llobregat;es;España;677,7;ONLINE;SI;;
+Apartamentos Maribel Menorca;145;02/04/2010;19/07/2010;26/07/2010;LUQUEZ;LORENA FABIANA;MATILEN@HOTMAIL.COM;933454626;FINESTRELLES 13  2º  2º;08033;BARCELONA;es;ESPAÑA;623,7;ONLINE;SI;;
+Apartamentos Maribel Menorca;142;31/03/2010;21/06/2010;27/06/2010;Melis Batle;Rafel;mgdlgual@hotmail.com;652650627;Avinguda Alcudia n. 193  1ª;07300;Inca;es;Espanya;832,95;ONLINE;SI;;
+Apartamentos Maribel Menorca;141;30/03/2010;12/07/2010;18/07/2010;galceran carol;miquel;cristinasolohayuna@hotmail.com;659333589;;;;es;;462,6;ONLINE;SI;;
+Apartamentos Maribel Menorca;140;28/03/2010;21/06/2010;26/06/2010;herrero grande;toñi;alhg_2005@yahoo.es;654988262;;;;es;;445,5;ONLINE;SI;;
+Apartamentos Maribel Menorca;138;21/03/2010;10/06/2010;13/06/2010;CUESTA SUAREZ;DAVID;dacusu1975@hotmail.com;629221626;;;;es;;105,3;ONLINE;SI;;
+Apartamentos Maribel Menorca;137;21/03/2010;08/06/2010;14/06/2010;Lora Díez;Marta;marta.lora@hotmail.es;679530463;c/Mª angels anglada nº2  2º-2ª;17007;girona;es;españa;210,6;ONLINE;SI;;
+Apartamentos Maribel Menorca;136;18/03/2010;03/08/2010;17/08/2010;ROBAS CUENCA;FRANCISCO JOSE;frajorocu@hotmail.com;600446774;CALLE SANT RAMON,73 5º3ª;08100;MOLLET DEL VALLES;es;ESPAÑA;1499,4;ONLINE;SI;;
+Apartamentos Maribel Menorca;134;18/03/2010;08/05/2010;12/05/2010;sabariego manjon;maria jose;mjsabariego@hotmail.com;649748361;murillo;08940;cornella de llobregat;es;españa;105;ONLINE;SI;;
+Apartamentos Maribel Menorca;111;08/03/2010;04/08/2010;13/08/2010;JABONERO PILA;LORENA;lorenajapi@hotmail.com;934793288   /   669722366;AVDA. DOCTOR GALLART I MONES 1 4º1ª;08820;EL PRAT DE LLOBREGAT;es;ESPAÑA;963,9;ONLINE;SI;;
+Apartamentos Maribel Menorca;110;07/03/2010;05/08/2010;19/08/2010;BARATELLI;PAOLO;alessandro.lovati70@alice.it;0331-381108;;21052;BUSTO ARSIZIO;es;ITALIA;4359,6;ONLINE;SI;;
+Apartamentos Maribel Menorca;109;06/03/2010;22/06/2010;26/06/2010;Soler Catalán;José Francisco;macen@ozu.es;615122978;Oriente, 111;07620;Llucmajor;es;España;320,4;ONLINE;SI;;
+Apartamentos Maribel Menorca;107;05/03/2010;04/07/2010;17/07/2010;García Burguillo;María del Pilar;pilar_garcia_burguillo@hotmail.com;679107958/ 918506164;C/ El Boalo Nº8;28400;Collado Villalba;es;España;825,3;ONLINE;SI;;
+Apartamentos Maribel Menorca;106;25/02/2010;16/08/2010;25/08/2010;artola azpiroz;juan luis;juanluisartola@gmail.com;696755643;landabekoa 4 2b;31880;leitza;es;españa;1674,9;ONLINE;SI;;
+Apartamentos Maribel Menorca;105;24/02/2010;03/06/2010;10/06/2010;Vilardell Aguilar;Enric;marlex86@hotmail.com;678163535;Tajo 29-31 ático;08031;Barcelona;es;España;245,7;ONLINE;SI;;
+Apartamentos Maribel Menorca;103;22/02/2010;21/06/2010;26/06/2010;Lladó Rossiñol;Clara;clallado@hotmail.com;652144810;c/ Enegistes 33 1ºA;07141;Palma de Mallorca;es;España;454,5;ONLINE;SI;;
+Apartamentos Maribel Menorca;101;22/02/2010;10/07/2010;17/07/2010;Sonia;Montoro Méndez;javi.sonia@hotmail.com;627970694;Avda. Josep Ferrer y Domingo, 7-9;08191;Rubí;es;Espeña;515,7;ONLINE;SI;;
+Apartamentos Maribel Menorca;98;15/02/2010;09/08/2010;18/08/2010;Santiago Aguilar;Eva;elpla2@hotmail.com;645565886;Cl St Genis Rocafort nº10 esc C bjos 1ª;08760;Martorell;es;España;1125,9;ONLINE;SI;;
+Apartamentos Maribel Menorca;96;14/02/2010;29/05/2010;03/06/2010;Campos Garcia;Ester ;esther_cg88@hotmail.com;678632653;Calle Madrid, 23;08620;Sant Vicenç dels Horts ;es;España ;148,95;ONLINE;SI;;
+Apartamentos Maribel Menorca;95;14/02/2010;02/08/2010;09/08/2010;garcia uroz;mayte;maygarcia5@hotmail.com;697373949;arada 6 3º1ª;08750;molins de rei;es;españa;875,7;ONLINE;SI;;

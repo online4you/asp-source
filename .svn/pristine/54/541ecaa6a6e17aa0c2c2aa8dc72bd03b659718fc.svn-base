@@ -1,0 +1,785 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color:#FFFFFF;
+	margin:0px;
+}
+
+#capaPP {
+	text-align:center;
+	height:18px;
+	font-size:11px;
+	color:#000000;
+	position:absolute;
+	top:8px;
+	left:300px;
+}
+#capaPP select {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left:2px;
+	background-color:#FFFFFF;
+	border:1px solid #8B8989;
+	font-size:11px;
+	height:16px;
+}
+
+form,p {margin:0px;}
+
+#capaPaginas {
+	width:700px;
+	white-space:normal;
+}
+
+#capaRecarga {
+	position:absolute;
+	z-index:100;
+	top:5px;
+	left:690px;
+	width:100px;
+	height:20px;
+	text-align:right;
+}
+#capaRecarga a {
+	text-decoration:none;
+	display:block;
+	line-height:18px;
+}
+
+#centro {
+	float:left;
+	margin-top:5px;
+	margin-left:-1px;
+	position:relative;
+}
+#solapas {
+	height:22px;
+	z-index:5;
+	overflow:hidden;
+	position:relative;
+	/*top:5px;*/
+}
+#contenido {
+	height:auto;
+	background-color:#CCCCCC;
+	width:auto;
+	position:relative;
+	/*margin-top:26px;*/
+	margin-top:-1px;
+}
+
+#zonaFrames {
+	position:relative;
+	height:430px;
+	overflow:hidden;
+	width:100%;
+}
+
+.elFrame {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10;
+	width:975px;
+	height:440px;
+	overflow:hidden;
+	visibility:hidden;
+	/*border:1px solid #C0C0C0;*/
+	border-left:1px solid #FFFFFF;
+	border-right:1px solid #FFFFFF;
+	border-bottom:1px solid #FFFFFF;
+}
+
+.capaTextoDiv {
+	width:240px;
+	height:180px;
+	border:1px solid #666666;
+	cursor:pointer;
+	margin-top:3px;
+	overflow:auto;
+}
+
+.fichaIframe {
+	position:absolute;
+	z-index:4;
+	/*visibility:hidden;*/
+	display:none;
+	top:0px;
+	overflow:hidden;
+	margin:0px;
+	background-color:#FFFFFF;
+	width:1px;
+	height:1px;
+	/*border:1px solid #AAABA3;*/
+}
+
+.laSolapa{
+	float:left;
+	height:22px;
+	background-image:url(img/Solapa.gif);
+	background-repeat:no-repeat;
+	background-position:0 -22px;
+	overflow:hidden;
+	width:112px;
+	padding-top:4px;
+	font-size:11px;
+	cursor:pointer;
+	/*margin-right:2px;*/
+}
+.laSolapaOver{
+	float:left;
+	height:22px;
+	background-image:url(img/SolapaOver.gif);
+	background-repeat:no-repeat;
+	background-position:0 -22px;
+	overflow:hidden;
+	width:112px;
+	padding-top:4px;
+	/*margin-right:2px;*/
+}
+
+.laSolapa:hover {
+	background-position:0 0px;
+}
+
+.laSolapa2{
+	float:left;
+	height:22px;
+	background-image:url(img/Solapa.gif);
+	background-repeat:no-repeat;
+	background-position:0 -22px;
+	overflow:hidden;
+	width:112px;
+	padding-top:4px;
+	font-size:11px;
+	text-align:center;
+}
+.laSolapaOver2{
+	float:left;
+	height:22px;
+	background-image:url(img/SolapaOver.gif);
+	background-repeat:no-repeat;
+	background-position:0 -22px;
+	overflow:hidden;
+	width:112px;
+	padding-top:4px;
+	text-align:center;
+}
+
+.laSolapa2:hover {
+	background-position:0 0px;
+}
+
+
+
+#lineaSolapa {
+	position:absolute;
+	background-color:#f2f2f2;
+	width:120px;
+	height:1px;
+	top:1px;
+	left:1px;
+	z-index:20;
+	overflow:hidden;
+	visibility:hidden;
+}
+#lineaSolapa2 {
+	background-color:#c0c0c0;
+	width:754px;
+	height:1px;
+	margin-top:-1px;
+	margin-left:223px;
+	z-index:5;
+	overflow:hidden;
+}
+
+#lineaSolapa3 {
+	background-color:#c0c0c0;
+	width:100%;
+	height:1px;
+	margin-top:-1px;
+	margin-left:223px;
+	z-index:5;
+	overflow:hidden;
+}
+
+.tituSolapa{
+	color:#000000;
+	font-size:11px;
+	float:left;
+	font-weight:bold;
+	height:22px;
+	padding-left:6px;
+	text-decoration:none;
+	width:85px;
+}
+.botonSolapa{
+	background-image:url(img/BotonSolapaOut.gif);
+	background-repeat:no-repeat;
+	height:14px;
+	width:14px;
+	float:right;
+	margin-right:5px;
+	cursor:pointer;
+}
+
+
+#principal {
+	position:relative;
+	width:820px;
+	margin: auto;
+}
+
+form,p {
+	margin:0px;
+}
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.boton145 {
+	background-color:transparent;
+	color:#FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	cursor:pointer;
+	background-image:url(img/boton145.gif);
+	background-repeat:no-repeat;
+	width:145px;
+	height:17px;
+	border:none;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.boton145Excel {
+	background-color:transparent;
+	color:#FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	cursor:pointer;
+	background-image:url(img/boton145Excel.gif);
+	background-repeat:no-repeat;
+	width:145px;
+	height:17px;
+	border:none;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.boton200 {
+	background-color:transparent;
+	color:#FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	cursor:pointer;
+	background-image:url(img/boton200.gif);
+	background-repeat:no-repeat;
+	width:200px;
+	height:17px;
+	border:none;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.boton86 {
+	background-color:transparent;
+	color:#FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	cursor:pointer;
+	background-image:url(img/boton86.gif);
+	background-repeat:no-repeat;
+	width:86px;
+	height:17px;
+	border:none;
+	/*font-weight:bold;*/
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+}
+.tituloTabla {
+	background-color:#0099FF;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	text-align:left;
+	margin-top:2px;
+	font-weight:normal;
+	padding-left:8px;
+	min-height:19px;
+	vertical-align:middle;
+	line-height:19px;
+	/*padding-top:2px;*/
+}
+th {
+	margin-top:3px;
+	height:17px;
+	color: #000000;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-left:2px;
+}
+.colu_impar {
+	background-color:#72B842;
+}
+.colu_par {
+	background-color:#72B842;
+}
+td {
+	/*border-top:2px solid #f2f2f2;*/
+	height:19px;
+	/*white-space:nowrap;*/
+	padding-left:2px;
+	overflow:hidden;
+}
+td a {
+	text-decoration: none;
+	color:#000000;
+}
+td a:hover {
+	text-decoration: underline;
+}
+.fila_par {
+	background-color:#CCCCCC;
+}
+.fila_par1 {
+	background-color:#CCCCCC;
+}
+.fila_impar {
+	background-color:#FFFFFF;
+}
+.fila_impar1 {
+	background-color:#FFFFFF;
+	height:15px;
+}
+.ficha {
+	position:absolute;
+	z-index:30;
+	/*visibility:hidden;*/
+	display:none;
+	top:0px;
+	overflow:hidden;
+	margin:0px;
+	border: 1px solid #954A04;
+	background-color:#FFFFFF;
+	width:1px;
+	height:1px;
+}
+
+/* estilos ficha */
+.laFicha {
+	background-image:none;
+	background-color:#FFFFFF;
+	padding-left:2px;
+	padding-right:2px;
+}
+.caja {
+	background-color:#F2F2F2;
+	padding-left:10px;
+	padding-right:10px;
+	border: 1px solid #954A04;
+}
+.tituloFicha {
+	background-color:#0099FF;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	text-align:left;
+	font-weight:bold;
+	padding-left:5px;
+	height:22px;
+	cursor:move;
+	margin-top:2px;
+	font-size:11px;
+}
+.nombreFicha {
+	/*padding-top:2px;*/
+	float:left;
+	line-height:22px;
+}
+input {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left:2px;
+	background-color:#FFFFFF;
+	border:1px solid #8B8989;
+	font-size:11px;
+	height:14px;
+}
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left:2px;
+	background-color:#FFFFFF;
+	border:1px solid #8B8989;
+	font-size:11px;
+}
+select {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left:2px;
+	background-color:#FFFFFF;
+	border:1px solid #8B8989;
+	font-size:11px;
+	height:16px;
+}
+.laX {
+	background-image:url(img/laX.gif);
+	width:18px;
+	height:17px;
+	float:right;
+	cursor:pointer;
+	margin:2px 2px 0px 5px;
+}
+.Minimizar {
+	width:18px;
+	height:17px;
+	float:right;
+	cursor:pointer;
+	margin-top:2px;
+}
+
+#cajaFicha {
+	clear:both; 
+	overflow-y:scroll;
+	border:1px solid #666666;
+	padding:5px;
+}
+/* fin estilos ficha */
+/*Estilos botonera*/
+a:link, a:visited, a:hover, a:active {
+	color:#000000;
+	font-size:11px;
+}
+
+.titulo_menu {
+	padding:1px 0px 1px 20px;
+	border-top:4px solid #ffffff;
+	background-color:#0099FF;
+}
+
+.fila_menu {
+	padding:1px 0px 1px 20px;
+	border-top:1px solid #ffffff;
+	background-image:url(img/menu1.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	background-color:#FFFFFF;
+}
+.fila_act {
+	font-weight:bold;
+	color:#FFFFFF;
+	padding:1px 0px 1px 20px;
+	border-top:1px solid #ffffff;
+	background-image:url(img/menu2.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	background-color:#DF6C01;
+}
+#botonera {
+	position:relative;
+	width:172px;
+	/*margin:92px 0px 0px 19px;*/
+	margin-left:19px;
+	border:1px solid #AAABA3;
+	min-height:488px;
+}
+#dentroBotonera {
+	padding:0px 13px 0 7px;
+}
+#imgIzqBotonera {
+	position:absolute;
+	background-image: url(img/esquinaIzq.gif);
+	background-repeat:no-repeat;
+	width:6px;
+	height:6px;
+	top:-1px;
+	left:-1px;
+	z-index:10;
+}
+
+#logo {
+	position:absolute;
+	top:25px;
+	left:15px;
+	width:175px;
+	height:43px;
+	background-image: url(img/logo.gif);
+	display:block;
+}
+#capaObs {
+	position:absolute;
+	top:10px;
+	left:30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+	width:150px;
+	height:80px;
+	overflow:auto;
+	text-align:left;
+}
+/*estilos de tarifas habitacion */
+#masFrames {
+	margin-top:5px;
+	position:relative;
+	width:930px;
+	height:410px;
+	overflow:hidden;
+}
+#laTapa {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10;
+	width:920px;
+	height:410px;
+	background-color:#d2d2d2;
+	filter: alpha(opacity=60);
+	opacity: .6;
+}
+.iframeHabitacion {
+	height:195px;
+	border:1px solid #666666;
+	float:left;
+	margin:0px;
+}
+#dentroBotonera a:link , #dentroBotonera a:visited {
+	font-size:11px;
+	text-decoration:none;
+	height:17px;
+	display:block;
+}
+#dentroBotonera a.idioma:link , #dentroBotonera a.idioma:visited {
+	font-size:11px;
+	text-decoration:none;
+	height:17px;
+	display:inline;
+}
+#dentroBotonera a:hover {
+	color:#666666;
+}
+#capaListaHabitacion {
+	overflow-y:scroll;
+	height:370px;
+}
+#listaHabi {
+	overflow-y:scroll; 
+	overflow-x:hidden;
+}
+.inputCheck {
+	background-color:transparent;
+	border:none;
+	text-decoration:none;
+	height:17px;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+}
+#capilla {
+	background-color:#FFFFE7;
+	color:#000000;
+	width:auto;
+	/*height:15px;*/
+	border:1px solid #000000;
+	visibility:hidden;
+	padding-left:3px;
+	padding-right:3px;
+	text-align:left;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:80;
+}
+.tapaos {
+	/*visibility:hidden;*/
+	display:none;
+	float:left;
+	margin-left:15px;
+	margin-top:3px;
+	white-space:nowrap;
+}
+
+/* estilos capas select */
+div.capa_lista {
+	width:150px;
+}
+span.titulo_lista {
+	background-color:#FFFFFF;
+	background-image:url(/img/gifselect.gif);
+	background-position:right top;
+	background-repeat:no-repeat;
+	border:1px solid #666666;
+	color:#666666;
+	cursor:default;
+	display:block;
+	height:16px;
+	margin-left:0;
+	overflow:hidden;
+	padding-left:2px;
+	padding-right:20px;
+	width:auto;
+}
+div.lista, ul.lista {
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	display:none;
+	height:auto;
+	max-height:110px;
+	overflow-y:scroll;
+	position:absolute;
+	width:172px;
+}
+ul.lista, ul.lista li {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+ul.lista li {
+	padding-left:3px;
+	line-height:17px;
+	cursor:pointer;
+	text-align:left;
+	display:block;
+}
+ul.lista li:hover {
+	color:#FFF;
+	background-color:#0a246a;
+}
+
+div.lista span {
+	display:block;
+	float:left;
+	width:150px;
+}
+
+.frameConte {
+	position:absolute;
+	border:none;
+	/*border:1px solid #333;*/
+	display:none;
+	overflow:hidden;
+	top:5px;
+	margin:0px;
+	background-color:#FFFFFF;
+}
+.sizeAlojamiento {
+	width:970px;
+	/*MODIFICADO JAVI*/
+	height:675px;
+}
+.SubsizeAlojamiento {
+	width:965px;
+	height:410px;
+}
+
+.sizeHabitacion {
+	height:580px;
+	width:978px;
+}
+
+div#solapasNew {
+	/*border-bottom:1px solid #c0c0c0;*/
+	background-image:url(img/lineaSolapa.gif);
+	background-repeat:repeat-x;
+	height:22px;
+	width:978px;
+	overflow:hidden;
+	position:relative;
+	clear:both;
+}
+
+.laSolapaNew {
+	float:left;
+	height:22px;
+	background-image:url(img/Solapa.gif);
+	background-repeat:no-repeat;
+	background-position:0 -22px;
+	overflow:hidden;
+	width:112px;
+	padding-top:4px;
+	font-size:11px;
+	cursor:pointer;
+	text-align:center;
+}
+.tdTabla {
+	background-color:#FFFFFF;
+}
+.laSolapaOverNew {
+	float:left;
+	height:22px;
+	background-image:url(img/SolapaOver.gif);
+	background-repeat:no-repeat;
+	background-position:0 -22px;
+	overflow:hidden;
+	width:112px;
+	padding-top:4px;
+	text-align:center;
+}
+
+.laSolapaNew:hover {
+	background-position:0 0px;
+}
+
+div#contenidoNew {
+	position:relative;
+	height:auto;
+	overflow:visible;
+}
+
+.laSolapaNew_nueva {
+	float:left;
+	height:22px;
+	background-image:url(img/Solapa.gif);
+	background-repeat:no-repeat;
+	background-position:0 -22px;
+	overflow:hidden;
+	width:112px;
+	padding-top:4px;
+	font-size:11px;
+	text-align:center;
+	color:#999999;
+	text-decoration:line-through;
+}
+
+input.botonUpdate {
+	background-color:transparent;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	cursor:pointer;
+	background-image:url(img/boton86up.gif);
+	background-repeat:no-repeat;
+	width:86px;
+	height:17px;
+	border:none;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+div#solapasNew2 {
+	background-image:url(img/lineaSolapa.gif);
+	background-repeat:repeat-x;
+	height:22px;
+	width:974px;
+	overflow:hidden;
+	position:relative;
+	clear:both;
+}
+fieldset.cajaCampos {
+	border:1px solid #72B842;
+	margin:15px 0px 0px 15px;
+	width:360px;
+	height:auto;
+	overflow:hidden;
+	padding:5px;
+	line-height:17px;
+}
+fieldset legend {
+	font-weight:bold;
+	font-size:11px;
+}
+fieldset.cajaCampos p {
+	width:40%;
+	overflow:visible;
+	float:left;
+	margin-left:5px;
+}
